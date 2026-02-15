@@ -1,5 +1,103 @@
 {
   "type": "FeatureCollection",
   "name": "public_closures_FNDC",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "WHANGATANE DRIVE",
+        "s_datetime": "2024-04-11T11:00:35",
+        "e_datetime": "2024-04-11T00:00:00",
+        "type": "Planned",
+        "cause": "Event",
+        "detour": true,
+        "c_description": "Test",
+        "road_status": "Road Closed",
+        "notes": "Test",
+        "added_on": "2024-04-11T00:00:00",
+        "easting": 1623550.7634,
+        "northing": 6116342.0487,
+        "info_source": "Public",
+        "info_updated": "2024-04-11T11:00:35",
+        "event_name": "Storm Event Next XXXX",
+        "detour_details": "Test"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.25838596382343,
+          -35.09544305561912
+        ]
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "WIRELESS ROAD",
+        "s_datetime": "2024-04-11T11:46:09",
+        "e_datetime": null,
+        "type": "Unplanned",
+        "cause": "Road obstruction",
+        "detour": false,
+        "c_description": "test",
+        "road_status": "Road Closed",
+        "notes": null,
+        "added_on": "2024-04-11T00:00:00",
+        "easting": null,
+        "northing": null,
+        "info_source": "Public",
+        "info_updated": "2024-04-11T11:46:09",
+        "event_name": "Storm Event Nov 2022",
+        "detour_details": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            173.2569183577284,
+            -35.088926854527024
+          ],
+          [
+            173.25676357650218,
+            -35.088896072757215
+          ],
+          [
+            173.2558876635537,
+            -35.08864889427223
+          ]
+        ]
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "TITORE WAY",
+        "s_datetime": "2026-01-22T09:49:57",
+        "e_datetime": "2026-01-28T12:00:00",
+        "type": "Unplanned",
+        "cause": "Underslip",
+        "detour": false,
+        "c_description": "underslip - existing, worsened with heavy rainfall event.",
+        "road_status": "Closed to Heavy traffic",
+        "notes": null,
+        "added_on": "2026-01-22T00:00:00",
+        "easting": 1701769.0923,
+        "northing": 6098091.1895,
+        "info_source": "Public",
+        "info_updated": "2026-01-29T13:40:00",
+        "event_name": "Rain Event January 2026",
+        "detour_details": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.11871696372012,
+          -35.25511803268419
+        ]
+      },
+      "id": 265
+    }
+  ]
 }
