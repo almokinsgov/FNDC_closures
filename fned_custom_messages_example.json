@@ -8,7 +8,7 @@
   "messages": [
     {
       "id": "custom-info-001",
-      "enabled": true,
+      "enabled": false,
       "title": "Dashboard Test Message",
       "body": "This is a custom message loaded from JSON. It should render in the summary panel and trigger a toast and browser notification if enabled.",
       "level": "Info",
@@ -20,7 +20,7 @@
     },
     {
       "id": "custom-warning-002",
-      "enabled": true,
+      "enabled": false,
       "title": "Comms Reminder",
       "body": "If you are using this dashboard for an event, confirm the public message on the home page is current.",
       "level": "Warning",
