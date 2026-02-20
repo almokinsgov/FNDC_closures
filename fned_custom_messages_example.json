@@ -57,6 +57,16 @@
       "channels": ["summary", "toast", "notification"],
       "start": "2026-02-19T00:00:00+13:00",
       "end": "2026-02-25T00:00:00+13:00"
-    }
+    },
+    {
+      "id": "custom-enabled-007",
+      "enabled": true,
+      "title": "Test message JSON 2",
+      "body": "This is a test message from sceduled GITHUB 2.",
+      "level": "Info",
+      "channels": ["summary", "toast", "notification"],
+      "start": "2026-02-19T00:00:00+13:00",
+      "end": "2026-02-25T00:00:00+13:00"
+    }  
   ]
 }
