@@ -97,6 +97,16 @@
       "channels": ["summary", "toast", "notification"],
       "start": "2026-02-19T00:00:00+13:00",
       "end": "2026-02-25T00:00:00+13:00"
+    },
+    {
+      "id": "custom-enabled-011",
+      "enabled": true,
+      "title": "JSON push message 4",
+      "body": "Kia ora, this is a JSON push message test. for Android, Apple and Desktop",
+      "level": "Info",
+      "channels": ["summary", "toast", "notification"],
+      "start": "2026-02-19T00:00:00+13:00",
+      "end": "2026-02-25T00:00:00+13:00"
     }      
   ]
 }
