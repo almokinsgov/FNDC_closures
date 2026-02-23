@@ -185,12 +185,12 @@
       }
     },
     {
-      "id": "custom-geo-point-009",
+      "id": "custom-geo-point-0019",
       "enabled": true,
-      "title": "Point Message - Kaikohe Service Area",
+      "title": "Point Message - Kaikohe Service Area 2",
       "body": "Example point message for inland service area updates, ready for map-point matching tests.",
       "level": "Info",
-      "channels": ["summary", "toast"],
+        "channels": ["summary", "toast", "notification"],
       "start": "2026-02-20T00:00:00+13:00",
       "end": "2026-03-31T23:59:59+13:00",
       "feature": {
