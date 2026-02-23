@@ -155,12 +155,12 @@
       }
     },
     {
-      "id": "custom-geo-polygon-0018",
+      "id": "custom-geo-polygon-0318",
       "enabled": true,
       "title": "Polygon Message - West Coast Corridor 2",
       "body": "Preparedness notice for selected west coast localities. Polygon geometry can be used for area inclusion tests.",
       "level": "Info",
-      "channels": ["summary"],
+        "channels": ["summary", "toast", "notification"],
       "start": "2026-02-20T00:00:00+13:00",
       "end": "2026-04-01T23:59:59+13:00",
       "feature": {
