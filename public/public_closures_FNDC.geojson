@@ -19,7 +19,7 @@
         "northing": 6121484.8753,
         "info_source": "Contractor",
         "info_updated": "2026-03-26T08:08:28",
-        "event_name": "Storm Event Next XXXX",
+        "event_name": "Rain Event March 2026",
         "detour_details": null
       },
       "geometry": {
@@ -54,7 +54,7 @@
         "northing": 6116625.6551,
         "info_source": "Public",
         "info_updated": "2026-03-26T08:14:43",
-        "event_name": "Storm Event Next XXXX",
+        "event_name": "Rain Event March 2026",
         "detour_details": ""
       },
       "geometry": {
@@ -83,7 +83,7 @@
         "northing": null,
         "info_source": "Public",
         "info_updated": "2026-03-26T08:27:37",
-        "event_name": "Storm Event Next XXXX",
+        "event_name": "Rain Event March 2026",
         "detour_details": null
       },
       "geometry": {
@@ -118,7 +118,7 @@
         "northing": 6115114.9841,
         "info_source": "Contractor",
         "info_updated": "2026-03-26T08:24:17",
-        "event_name": "Storm Event Next XXXX",
+        "event_name": "Rain Event March 2026",
         "detour_details": null
       },
       "geometry": {
@@ -147,7 +147,7 @@
         "northing": null,
         "info_source": "Public",
         "info_updated": "2026-03-26T08:31:51",
-        "event_name": "Storm Event Next XXXX",
+        "event_name": "Rain Event March 2026",
         "detour_details": null
       },
       "geometry": {
@@ -182,7 +182,7 @@
         "northing": 6106308.5762,
         "info_source": "Public",
         "info_updated": "2026-03-26T08:33:38",
-        "event_name": "Storm Event Next XXXX",
+        "event_name": "Rain Event March 2026",
         "detour_details": "Flooding on SH 1 Mangamuka restricting access to this area."
       },
       "geometry": {
@@ -221,7 +221,7 @@
         "northing": 6103744.2415,
         "info_source": "Public",
         "info_updated": "2026-03-26T08:58:59",
-        "event_name": "Storm Event Next XXXX",
+        "event_name": "Rain Event March 2026",
         "detour_details": null
       },
       "geometry": {
@@ -256,7 +256,7 @@
         "northing": 6114662.9922,
         "info_source": "Public",
         "info_updated": "2026-03-26T09:24:37",
-        "event_name": "Storm Event Next XXXX",
+        "event_name": "Rain Event March 2026",
         "detour_details": null
       },
       "geometry": {
@@ -285,7 +285,7 @@
         "northing": 6123150.7307,
         "info_source": "Public",
         "info_updated": "2026-03-26T09:28:32",
-        "event_name": "Storm Event Next XXXX",
+        "event_name": "Rain Event March 2026",
         "detour_details": null
       },
       "geometry": {
