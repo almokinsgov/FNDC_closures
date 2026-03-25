@@ -463,6 +463,41 @@
         ]
       },
       "id": 359
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "MATAURI BAY ROAD",
+        "s_datetime": "2026-03-26T10:42:58",
+        "e_datetime": null,
+        "type": "Unplanned",
+        "cause": "Flooding",
+        "detour": false,
+        "c_description": "Flooding",
+        "road_status": "Road Closed",
+        "notes": null,
+        "added_on": "2026-03-26T00:00:00",
+        "easting": null,
+        "northing": null,
+        "info_source": "Public",
+        "info_updated": "2026-03-26T10:42:58",
+        "event_name": "Rain Event March 2026",
+        "detour_details": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            173.84681317237246,
+            -35.102853301712514
+          ],
+          [
+            173.84681925227238,
+            -35.102845797715915
+          ]
+        ]
+      },
+      "id": 360
     }
   ]
 }
