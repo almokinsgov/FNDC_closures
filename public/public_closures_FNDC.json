@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-25T19:57:16.561Z",
-    "pulledAtLocal": "2026-03-26T08:57:16",
+    "pulledAtUtc": "2026-03-25T20:02:16.446Z",
+    "pulledAtLocal": "2026-03-26T09:02:16",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 6,
+    "rowCount": 7,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "97d9b7efec76ca461afbc4cc1f95d305a3e070a55b262841d563477a584094fc",
+    "contentHash": "e490d4d0ed6bbeb3adbd714d1c9dc6b7d56ec8ce06a97199d9989e9b4f518b69",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -68,11 +68,11 @@
       }
     },
     "filterCounts": {
-      "total": 307,
-      "afterCalculationColumns": 307,
-      "afterQuickActionFilter": 71,
-      "afterClosures": 6,
-      "afterPublicColumnProjection": 6
+      "total": 309,
+      "afterCalculationColumns": 309,
+      "afterQuickActionFilter": 73,
+      "afterClosures": 7,
+      "afterPublicColumnProjection": 7
     }
   },
   "data": [
@@ -189,6 +189,25 @@
       "event_name": "Storm Event Next XXXX",
       "detour_details": "Flooding on SH 1 Mangamuka restricting access to this area.",
       "geometry": "LINESTRING (1616027.03061608 6106308.32926137, 1616266.05673184 6106145.99478989, 1616286.53338939 6106126.02353419)"
+    },
+    {
+      "road_id": "IWITAUA ROAD",
+      "s_datetime": "2026-03-26T08:58:58",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Flooding",
+      "detour": false,
+      "c_description": "Flood Prone Area",
+      "road_status": "Road Closed",
+      "notes": null,
+      "added_on": "2026-03-26T00:00:00",
+      "easting": 1649331.8881,
+      "northing": 6103744.2415,
+      "info_source": "Public",
+      "info_updated": "2026-03-26T08:58:59",
+      "event_name": "Storm Event Next XXXX",
+      "detour_details": null,
+      "geometry": "LINESTRING (1649341.17000377 6104155.98530184, 1649332.09100453 6103744.78131202)"
     }
   ]
 }
