@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-25T19:37:18.530Z",
-    "pulledAtLocal": "2026-03-26T08:37:18",
+    "pulledAtUtc": "2026-03-25T19:42:17.217Z",
+    "pulledAtLocal": "2026-03-26T08:42:17",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 5,
+    "rowCount": 6,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "c11cfae1d32d6c696e70964a03f8a2fd09e4f8fd4ad2bb05b4320731bf3ae05c",
+    "contentHash": "97d9b7efec76ca461afbc4cc1f95d305a3e070a55b262841d563477a584094fc",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -68,11 +68,11 @@
       }
     },
     "filterCounts": {
-      "total": 302,
-      "afterCalculationColumns": 302,
-      "afterQuickActionFilter": 66,
-      "afterClosures": 5,
-      "afterPublicColumnProjection": 5
+      "total": 305,
+      "afterCalculationColumns": 305,
+      "afterQuickActionFilter": 69,
+      "afterClosures": 6,
+      "afterPublicColumnProjection": 6
     }
   },
   "data": [
@@ -170,6 +170,25 @@
       "event_name": "Storm Event Next XXXX",
       "detour_details": null,
       "geometry": "LINESTRING (1638130.5883 6125121.189, 1638131.3995683219 6125120.6341705285)"
+    },
+    {
+      "road_id": "KAITAIA-AWAROA ROAD",
+      "s_datetime": "2026-03-26T08:33:38",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Flooding",
+      "detour": false,
+      "c_description": "Flood prone area",
+      "road_status": "Road Closed",
+      "notes": null,
+      "added_on": "2026-03-26T00:00:00",
+      "easting": 1616026.7036,
+      "northing": 6106308.5762,
+      "info_source": "Public",
+      "info_updated": "2026-03-26T08:33:38",
+      "event_name": "Storm Event Next XXXX",
+      "detour_details": "Flooding on SH 1 Mangamuka restricting access to this area.",
+      "geometry": "LINESTRING (1616027.03061608 6106308.32926137, 1616266.05673184 6106145.99478989, 1616286.53338939 6106126.02353419)"
     }
   ]
 }
