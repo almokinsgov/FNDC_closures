@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-25T21:07:17.108Z",
-    "pulledAtLocal": "2026-03-26T10:07:17",
+    "pulledAtUtc": "2026-03-25T21:08:14.755Z",
+    "pulledAtLocal": "2026-03-26T10:08:14",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 13,
+    "rowCount": 14,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "4cc8b89dd4347e6e8cc530ccc56173a556a4e96146527f7062d77df7f9081b1f",
+    "contentHash": "834f45ca2bb3a8fa496f4279ed18dd31359f64f37f21a45106554ae1c504b125",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -68,11 +68,11 @@
       }
     },
     "filterCounts": {
-      "total": 320,
-      "afterCalculationColumns": 320,
-      "afterQuickActionFilter": 83,
-      "afterClosures": 13,
-      "afterPublicColumnProjection": 13
+      "total": 321,
+      "afterCalculationColumns": 321,
+      "afterQuickActionFilter": 84,
+      "afterClosures": 14,
+      "afterPublicColumnProjection": 14
     }
   },
   "data": [
@@ -281,7 +281,7 @@
       "northing": 6067350.2956,
       "info_source": "Public",
       "info_updated": "2026-03-26T10:05:01",
-      "event_name": "Storm Event Next XXXX",
+      "event_name": "Rain Event March 2026",
       "detour_details": "Detour available",
       "geometry": "POINT (1694654.06656323 6067350.29558457)"
     },
@@ -322,6 +322,25 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "POINT (1694650.26916543 6067714.5266895)"
+    },
+    {
+      "road_id": "TIPENE ROAD",
+      "s_datetime": "2026-03-26T10:06:50",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Flooding",
+      "detour": true,
+      "c_description": "Flooding across road",
+      "road_status": "Road Closed",
+      "notes": null,
+      "added_on": "2026-03-26T00:00:00",
+      "easting": 1694651.5896,
+      "northing": 6067351.3555,
+      "info_source": "Public",
+      "info_updated": "2026-03-26T10:06:50",
+      "event_name": "Storm Event Next XXXX",
+      "detour_details": "Detour available",
+      "geometry": "POINT (1694651.58961368 6067351.35554684)"
     }
   ]
 }
