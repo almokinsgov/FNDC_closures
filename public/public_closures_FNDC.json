@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-25T20:52:16.889Z",
-    "pulledAtLocal": "2026-03-26T09:52:16",
+    "pulledAtUtc": "2026-03-25T20:57:16.695Z",
+    "pulledAtLocal": "2026-03-26T09:57:16",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "742c174c53908dc85417102a1d322b8d0c941d4758a7efe96d9ff4d7b72e912c",
+    "contentHash": "a8e3e9361168c7028df932d7b75a7350fca09711052835e10c9234f06f973232",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -91,7 +91,7 @@
       "northing": 6121484.8753,
       "info_source": "Contractor",
       "info_updated": "2026-03-26T08:08:28",
-      "event_name": "Storm Event Next XXXX",
+      "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "LINESTRING (1645424.97337204 6121484.50464839, 1645484.48387908 6121253.35201053)"
     },
@@ -110,7 +110,7 @@
       "northing": 6116625.6551,
       "info_source": "Public",
       "info_updated": "2026-03-26T08:14:43",
-      "event_name": "Storm Event Next XXXX",
+      "event_name": "Rain Event March 2026",
       "detour_details": "",
       "geometry": "POINT (1646999.15699194 6116625.65506689)"
     },
@@ -129,7 +129,7 @@
       "northing": null,
       "info_source": "Public",
       "info_updated": "2026-03-26T08:27:37",
-      "event_name": "Storm Event Next XXXX",
+      "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "LINESTRING (1642876.9974 6124687.4637, 1642876.719906874 6124686.5170449615)"
     },
@@ -148,7 +148,7 @@
       "northing": 6115114.9841,
       "info_source": "Contractor",
       "info_updated": "2026-03-26T08:24:17",
-      "event_name": "Storm Event Next XXXX",
+      "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "POINT (1637402.28432783 6115114.98409026)"
     },
@@ -167,7 +167,7 @@
       "northing": null,
       "info_source": "Public",
       "info_updated": "2026-03-26T08:31:51",
-      "event_name": "Storm Event Next XXXX",
+      "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "LINESTRING (1638130.5883 6125121.189, 1638131.3995683219 6125120.6341705285)"
     },
@@ -186,7 +186,7 @@
       "northing": 6106308.5762,
       "info_source": "Public",
       "info_updated": "2026-03-26T08:33:38",
-      "event_name": "Storm Event Next XXXX",
+      "event_name": "Rain Event March 2026",
       "detour_details": "Flooding on SH 1 Mangamuka restricting access to this area.",
       "geometry": "LINESTRING (1616027.03061608 6106308.32926137, 1616266.05673184 6106145.99478989, 1616286.53338939 6106126.02353419)"
     },
@@ -205,7 +205,7 @@
       "northing": 6103744.2415,
       "info_source": "Public",
       "info_updated": "2026-03-26T08:58:59",
-      "event_name": "Storm Event Next XXXX",
+      "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "LINESTRING (1649341.17000377 6104155.98530184, 1649332.09100453 6103744.78131202)"
     },
@@ -224,7 +224,7 @@
       "northing": 6114662.9922,
       "info_source": "Public",
       "info_updated": "2026-03-26T09:24:37",
-      "event_name": "Storm Event Next XXXX",
+      "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "POINT (1634032.49297263 6114662.99224316)"
     },
@@ -243,7 +243,7 @@
       "northing": 6123150.7307,
       "info_source": "Public",
       "info_updated": "2026-03-26T09:28:32",
-      "event_name": "Storm Event Next XXXX",
+      "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "POINT (1630929.57504285 6123150.73067887)"
     }
