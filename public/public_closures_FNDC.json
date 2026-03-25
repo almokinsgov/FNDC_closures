@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-25T21:42:16.523Z",
-    "pulledAtLocal": "2026-03-26T10:42:16",
+    "pulledAtUtc": "2026-03-25T21:47:16.477Z",
+    "pulledAtLocal": "2026-03-26T10:47:16",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 14,
+    "rowCount": 15,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "2ad8428e219305b5f597c1938640f2922e7383ff6274bac06da041f981136feb",
+    "contentHash": "c0cf173f56302ece96cd9f887f7787f15fdfe1b232560513bd5a0e5acea4715b",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -68,11 +68,11 @@
       }
     },
     "filterCounts": {
-      "total": 323,
-      "afterCalculationColumns": 323,
-      "afterQuickActionFilter": 86,
-      "afterClosures": 14,
-      "afterPublicColumnProjection": 14
+      "total": 324,
+      "afterCalculationColumns": 324,
+      "afterQuickActionFilter": 87,
+      "afterClosures": 15,
+      "afterPublicColumnProjection": 15
     }
   },
   "data": [
@@ -341,6 +341,25 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "LINESTRING (1682122.0645 6121647.63, 1682122.0445 6121648.6275)"
+    },
+    {
+      "road_id": "MATAURI BAY ROAD",
+      "s_datetime": "2026-03-26T10:42:58",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Flooding",
+      "detour": false,
+      "c_description": "Flooding",
+      "road_status": "Road Closed",
+      "notes": null,
+      "added_on": "2026-03-26T00:00:00",
+      "easting": null,
+      "northing": null,
+      "info_source": "Public",
+      "info_updated": "2026-03-26T10:42:58",
+      "event_name": "Rain Event March 2026",
+      "detour_details": null,
+      "geometry": "LINESTRING (1677177.246 6115222.8199, 1677177.8072 6115223.6474)"
     }
   ]
 }
