@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-25T21:33:16.465Z",
-    "pulledAtLocal": "2026-03-26T10:33:16",
+    "pulledAtUtc": "2026-03-25T21:37:16.366Z",
+    "pulledAtLocal": "2026-03-26T10:37:16",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 12,
+    "rowCount": 13,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "c31fbf355be7c946c5449dbe257c42f5c6d284fe6d9510c10096b56e639c3428",
+    "contentHash": "f6e394a85c889d4ac3ac7d7a5bdc8e2479210cefd7c5875c495aa3e7a1e6a74c",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -68,11 +68,11 @@
       }
     },
     "filterCounts": {
-      "total": 321,
-      "afterCalculationColumns": 321,
-      "afterQuickActionFilter": 84,
-      "afterClosures": 12,
-      "afterPublicColumnProjection": 12
+      "total": 322,
+      "afterCalculationColumns": 322,
+      "afterQuickActionFilter": 85,
+      "afterClosures": 13,
+      "afterPublicColumnProjection": 13
     }
   },
   "data": [
@@ -303,6 +303,25 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "LINESTRING (1649522.6888 6125612.0528, 1649521.7637736974 6125611.4036988607)"
+    },
+    {
+      "road_id": "BACKRIVER ROAD",
+      "s_datetime": "2026-03-26T10:35:44",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Flooding",
+      "detour": false,
+      "c_description": "Flood Prone area",
+      "road_status": "Road Closed",
+      "notes": null,
+      "added_on": "2026-03-26T00:00:00",
+      "easting": 1645298.9762,
+      "northing": 6122342.1102,
+      "info_source": "Public",
+      "info_updated": "2026-03-26T10:35:44",
+      "event_name": "Storm Event Next XXXX",
+      "detour_details": null,
+      "geometry": "POINT (1645298.97621548 6122342.1101895)"
     }
   ]
 }
