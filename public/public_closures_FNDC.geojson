@@ -55,7 +55,7 @@
         "info_source": "Public",
         "info_updated": "2026-03-26T08:14:43",
         "event_name": "Storm Event Next XXXX",
-        "detour_details": "Maybe able to access via SH10 end"
+        "detour_details": ""
       },
       "geometry": {
         "type": "Point",
@@ -267,6 +267,35 @@
         ]
       },
       "id": 348
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "DUNCAN ROAD (KAINGAROA)",
+        "s_datetime": "2026-03-26T09:28:32",
+        "e_datetime": null,
+        "type": "Unplanned",
+        "cause": "Flooding",
+        "detour": false,
+        "c_description": "Flood Prone area",
+        "road_status": "Road Closed",
+        "notes": null,
+        "added_on": "2026-03-26T00:00:00",
+        "easting": 1630929.575,
+        "northing": 6123150.7307,
+        "info_source": "Public",
+        "info_updated": "2026-03-26T09:28:32",
+        "event_name": "Storm Event Next XXXX",
+        "detour_details": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.33908711535744,
+          -35.03384835561968
+        ]
+      },
+      "id": 349
     }
   ]
 }
