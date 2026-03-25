@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-25T23:57:08.950Z",
-    "pulledAtLocal": "2026-03-26T12:57:08",
+    "pulledAtUtc": "2026-03-25T23:58:08.383Z",
+    "pulledAtLocal": "2026-03-26T12:58:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "bf92e4029ef6e6092e144806a07fa0701a3bfe5f8a674b64675464dce3f63290",
+    "contentHash": "af9a1e3c7d06c745ae08a719b55d1a8e7cfa5e57ab50168813da2d06328eeea7",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -395,7 +395,7 @@
       "northing": 6094116.1593,
       "info_source": "Public",
       "info_updated": "2026-03-26T11:55:51",
-      "event_name": "Storm Event Next XXXX",
+      "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "POINT (1618280.44701774 6094116.15929264)"
     },
@@ -414,7 +414,7 @@
       "northing": 6101387.0642,
       "info_source": "Public",
       "info_updated": "2026-03-26T11:58:27",
-      "event_name": "Storm Event Next XXXX",
+      "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "POINT (1624069.22095517 6101387.06421519)"
     },
@@ -433,7 +433,7 @@
       "northing": 6114748.7674,
       "info_source": "Public",
       "info_updated": "2026-03-26T12:08:37",
-      "event_name": "Storm Event Next XXXX",
+      "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "POINT (1638812.92131683 6114748.76739172)"
     }
