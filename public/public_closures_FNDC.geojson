@@ -5,6 +5,41 @@
     {
       "type": "Feature",
       "properties": {
+        "road_id": "ORURU ROAD",
+        "s_datetime": "2026-03-26T08:08:28",
+        "e_datetime": null,
+        "type": "Unplanned",
+        "cause": "Flooding",
+        "detour": false,
+        "c_description": "Flood prone area",
+        "road_status": "Road Closed",
+        "notes": null,
+        "added_on": "2026-03-26T00:00:00",
+        "easting": 1645424.8765,
+        "northing": 6121484.8753,
+        "info_source": "Contractor",
+        "info_updated": "2026-03-26T08:08:28",
+        "event_name": "Storm Event Next XXXX",
+        "detour_details": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            173.49808975983922,
+            -35.04832465644917
+          ],
+          [
+            173.49875494767485,
+            -35.05040628496181
+          ]
+        ]
+      },
+      "id": 332
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "road_id": "KOHUMARU ROAD",
         "s_datetime": "2026-03-26T08:14:43",
         "e_datetime": null,
@@ -59,8 +94,8 @@
             -35.01955478189923
           ],
           [
-            173.46998341446667,
-            -35.01956333017451
+            173.4699834145397,
+            -35.0195633297688
           ]
         ]
       },
@@ -94,6 +129,41 @@
         ]
       },
       "id": 336
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "PARAPARA-TOATOA ROAD",
+        "s_datetime": "2026-03-26T08:31:51",
+        "e_datetime": null,
+        "type": "Unplanned",
+        "cause": "Flooding",
+        "detour": false,
+        "c_description": "Road flooded  - location not confirmed.",
+        "road_status": "Road Closed",
+        "notes": null,
+        "added_on": "2026-03-26T00:00:00",
+        "easting": null,
+        "northing": null,
+        "info_source": "Public",
+        "info_updated": "2026-03-26T08:31:51",
+        "event_name": "Storm Event Next XXXX",
+        "detour_details": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            173.41794113492378,
+            -35.01583412382895
+          ],
+          [
+            173.41795005230475,
+            -35.015839096204935
+          ]
+        ]
+      },
+      "id": 337
     }
   ]
 }
