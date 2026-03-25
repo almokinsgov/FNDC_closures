@@ -164,6 +164,45 @@
         ]
       },
       "id": 337
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "KAITAIA-AWAROA ROAD",
+        "s_datetime": "2026-03-26T08:33:38",
+        "e_datetime": null,
+        "type": "Unplanned",
+        "cause": "Flooding",
+        "detour": false,
+        "c_description": "Flood prone area",
+        "road_status": "Road Closed",
+        "notes": null,
+        "added_on": "2026-03-26T00:00:00",
+        "easting": 1616026.7036,
+        "northing": 6106308.5762,
+        "info_source": "Public",
+        "info_updated": "2026-03-26T08:33:38",
+        "event_name": "Storm Event Next XXXX",
+        "detour_details": "Flooding on SH 1 Mangamuka restricting access to this area."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            173.17603482834105,
+            -35.18606681015166
+          ],
+          [
+            173.1786633931756,
+            -35.187526755171795
+          ],
+          [
+            173.17888869873286,
+            -35.18770650634871
+          ]
+        ]
+      },
+      "id": 339
     }
   ]
 }
