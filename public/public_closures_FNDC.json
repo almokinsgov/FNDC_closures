@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-25T20:22:17.677Z",
-    "pulledAtLocal": "2026-03-26T09:22:17",
+    "pulledAtUtc": "2026-03-25T20:27:16.783Z",
+    "pulledAtLocal": "2026-03-26T09:27:16",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 7,
+    "rowCount": 8,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "e490d4d0ed6bbeb3adbd714d1c9dc6b7d56ec8ce06a97199d9989e9b4f518b69",
+    "contentHash": "8de6d2c682fe71ad315a9c9a91e712389fcde978a383264fb8d51a973eeb240b",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -68,11 +68,11 @@
       }
     },
     "filterCounts": {
-      "total": 312,
-      "afterCalculationColumns": 312,
+      "total": 313,
+      "afterCalculationColumns": 313,
       "afterQuickActionFilter": 76,
-      "afterClosures": 7,
-      "afterPublicColumnProjection": 7
+      "afterClosures": 8,
+      "afterPublicColumnProjection": 8
     }
   },
   "data": [
@@ -208,6 +208,25 @@
       "event_name": "Storm Event Next XXXX",
       "detour_details": null,
       "geometry": "LINESTRING (1649341.17000377 6104155.98530184, 1649332.09100453 6103744.78131202)"
+    },
+    {
+      "road_id": "FISHER-RILEY ROAD",
+      "s_datetime": "2026-03-26T09:24:37",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Flooding",
+      "detour": false,
+      "c_description": "Flood Prone Area",
+      "road_status": "Road Closed",
+      "notes": null,
+      "added_on": "2026-03-26T00:00:00",
+      "easting": 1634032.493,
+      "northing": 6114662.9922,
+      "info_source": "Public",
+      "info_updated": "2026-03-26T09:24:37",
+      "event_name": "Storm Event Next XXXX",
+      "detour_details": null,
+      "geometry": "POINT (1634032.49297263 6114662.99224316)"
     }
   ]
 }
