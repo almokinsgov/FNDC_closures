@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-25T22:11:17.029Z",
-    "pulledAtLocal": "2026-03-26T11:11:17",
+    "pulledAtUtc": "2026-03-25T22:12:08.359Z",
+    "pulledAtLocal": "2026-03-26T11:12:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "d13df85c8785bd64d66bc85c421852596f7a42baf6043bbe30341e12671f71a9",
+    "contentHash": "274b3a031577ab3f63879c57508c86a4a21f94d0d97a5b04f12ac74e06001254",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -283,7 +283,7 @@
       "info_updated": "2026-03-26T10:02:00",
       "event_name": "Rain Event March 2026",
       "detour_details": null,
-      "geometry": "LINESTRING (1629776.7034 6123790.9043, 1629777.172 6123790.515, 1629777.4132 6123790.2413)"
+      "geometry": "LINESTRING (1629776.7035432144 6123790.9041790152, 1629777.172 6123790.515)"
     },
     {
       "road_id": "BACKRIVER ROAD",
@@ -319,7 +319,7 @@
       "northing": 6122342.1102,
       "info_source": "Public",
       "info_updated": "2026-03-26T10:35:44",
-      "event_name": "Storm Event Next XXXX",
+      "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "POINT (1645298.97621548 6122342.1101895)"
     },
@@ -338,7 +338,7 @@
       "northing": 6115748.5542,
       "info_source": "Public",
       "info_updated": "2026-03-26T10:49:13",
-      "event_name": "Storm Event Next XXXX",
+      "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "POINT (1670429.26447571 6115748.55422605)"
     },
@@ -357,7 +357,7 @@
       "northing": 6114802.4526,
       "info_source": "Public",
       "info_updated": "2026-03-26T11:01:52",
-      "event_name": "Storm Event Next XXXX",
+      "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "POINT (1640030.28138017 6114802.45255815)"
     }
