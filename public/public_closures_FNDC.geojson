@@ -457,6 +457,35 @@
         ]
       },
       "id": 361
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "PERIA ROAD",
+        "s_datetime": "2026-03-26T11:01:52",
+        "e_datetime": null,
+        "type": "Unplanned",
+        "cause": "Flooding",
+        "detour": false,
+        "c_description": "Flood Prone area",
+        "road_status": "Road Closed",
+        "notes": null,
+        "added_on": "2026-03-26T00:00:00",
+        "easting": 1640030.2814,
+        "northing": 6114802.4526,
+        "info_source": "Public",
+        "info_updated": "2026-03-26T11:01:52",
+        "event_name": "Storm Event Next XXXX",
+        "detour_details": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.4392608454471,
+          -35.10880554568382
+        ]
+      },
+      "id": 363
     }
   ]
 }
