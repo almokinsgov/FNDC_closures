@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-25T23:09:08.580Z",
-    "pulledAtLocal": "2026-03-26T12:09:08",
+    "pulledAtUtc": "2026-03-25T23:10:08.960Z",
+    "pulledAtLocal": "2026-03-26T12:10:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 18,
+    "rowCount": 19,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "703ae3c429c3e4232992e8db73cf2f861705bc4013da7d1f43af24be595b11b8",
+    "contentHash": "bf92e4029ef6e6092e144806a07fa0701a3bfe5f8a674b64675464dce3f63290",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -68,11 +68,11 @@
       }
     },
     "filterCounts": {
-      "total": 332,
-      "afterCalculationColumns": 332,
-      "afterQuickActionFilter": 94,
-      "afterClosures": 18,
-      "afterPublicColumnProjection": 18
+      "total": 333,
+      "afterCalculationColumns": 333,
+      "afterQuickActionFilter": 95,
+      "afterClosures": 19,
+      "afterPublicColumnProjection": 19
     }
   },
   "data": [
@@ -417,6 +417,25 @@
       "event_name": "Storm Event Next XXXX",
       "detour_details": null,
       "geometry": "POINT (1624069.22095517 6101387.06421519)"
+    },
+    {
+      "road_id": "WELLS ROAD",
+      "s_datetime": "2026-03-26T12:08:37",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Flooding",
+      "detour": false,
+      "c_description": "Flood Prone Area",
+      "road_status": "Road Closed",
+      "notes": null,
+      "added_on": "2026-03-26T00:00:00",
+      "easting": 1638812.9213,
+      "northing": 6114748.7674,
+      "info_source": "Public",
+      "info_updated": "2026-03-26T12:08:37",
+      "event_name": "Storm Event Next XXXX",
+      "detour_details": null,
+      "geometry": "POINT (1638812.92131683 6114748.76739172)"
     }
   ]
 }
