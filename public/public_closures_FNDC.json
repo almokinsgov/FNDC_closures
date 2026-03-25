@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-25T22:57:08.303Z",
-    "pulledAtLocal": "2026-03-26T11:57:08",
+    "pulledAtUtc": "2026-03-25T22:58:08.283Z",
+    "pulledAtLocal": "2026-03-26T11:58:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 16,
+    "rowCount": 17,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "b8111c8372a91d576149d2c45d41728c452c091fb78f8c65a42edf4afa8fb4eb",
+    "contentHash": "3620fb7703a17729db7d65e9f254a9e677086e33a8e38909188548304ace7bd3",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -68,11 +68,11 @@
       }
     },
     "filterCounts": {
-      "total": 330,
-      "afterCalculationColumns": 330,
-      "afterQuickActionFilter": 92,
-      "afterClosures": 16,
-      "afterPublicColumnProjection": 16
+      "total": 331,
+      "afterCalculationColumns": 331,
+      "afterQuickActionFilter": 93,
+      "afterClosures": 17,
+      "afterPublicColumnProjection": 17
     }
   },
   "data": [
@@ -379,6 +379,25 @@
       "event_name": "Rain Event March 2026",
       "detour_details": "no alternate access via public road",
       "geometry": "POINT (1667198.80140397 6093807.69138559)"
+    },
+    {
+      "road_id": "WHANGAPE ROAD",
+      "s_datetime": "2026-03-26T11:55:51",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Flooding",
+      "detour": false,
+      "c_description": "Flood Prone Area",
+      "road_status": "Road Closed",
+      "notes": null,
+      "added_on": "2026-03-26T00:00:00",
+      "easting": 1618280.447,
+      "northing": 6094116.1593,
+      "info_source": "Public",
+      "info_updated": "2026-03-26T11:55:51",
+      "event_name": "Storm Event Next XXXX",
+      "detour_details": null,
+      "geometry": "POINT (1618280.44701774 6094116.15929264)"
     }
   ]
 }
