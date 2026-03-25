@@ -1,5 +1,35 @@
 {
   "type": "FeatureCollection",
   "name": "public_closures_FNDC",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "KOHUMARU ROAD",
+        "s_datetime": "2026-03-26T08:14:43",
+        "e_datetime": null,
+        "type": "Unplanned",
+        "cause": "Flooding",
+        "detour": false,
+        "c_description": "Flood prone area",
+        "road_status": "Road Closed",
+        "notes": null,
+        "added_on": "2026-03-26T00:00:00",
+        "easting": 1646999.157,
+        "northing": 6116625.6551,
+        "info_source": "Public",
+        "info_updated": "2026-03-26T08:14:43",
+        "event_name": "Storm Event Next XXXX",
+        "detour_details": "Maybe able to access via SH10 end"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.51562573266438,
+          -35.09206467068873
+        ]
+      },
+      "id": 333
+    }
+  ]
 }
