@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-25T20:27:16.783Z",
-    "pulledAtLocal": "2026-03-26T09:27:16",
+    "pulledAtUtc": "2026-03-25T20:32:17.298Z",
+    "pulledAtLocal": "2026-03-26T09:32:17",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 8,
+    "rowCount": 9,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "8de6d2c682fe71ad315a9c9a91e712389fcde978a383264fb8d51a973eeb240b",
+    "contentHash": "742c174c53908dc85417102a1d322b8d0c941d4758a7efe96d9ff4d7b72e912c",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -68,11 +68,11 @@
       }
     },
     "filterCounts": {
-      "total": 313,
-      "afterCalculationColumns": 313,
-      "afterQuickActionFilter": 76,
-      "afterClosures": 8,
-      "afterPublicColumnProjection": 8
+      "total": 314,
+      "afterCalculationColumns": 314,
+      "afterQuickActionFilter": 77,
+      "afterClosures": 9,
+      "afterPublicColumnProjection": 9
     }
   },
   "data": [
@@ -111,7 +111,7 @@
       "info_source": "Public",
       "info_updated": "2026-03-26T08:14:43",
       "event_name": "Storm Event Next XXXX",
-      "detour_details": "Maybe able to access via SH10 end",
+      "detour_details": "",
       "geometry": "POINT (1646999.15699194 6116625.65506689)"
     },
     {
@@ -227,6 +227,25 @@
       "event_name": "Storm Event Next XXXX",
       "detour_details": null,
       "geometry": "POINT (1634032.49297263 6114662.99224316)"
+    },
+    {
+      "road_id": "DUNCAN ROAD (KAINGAROA)",
+      "s_datetime": "2026-03-26T09:28:32",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Flooding",
+      "detour": false,
+      "c_description": "Flood Prone area",
+      "road_status": "Road Closed",
+      "notes": null,
+      "added_on": "2026-03-26T00:00:00",
+      "easting": 1630929.575,
+      "northing": 6123150.7307,
+      "info_source": "Public",
+      "info_updated": "2026-03-26T09:28:32",
+      "event_name": "Storm Event Next XXXX",
+      "detour_details": null,
+      "geometry": "POINT (1630929.57504285 6123150.73067887)"
     }
   ]
 }
