@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-25T21:52:16.774Z",
-    "pulledAtLocal": "2026-03-26T10:52:16",
+    "pulledAtUtc": "2026-03-25T22:02:17.048Z",
+    "pulledAtLocal": "2026-03-26T11:02:17",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 15,
+    "rowCount": 14,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "c0cf173f56302ece96cd9f887f7787f15fdfe1b232560513bd5a0e5acea4715b",
+    "contentHash": "6f3a2e28b15f1d35edf3af37862fd0d4fb74dee6eb7c1154d9fe1a71393ca181",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -68,11 +68,11 @@
       }
     },
     "filterCounts": {
-      "total": 324,
-      "afterCalculationColumns": 324,
-      "afterQuickActionFilter": 87,
-      "afterClosures": 15,
-      "afterPublicColumnProjection": 15
+      "total": 326,
+      "afterCalculationColumns": 326,
+      "afterQuickActionFilter": 89,
+      "afterClosures": 14,
+      "afterPublicColumnProjection": 14
     }
   },
   "data": [
@@ -324,42 +324,23 @@
       "geometry": "POINT (1645298.97621548 6122342.1101895)"
     },
     {
-      "road_id": "MATAURI BEACH ROAD",
-      "s_datetime": "2026-03-26T10:36:40",
+      "road_id": "OMAUNU ROAD",
+      "s_datetime": "2026-03-26T10:49:13",
       "e_datetime": null,
       "type": "Unplanned",
       "cause": "Flooding",
       "detour": false,
-      "c_description": "Flooding at bridge/culvert",
+      "c_description": "Flood Prone Area",
       "road_status": "Road Closed",
       "notes": null,
       "added_on": "2026-03-26T00:00:00",
-      "easting": null,
-      "northing": null,
+      "easting": 1670429.2645,
+      "northing": 6115748.5542,
       "info_source": "Public",
-      "info_updated": "2026-03-26T10:36:40",
-      "event_name": "Rain Event March 2026",
+      "info_updated": "2026-03-26T10:49:13",
+      "event_name": "Storm Event Next XXXX",
       "detour_details": null,
-      "geometry": "LINESTRING (1682122.0645 6121647.63, 1682122.0445 6121648.6275)"
-    },
-    {
-      "road_id": "MATAURI BAY ROAD",
-      "s_datetime": "2026-03-26T10:42:58",
-      "e_datetime": null,
-      "type": "Unplanned",
-      "cause": "Flooding",
-      "detour": false,
-      "c_description": "Flooding",
-      "road_status": "Road Closed",
-      "notes": null,
-      "added_on": "2026-03-26T00:00:00",
-      "easting": null,
-      "northing": null,
-      "info_source": "Public",
-      "info_updated": "2026-03-26T10:42:58",
-      "event_name": "Rain Event March 2026",
-      "detour_details": null,
-      "geometry": "LINESTRING (1677177.246 6115222.8199, 1677177.8072 6115223.6474)"
+      "geometry": "POINT (1670429.26447571 6115748.55422605)"
     }
   ]
 }
