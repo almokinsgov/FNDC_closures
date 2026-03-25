@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-25T19:27:18.932Z",
-    "pulledAtLocal": "2026-03-26T08:27:18",
+    "pulledAtUtc": "2026-03-25T19:32:16.678Z",
+    "pulledAtLocal": "2026-03-26T08:32:16",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 1,
+    "rowCount": 3,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "9457cde5f7eefa34a00e7d12315c2fee75bda26b9833df3a4b38bc9da0411668",
+    "contentHash": "1548c7b7c7ebb79b5e1b8809ca7020ebaf4aa011a947a0aa72d0370471c274f7",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -68,11 +68,11 @@
       }
     },
     "filterCounts": {
-      "total": 298,
-      "afterCalculationColumns": 298,
-      "afterQuickActionFilter": 62,
-      "afterClosures": 1,
-      "afterPublicColumnProjection": 1
+      "total": 301,
+      "afterCalculationColumns": 301,
+      "afterQuickActionFilter": 65,
+      "afterClosures": 3,
+      "afterPublicColumnProjection": 3
     }
   },
   "data": [
@@ -94,6 +94,44 @@
       "event_name": "Storm Event Next XXXX",
       "detour_details": "Maybe able to access via SH10 end",
       "geometry": "POINT (1646999.15699194 6116625.65506689)"
+    },
+    {
+      "road_id": "PARANUI ROAD",
+      "s_datetime": "2026-03-26T08:27:37",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Flooding",
+      "detour": false,
+      "c_description": "Road flooded and unpassable - location not confirmed.",
+      "road_status": "Road Closed",
+      "notes": "Road flooded and unpassable - location not confirmed.",
+      "added_on": "2026-03-26T00:00:00",
+      "easting": null,
+      "northing": null,
+      "info_source": "Public",
+      "info_updated": "2026-03-26T08:27:37",
+      "event_name": "Storm Event Next XXXX",
+      "detour_details": null,
+      "geometry": "LINESTRING (1642876.9974 6124687.4637, 1642876.7199 6124686.517)"
+    },
+    {
+      "road_id": "FAIRBURN ROAD",
+      "s_datetime": "2026-03-26T08:24:17",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Flooding",
+      "detour": false,
+      "c_description": "Flood Prone area. Flooding on all roads accessing Fairburn",
+      "road_status": "Road Closed",
+      "notes": null,
+      "added_on": "2026-03-26T00:00:00",
+      "easting": 1637402.2843,
+      "northing": 6115114.9841,
+      "info_source": "Contractor",
+      "info_updated": "2026-03-26T08:24:17",
+      "event_name": "Storm Event Next XXXX",
+      "detour_details": null,
+      "geometry": "POINT (1637402.28432783 6115114.98409026)"
     }
   ]
 }
