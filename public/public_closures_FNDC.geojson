@@ -350,16 +350,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            173.3264251867558,
-            -35.02811041140295
+            173.3264251883301,
+            -35.02811041248968
           ],
           [
             173.3264303376347,
             -35.028113908001686
-          ],
-          [
-            173.32643299154788,
-            -35.028116368911355
           ]
         ]
       },
@@ -417,7 +413,7 @@
         "northing": 6122342.1102,
         "info_source": "Public",
         "info_updated": "2026-03-26T10:35:44",
-        "event_name": "Storm Event Next XXXX",
+        "event_name": "Rain Event March 2026",
         "detour_details": null
       },
       "geometry": {
@@ -446,7 +442,7 @@
         "northing": 6115748.5542,
         "info_source": "Public",
         "info_updated": "2026-03-26T10:49:13",
-        "event_name": "Storm Event Next XXXX",
+        "event_name": "Rain Event March 2026",
         "detour_details": null
       },
       "geometry": {
@@ -475,7 +471,7 @@
         "northing": 6114802.4526,
         "info_source": "Public",
         "info_updated": "2026-03-26T11:01:52",
-        "event_name": "Storm Event Next XXXX",
+        "event_name": "Rain Event March 2026",
         "detour_details": null
       },
       "geometry": {
