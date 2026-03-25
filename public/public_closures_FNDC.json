@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-25T19:32:16.678Z",
-    "pulledAtLocal": "2026-03-26T08:32:16",
+    "pulledAtUtc": "2026-03-25T19:37:18.530Z",
+    "pulledAtLocal": "2026-03-26T08:37:18",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 3,
+    "rowCount": 5,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "1548c7b7c7ebb79b5e1b8809ca7020ebaf4aa011a947a0aa72d0370471c274f7",
+    "contentHash": "c11cfae1d32d6c696e70964a03f8a2fd09e4f8fd4ad2bb05b4320731bf3ae05c",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -68,14 +68,33 @@
       }
     },
     "filterCounts": {
-      "total": 301,
-      "afterCalculationColumns": 301,
-      "afterQuickActionFilter": 65,
-      "afterClosures": 3,
-      "afterPublicColumnProjection": 3
+      "total": 302,
+      "afterCalculationColumns": 302,
+      "afterQuickActionFilter": 66,
+      "afterClosures": 5,
+      "afterPublicColumnProjection": 5
     }
   },
   "data": [
+    {
+      "road_id": "ORURU ROAD",
+      "s_datetime": "2026-03-26T08:08:28",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Flooding",
+      "detour": false,
+      "c_description": "Flood prone area",
+      "road_status": "Road Closed",
+      "notes": null,
+      "added_on": "2026-03-26T00:00:00",
+      "easting": 1645424.8765,
+      "northing": 6121484.8753,
+      "info_source": "Contractor",
+      "info_updated": "2026-03-26T08:08:28",
+      "event_name": "Storm Event Next XXXX",
+      "detour_details": null,
+      "geometry": "LINESTRING (1645424.97337204 6121484.50464839, 1645484.48387908 6121253.35201053)"
+    },
     {
       "road_id": "KOHUMARU ROAD",
       "s_datetime": "2026-03-26T08:14:43",
@@ -112,7 +131,7 @@
       "info_updated": "2026-03-26T08:27:37",
       "event_name": "Storm Event Next XXXX",
       "detour_details": null,
-      "geometry": "LINESTRING (1642876.9974 6124687.4637, 1642876.7199 6124686.517)"
+      "geometry": "LINESTRING (1642876.9974 6124687.4637, 1642876.719906874 6124686.5170449615)"
     },
     {
       "road_id": "FAIRBURN ROAD",
@@ -132,6 +151,25 @@
       "event_name": "Storm Event Next XXXX",
       "detour_details": null,
       "geometry": "POINT (1637402.28432783 6115114.98409026)"
+    },
+    {
+      "road_id": "PARAPARA-TOATOA ROAD",
+      "s_datetime": "2026-03-26T08:31:51",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Flooding",
+      "detour": false,
+      "c_description": "Road flooded  - location not confirmed.",
+      "road_status": "Road Closed",
+      "notes": null,
+      "added_on": "2026-03-26T00:00:00",
+      "easting": null,
+      "northing": null,
+      "info_source": "Public",
+      "info_updated": "2026-03-26T08:31:51",
+      "event_name": "Storm Event Next XXXX",
+      "detour_details": null,
+      "geometry": "LINESTRING (1638130.5883 6125121.189, 1638131.3995683219 6125120.6341705285)"
     }
   ]
 }
