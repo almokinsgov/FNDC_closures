@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-25T19:17:16.634Z",
-    "pulledAtLocal": "2026-03-26T08:17:16",
+    "pulledAtUtc": "2026-03-25T19:22:16.358Z",
+    "pulledAtLocal": "2026-03-26T08:22:16",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 0,
+    "rowCount": 1,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "contentHash": "9457cde5f7eefa34a00e7d12315c2fee75bda26b9833df3a4b38bc9da0411668",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -68,12 +68,32 @@
       }
     },
     "filterCounts": {
-      "total": 297,
-      "afterCalculationColumns": 297,
-      "afterQuickActionFilter": 61,
-      "afterClosures": 0,
-      "afterPublicColumnProjection": 0
+      "total": 298,
+      "afterCalculationColumns": 298,
+      "afterQuickActionFilter": 62,
+      "afterClosures": 1,
+      "afterPublicColumnProjection": 1
     }
   },
-  "data": []
+  "data": [
+    {
+      "road_id": "KOHUMARU ROAD",
+      "s_datetime": "2026-03-26T08:14:43",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Flooding",
+      "detour": false,
+      "c_description": "Flood prone area",
+      "road_status": "Road Closed",
+      "notes": null,
+      "added_on": "2026-03-26T00:00:00",
+      "easting": 1646999.157,
+      "northing": 6116625.6551,
+      "info_source": "Public",
+      "info_updated": "2026-03-26T08:14:43",
+      "event_name": "Storm Event Next XXXX",
+      "detour_details": "Maybe able to access via SH10 end",
+      "geometry": "POINT (1646999.15699194 6116625.65506689)"
+    }
+  ]
 }
