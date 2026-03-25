@@ -428,6 +428,41 @@
         ]
       },
       "id": 358
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "MATAURI BEACH ROAD",
+        "s_datetime": "2026-03-26T10:36:40",
+        "e_datetime": null,
+        "type": "Unplanned",
+        "cause": "Flooding",
+        "detour": false,
+        "c_description": "Flooding at bridge/culvert",
+        "road_status": "Road Closed",
+        "notes": null,
+        "added_on": "2026-03-26T00:00:00",
+        "easting": null,
+        "northing": null,
+        "info_source": "Public",
+        "info_updated": "2026-03-26T10:36:40",
+        "event_name": "Rain Event March 2026",
+        "detour_details": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            173.90042691593513,
+            -35.04453475282916
+          ],
+          [
+            173.90042659797584,
+            -35.044525760738686
+          ]
+        ]
+      },
+      "id": 359
     }
   ]
 }
