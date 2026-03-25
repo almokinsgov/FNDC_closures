@@ -296,6 +296,138 @@
         ]
       },
       "id": 349
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "DUNCAN ROAD (KAINGAROA)",
+        "s_datetime": "2026-03-26T10:02:00",
+        "e_datetime": null,
+        "type": "Unplanned",
+        "cause": "Flooding",
+        "detour": false,
+        "c_description": "Flood prone area",
+        "road_status": "Road Closed",
+        "notes": "Flooding",
+        "added_on": "2026-03-26T00:00:00",
+        "easting": null,
+        "northing": null,
+        "info_source": "Public",
+        "info_updated": "2026-03-26T10:02:00",
+        "event_name": "Rain Event March 2026",
+        "detour_details": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            173.3264251867558,
+            -35.02811041140295
+          ],
+          [
+            173.3264303376347,
+            -35.028113908001686
+          ],
+          [
+            173.32643299154788,
+            -35.028116368911355
+          ]
+        ]
+      },
+      "id": 351
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "TIPENE ROAD",
+        "s_datetime": "2026-03-26T10:05:01",
+        "e_datetime": null,
+        "type": "Unplanned",
+        "cause": "Flooding",
+        "detour": false,
+        "c_description": "Flooding",
+        "road_status": "Road Closed",
+        "notes": "Flooding across road",
+        "added_on": "2026-03-26T00:00:00",
+        "easting": 1694654.0666,
+        "northing": 6067350.2956,
+        "info_source": "Public",
+        "info_updated": "2026-03-26T10:05:01",
+        "event_name": "Storm Event Next XXXX",
+        "detour_details": "Detour available"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.0440821236845,
+          -35.532955920782186
+        ]
+      },
+      "id": 353
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "BACKRIVER ROAD",
+        "s_datetime": "2026-03-26T10:04:43",
+        "e_datetime": null,
+        "type": "Unplanned",
+        "cause": "Flooding",
+        "detour": false,
+        "c_description": "Flood Prone Area",
+        "road_status": "Road Closed",
+        "notes": "Flooding - at both ends of road",
+        "added_on": "2026-03-26T00:00:00",
+        "easting": null,
+        "northing": null,
+        "info_source": "Public",
+        "info_updated": "2026-03-26T10:04:43",
+        "event_name": "Rain Event March 2026",
+        "detour_details": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            173.54277383800212,
+            -35.01091380432022
+          ],
+          [
+            173.54276373897474,
+            -35.010919702601164
+          ]
+        ]
+      },
+      "id": 354
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "TIPENE ROAD",
+        "s_datetime": "2026-03-26T10:04:59",
+        "e_datetime": null,
+        "type": "Unplanned",
+        "cause": "Flooding",
+        "detour": false,
+        "c_description": "flooding, across carriageway - watercourse",
+        "road_status": "Road Closed",
+        "notes": null,
+        "added_on": "2026-03-26T00:00:00",
+        "easting": 1694650.2692,
+        "northing": 6067714.5267,
+        "info_source": "Public",
+        "info_updated": "2026-03-26T10:04:59",
+        "event_name": "Rain Event March 2026",
+        "detour_details": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.04399770048187,
+          -35.52967268641145
+        ]
+      },
+      "id": 355
     }
   ]
 }
