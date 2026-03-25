@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-25T21:15:19.604Z",
-    "pulledAtLocal": "2026-03-26T10:15:19",
+    "pulledAtUtc": "2026-03-25T21:17:16.553Z",
+    "pulledAtLocal": "2026-03-26T10:17:16",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 11,
+    "rowCount": 12,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "d48fd5d65da7c708f801a3e674f141fe68c05415142743d413c8baf1c1af22f2",
+    "contentHash": "62d50913a0d4694d1c709eda7ee4b259b331725ffd082e2fa10af68a3c716468",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -71,8 +71,8 @@
       "total": 321,
       "afterCalculationColumns": 321,
       "afterQuickActionFilter": 84,
-      "afterClosures": 11,
-      "afterPublicColumnProjection": 11
+      "afterClosures": 12,
+      "afterPublicColumnProjection": 12
     }
   },
   "data": [
@@ -189,6 +189,25 @@
       "event_name": "Rain Event March 2026",
       "detour_details": "Flooding on SH 1 Mangamuka restricting access to this area.",
       "geometry": "LINESTRING (1616027.03061608 6106308.32926137, 1616266.05673184 6106145.99478989, 1616286.53338939 6106126.02353419)"
+    },
+    {
+      "road_id": "WAIKARE ROAD",
+      "s_datetime": "2026-03-26T08:40:37",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Flooding",
+      "detour": true,
+      "c_description": "flooding, carriageway covered.",
+      "road_status": "Road Closed",
+      "notes": "RFS 4293761",
+      "added_on": "2026-03-26T00:00:00",
+      "easting": 1711280.2,
+      "northing": 6091463.6279,
+      "info_source": "Public",
+      "info_updated": "2026-03-26T08:40:37",
+      "event_name": "Rain Event March 2026",
+      "detour_details": "alt. routes - or ferry",
+      "geometry": "POINT (1711280.19997472 6091463.62788701)"
     },
     {
       "road_id": "IWITAUA ROAD",
