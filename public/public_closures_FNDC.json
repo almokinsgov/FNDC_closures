@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-25T21:22:16.378Z",
-    "pulledAtLocal": "2026-03-26T10:22:16",
+    "pulledAtUtc": "2026-03-25T21:24:31.136Z",
+    "pulledAtLocal": "2026-03-26T10:24:31",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "62d50913a0d4694d1c709eda7ee4b259b331725ffd082e2fa10af68a3c716468",
+    "contentHash": "c31fbf355be7c946c5449dbe257c42f5c6d284fe6d9510c10096b56e639c3428",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -204,7 +204,7 @@
       "easting": 1711280.2,
       "northing": 6091463.6279,
       "info_source": "Public",
-      "info_updated": "2026-03-26T08:40:37",
+      "info_updated": "2026-03-26T10:20:00",
       "event_name": "Rain Event March 2026",
       "detour_details": "alt. routes - or ferry",
       "geometry": "POINT (1711280.19997472 6091463.62788701)"
@@ -277,13 +277,13 @@
       "road_status": "Road Closed",
       "notes": "Flooding",
       "added_on": "2026-03-26T00:00:00",
-      "easting": null,
-      "northing": null,
+      "easting": 1629775.9545,
+      "northing": 6123791.5265,
       "info_source": "Public",
       "info_updated": "2026-03-26T10:02:00",
       "event_name": "Rain Event March 2026",
       "detour_details": null,
-      "geometry": "LINESTRING (1629776.7035432144 6123790.9041790152, 1629777.172 6123790.515)"
+      "geometry": "LINESTRING (1629776.7034 6123790.9043, 1629777.172 6123790.515, 1629777.4132 6123790.2413)"
     },
     {
       "road_id": "BACKRIVER ROAD",
