@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-25T22:35:08.429Z",
-    "pulledAtLocal": "2026-03-26T11:35:08",
+    "pulledAtUtc": "2026-03-25T22:36:08.397Z",
+    "pulledAtLocal": "2026-03-26T11:36:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 15,
+    "rowCount": 16,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "274b3a031577ab3f63879c57508c86a4a21f94d0d97a5b04f12ac74e06001254",
+    "contentHash": "54f3c2d0f3e7ea0f68927892d001f9fc6064477ecc5e3d63d69e896186917260",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -68,11 +68,11 @@
       }
     },
     "filterCounts": {
-      "total": 328,
-      "afterCalculationColumns": 328,
-      "afterQuickActionFilter": 90,
-      "afterClosures": 15,
-      "afterPublicColumnProjection": 15
+      "total": 329,
+      "afterCalculationColumns": 329,
+      "afterQuickActionFilter": 91,
+      "afterClosures": 16,
+      "afterPublicColumnProjection": 16
     }
   },
   "data": [
@@ -360,6 +360,25 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "POINT (1640030.28138017 6114802.45255815)"
+    },
+    {
+      "road_id": "PUKEPOTO ROAD (OKAIHAU)",
+      "s_datetime": "2026-03-26T11:35:00",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Flooding",
+      "detour": false,
+      "c_description": "flooding bridge inundated.",
+      "road_status": "Road Closed",
+      "notes": "4m flood water",
+      "added_on": "2026-03-26T00:00:00",
+      "easting": 1667198.8014,
+      "northing": 6093807.6914,
+      "info_source": "Public",
+      "info_updated": "2026-03-26T11:35:00",
+      "event_name": "Rain Event March 2026",
+      "detour_details": "no alternate access via public road",
+      "geometry": null
     }
   ]
 }
