@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-25T22:59:08.258Z",
-    "pulledAtLocal": "2026-03-26T11:59:08",
+    "pulledAtUtc": "2026-03-25T23:00:08.325Z",
+    "pulledAtLocal": "2026-03-26T12:00:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 17,
+    "rowCount": 18,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "3620fb7703a17729db7d65e9f254a9e677086e33a8e38909188548304ace7bd3",
+    "contentHash": "703ae3c429c3e4232992e8db73cf2f861705bc4013da7d1f43af24be595b11b8",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -68,11 +68,11 @@
       }
     },
     "filterCounts": {
-      "total": 331,
-      "afterCalculationColumns": 331,
-      "afterQuickActionFilter": 93,
-      "afterClosures": 17,
-      "afterPublicColumnProjection": 17
+      "total": 332,
+      "afterCalculationColumns": 332,
+      "afterQuickActionFilter": 94,
+      "afterClosures": 18,
+      "afterPublicColumnProjection": 18
     }
   },
   "data": [
@@ -398,6 +398,25 @@
       "event_name": "Storm Event Next XXXX",
       "detour_details": null,
       "geometry": "POINT (1618280.44701774 6094116.15929264)"
+    },
+    {
+      "road_id": "DIGGERS VALLEY ROAD",
+      "s_datetime": "2026-03-26T11:58:27",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Flooding",
+      "detour": false,
+      "c_description": "Flood Prone Area",
+      "road_status": "Road Closed",
+      "notes": null,
+      "added_on": "2026-03-26T00:00:00",
+      "easting": 1624069.221,
+      "northing": 6101387.0642,
+      "info_source": "Public",
+      "info_updated": "2026-03-26T11:58:27",
+      "event_name": "Storm Event Next XXXX",
+      "detour_details": null,
+      "geometry": "POINT (1624069.22095517 6101387.06421519)"
     }
   ]
 }
