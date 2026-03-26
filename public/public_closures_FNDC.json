@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T08:45:09.675Z",
-    "pulledAtLocal": "2026-03-26T21:45:09",
+    "pulledAtUtc": "2026-03-26T08:46:09.129Z",
+    "pulledAtLocal": "2026-03-26T21:46:09",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 29,
+    "rowCount": 30,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "85426cb398e299eb1ec3800f9664694a284725087bf7a1e10472c94ac4f2bf48",
+    "contentHash": "fd7aeb0c8e766bfd789417af20aac26f99187d375a3cc5fa1a2f1b503a41923d",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -68,11 +68,11 @@
       }
     },
     "filterCounts": {
-      "total": 360,
-      "afterCalculationColumns": 360,
-      "afterQuickActionFilter": 120,
-      "afterClosures": 29,
-      "afterPublicColumnProjection": 29
+      "total": 361,
+      "afterCalculationColumns": 361,
+      "afterQuickActionFilter": 121,
+      "afterClosures": 30,
+      "afterPublicColumnProjection": 30
     }
   },
   "data": [
@@ -626,6 +626,25 @@
       "event_name": "Storm Event Next XXXX",
       "detour_details": null,
       "geometry": "POINT (1633388.31671925 6088789.1379932)"
+    },
+    {
+      "road_id": "CLOUGH ROAD",
+      "s_datetime": "2026-03-26T21:45:26",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Flooding",
+      "detour": true,
+      "c_description": "From Church Rd End",
+      "road_status": "Road Closed",
+      "notes": null,
+      "added_on": "2026-03-26T00:00:00",
+      "easting": 1629223.7859,
+      "northing": 6114340.8299,
+      "info_source": "Public",
+      "info_updated": "2026-03-26T21:45:26",
+      "event_name": "Storm Event Next XXXX",
+      "detour_details": null,
+      "geometry": "POINT (1629223.78586633 6114340.8298833)"
     }
   ]
 }
