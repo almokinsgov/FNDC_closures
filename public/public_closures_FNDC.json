@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T18:49:10.497Z",
-    "pulledAtLocal": "2026-03-27T07:49:10",
+    "pulledAtUtc": "2026-03-26T18:50:10.210Z",
+    "pulledAtLocal": "2026-03-27T07:50:10",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 21,
+    "rowCount": 20,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "2d1c26c8dfd214c672edf227251b3fe4cbcf2eaf526a26ca3f09a2c1ef260c66",
+    "contentHash": "dd1daf987dc662318e5f2db63ad87ba157d93bd13875513de49ab64f9b43f5e4",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -70,9 +70,9 @@
     "filterCounts": {
       "total": 364,
       "afterCalculationColumns": 364,
-      "afterQuickActionFilter": 114,
-      "afterClosures": 21,
-      "afterPublicColumnProjection": 21
+      "afterQuickActionFilter": 113,
+      "afterClosures": 20,
+      "afterPublicColumnProjection": 20
     }
   },
   "data": [
@@ -246,25 +246,6 @@
       "event_name": "Rain Event March 2026",
       "detour_details": "no alternate access via public road",
       "geometry": "POINT (1667198.80140397 6093807.69138559)"
-    },
-    {
-      "road_id": "WHANGAPE ROAD",
-      "s_datetime": "2026-03-26T11:55:51",
-      "e_datetime": null,
-      "type": "Unplanned",
-      "cause": "Flooding",
-      "detour": false,
-      "c_description": "Flood Prone Area",
-      "road_status": "Road Closed",
-      "notes": null,
-      "added_on": "2026-03-26T00:00:00",
-      "easting": 1618280.447,
-      "northing": 6094116.1593,
-      "info_source": "Public",
-      "info_updated": "2026-03-26T11:55:51",
-      "event_name": "Rain Event March 2026",
-      "detour_details": null,
-      "geometry": "POINT (1618280.44701774 6094116.15929264)"
     },
     {
       "road_id": "DIGGERS VALLEY ROAD",
