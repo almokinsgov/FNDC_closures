@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T01:10:08.655Z",
-    "pulledAtLocal": "2026-03-26T14:10:08",
+    "pulledAtUtc": "2026-03-26T01:11:08.321Z",
+    "pulledAtLocal": "2026-03-26T14:11:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 21,
+    "rowCount": 22,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "b8a9aa612a6fd35d501a955570d22929bae6899a6cd7a311cb6d7c49d99e6bc2",
+    "contentHash": "896a660c69256e186e41d037a74251e5f33ecb48ae0f65c0f11300bed3129465",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -68,11 +68,11 @@
       }
     },
     "filterCounts": {
-      "total": 340,
-      "afterCalculationColumns": 340,
-      "afterQuickActionFilter": 102,
-      "afterClosures": 21,
-      "afterPublicColumnProjection": 21
+      "total": 341,
+      "afterCalculationColumns": 341,
+      "afterQuickActionFilter": 103,
+      "afterClosures": 22,
+      "afterPublicColumnProjection": 22
     }
   },
   "data": [
@@ -474,6 +474,25 @@
       "event_name": "Rain Event March 2026",
       "detour_details": "",
       "geometry": "LINESTRING (1619763.7952 6125667.2161, 1619763.2349531811 6125667.7729007779)"
+    },
+    {
+      "road_id": "WHANGAPE ROAD",
+      "s_datetime": "2026-03-26T14:08:30",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Overslip",
+      "detour": false,
+      "c_description": "Slip blocking both lanes",
+      "road_status": "Road Closed",
+      "notes": null,
+      "added_on": "2026-03-26T00:00:00",
+      "easting": null,
+      "northing": null,
+      "info_source": "Public",
+      "info_updated": "2026-03-26T14:08:30",
+      "event_name": "Rain Event March 2026",
+      "detour_details": null,
+      "geometry": "LINESTRING (1619549.8529 6090798.4627, 1619550.5581 6090797.7573)"
     }
   ]
 }
