@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T23:27:08.261Z",
-    "pulledAtLocal": "2026-03-27T12:27:08",
+    "pulledAtUtc": "2026-03-26T23:28:08.246Z",
+    "pulledAtLocal": "2026-03-27T12:28:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 10,
+    "rowCount": 11,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "ce2e711d5daae667c597d33dca18bcd1b74755ac866d82b6e4f9671690ea9ef9",
+    "contentHash": "a4131be8b087afd01829a33c0f0315655563d8f45de837ff7c13931a161f5d54",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -68,11 +68,11 @@
       }
     },
     "filterCounts": {
-      "total": 376,
-      "afterCalculationColumns": 376,
-      "afterQuickActionFilter": 118,
-      "afterClosures": 10,
-      "afterPublicColumnProjection": 10
+      "total": 377,
+      "afterCalculationColumns": 377,
+      "afterQuickActionFilter": 119,
+      "afterClosures": 11,
+      "afterPublicColumnProjection": 11
     }
   },
   "data": [
@@ -265,6 +265,25 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "LINESTRING (1634674.4458 6082417.0128, 1634673.4454365289 6082416.933623868)"
+    },
+    {
+      "road_id": "PAPONGA ROAD",
+      "s_datetime": "2026-03-27T12:27:18",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Fallen Tree",
+      "detour": false,
+      "c_description": "Tree blocking road - location TBC.  Team en route to clear.",
+      "road_status": "Road Closed",
+      "notes": null,
+      "added_on": "2026-03-27T00:00:00",
+      "easting": null,
+      "northing": null,
+      "info_source": "Public",
+      "info_updated": "2026-03-27T12:27:18",
+      "event_name": "Rain Event March 2026",
+      "detour_details": null,
+      "geometry": "LINESTRING (1638015.5 6097150.351, 1638015.1612 6097149.5077)"
     }
   ]
 }
