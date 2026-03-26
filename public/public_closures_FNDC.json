@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T00:30:08.526Z",
-    "pulledAtLocal": "2026-03-26T13:30:08",
+    "pulledAtUtc": "2026-03-26T00:31:08.413Z",
+    "pulledAtLocal": "2026-03-26T13:31:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "a225b9e10c3dd5fcc9bfab88d6ae00f7f43b10544d0470b8bed2551a8bc66d42",
+    "contentHash": "098f9239bdae46cf049bd84bd9f61ffdb62a8e5b7be79abef46838353a271fd2",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -463,7 +463,7 @@
       "type": "Unplanned",
       "cause": "Fallen Tree",
       "detour": false,
-      "c_description": "Tree blocking both lanes - location TBC.",
+      "c_description": "Tree blocking both lanes on blind corner.",
       "road_status": "Road Closed",
       "notes": null,
       "added_on": "2026-03-26T00:00:00",
