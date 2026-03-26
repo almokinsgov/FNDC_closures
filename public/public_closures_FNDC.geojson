@@ -174,35 +174,6 @@
     {
       "type": "Feature",
       "properties": {
-        "road_id": "FISHER-RILEY ROAD",
-        "s_datetime": "2026-03-26T09:24:37",
-        "e_datetime": null,
-        "type": "Unplanned",
-        "cause": "Flooding",
-        "detour": false,
-        "c_description": "Flood Prone Area",
-        "road_status": "Road Closed",
-        "notes": null,
-        "added_on": "2026-03-26T00:00:00",
-        "easting": 1634032.493,
-        "northing": 6114662.9922,
-        "info_source": "Public",
-        "info_updated": "2026-03-26T09:24:37",
-        "event_name": "Rain Event March 2026",
-        "detour_details": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          173.37345291900186,
-          -35.11028367516483
-        ]
-      },
-      "id": 348
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "road_id": "DUNCAN ROAD (KAINGAROA)",
         "s_datetime": "2026-03-26T09:28:32",
         "e_datetime": null,
