@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T22:24:08.554Z",
-    "pulledAtLocal": "2026-03-27T11:24:08",
+    "pulledAtUtc": "2026-03-26T22:25:08.568Z",
+    "pulledAtLocal": "2026-03-27T11:25:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 14,
+    "rowCount": 13,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "af8d76cb35d1318e060edfd22205f41ce4603509705f8f11e840c26dd8c0c607",
+    "contentHash": "657ceb2f8955f14a42935fcb69651463d77ef24be7d6f828d896e09bbdd87bc7",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -71,8 +71,8 @@
       "total": 376,
       "afterCalculationColumns": 376,
       "afterQuickActionFilter": 122,
-      "afterClosures": 14,
-      "afterPublicColumnProjection": 14
+      "afterClosures": 13,
+      "afterPublicColumnProjection": 13
     }
   },
   "data": [
@@ -246,25 +246,6 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "LINESTRING (1634692.141595393 6128640.9863931946, 1634692.1067370267 6128641.9835325079)"
-    },
-    {
-      "road_id": "HOOKS AND HALLS ROAD",
-      "s_datetime": "2026-03-27T07:58:11",
-      "e_datetime": null,
-      "type": "Unplanned",
-      "cause": "Flooding",
-      "detour": false,
-      "c_description": "flooding, trees and debris caught on and under bridge deck.",
-      "road_status": "Road Closed",
-      "notes": null,
-      "added_on": "2026-03-27T00:00:00",
-      "easting": 1641764.3307,
-      "northing": 6065146.5337,
-      "info_source": "Public",
-      "info_updated": "2026-03-27T10:10:00",
-      "event_name": "Rain Event March 2026",
-      "detour_details": null,
-      "geometry": "POINT (1641764.33067709 6065146.53366241)"
     },
     {
       "road_id": "WEST COAST ROAD (KOHUKOHU)",
