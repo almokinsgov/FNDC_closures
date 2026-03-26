@@ -645,7 +645,7 @@
         "detour": false,
         "c_description": "Tree blocking both lanes on blind corner.",
         "road_status": "Road Closed",
-        "notes": null,
+        "notes": "Crew has been dispatched.",
         "added_on": "2026-03-26T00:00:00",
         "easting": null,
         "northing": null,
@@ -662,8 +662,8 @@
             -35.01143666960583
           ],
           [
-            173.21660942132564,
-            -35.01143165969896
+            173.21660942190846,
+            -35.011431659690906
           ]
         ]
       },
