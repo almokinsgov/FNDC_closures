@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T00:28:08.982Z",
-    "pulledAtLocal": "2026-03-26T13:28:08",
+    "pulledAtUtc": "2026-03-26T00:29:08.683Z",
+    "pulledAtLocal": "2026-03-26T13:29:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 20,
+    "rowCount": 21,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "5e632e104767ce2b6a1018dd673143d08cff23a2121c05bfd9c103057e432919",
+    "contentHash": "a225b9e10c3dd5fcc9bfab88d6ae00f7f43b10544d0470b8bed2551a8bc66d42",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -68,11 +68,11 @@
       }
     },
     "filterCounts": {
-      "total": 336,
-      "afterCalculationColumns": 336,
-      "afterQuickActionFilter": 98,
-      "afterClosures": 20,
-      "afterPublicColumnProjection": 20
+      "total": 337,
+      "afterCalculationColumns": 337,
+      "afterQuickActionFilter": 99,
+      "afterClosures": 21,
+      "afterPublicColumnProjection": 21
     }
   },
   "data": [
@@ -455,6 +455,25 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "LINESTRING (1649193.6557 6130326.8126, 1649192.8465294321 6130327.3270499855)"
+    },
+    {
+      "road_id": "PAPARORE ROAD",
+      "s_datetime": "2026-03-26T13:25:14",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Fallen Tree",
+      "detour": false,
+      "c_description": "Tree blocking both lanes - location TBC.",
+      "road_status": "Road Closed",
+      "notes": null,
+      "added_on": "2026-03-26T00:00:00",
+      "easting": null,
+      "northing": null,
+      "info_source": "Public",
+      "info_updated": "2026-03-26T13:25:14",
+      "event_name": "Rain Event March 2026",
+      "detour_details": "",
+      "geometry": "LINESTRING (1619763.7952 6125667.2161, 1619763.2349 6125667.7729)"
     }
   ]
 }
