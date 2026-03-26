@@ -668,6 +668,41 @@
         ]
       },
       "id": 373
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "WHANGAPE ROAD",
+        "s_datetime": "2026-03-26T14:08:30",
+        "e_datetime": null,
+        "type": "Unplanned",
+        "cause": "Overslip",
+        "detour": false,
+        "c_description": "Slip blocking both lanes",
+        "road_status": "Road Closed",
+        "notes": null,
+        "added_on": "2026-03-26T00:00:00",
+        "easting": null,
+        "northing": null,
+        "info_source": "Public",
+        "info_updated": "2026-03-26T14:08:30",
+        "event_name": "Rain Event March 2026",
+        "detour_details": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            173.2150971113381,
+            -35.32585680355321
+          ],
+          [
+            173.21510488709524,
+            -35.32586315026532
+          ]
+        ]
+      },
+      "id": 377
     }
   ]
 }
