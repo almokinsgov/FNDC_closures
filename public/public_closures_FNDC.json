@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T18:12:08.415Z",
-    "pulledAtLocal": "2026-03-27T07:12:08",
+    "pulledAtUtc": "2026-03-26T18:13:10.720Z",
+    "pulledAtLocal": "2026-03-27T07:13:10",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 30,
+    "rowCount": 29,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "4ecb28f81e28e37ae81cc71ffdad160caebdf98dd4701510ff897fe9dcaa2273",
+    "contentHash": "3707bbfcccfb6c9092c51550cff817264f5b09154461af36819b1af9bbc59d89",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -70,9 +70,9 @@
     "filterCounts": {
       "total": 362,
       "afterCalculationColumns": 362,
-      "afterQuickActionFilter": 120,
-      "afterClosures": 30,
-      "afterPublicColumnProjection": 30
+      "afterQuickActionFilter": 119,
+      "afterClosures": 29,
+      "afterPublicColumnProjection": 29
     }
   },
   "data": [
@@ -246,25 +246,6 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "POINT (1630929.57504285 6123150.73067887)"
-    },
-    {
-      "road_id": "DUNCAN ROAD (KAINGAROA)",
-      "s_datetime": "2026-03-26T10:02:00",
-      "e_datetime": null,
-      "type": "Unplanned",
-      "cause": "Flooding",
-      "detour": false,
-      "c_description": "Flood prone area",
-      "road_status": "Road Closed",
-      "notes": "Flooding",
-      "added_on": "2026-03-26T00:00:00",
-      "easting": 1629775.9545,
-      "northing": 6123791.5265,
-      "info_source": "Public",
-      "info_updated": "2026-03-26T10:02:00",
-      "event_name": "Rain Event March 2026",
-      "detour_details": null,
-      "geometry": "LINESTRING (1629776.7035432144 6123790.9041790152, 1629777.172 6123790.515)"
     },
     {
       "road_id": "BACKRIVER ROAD",
