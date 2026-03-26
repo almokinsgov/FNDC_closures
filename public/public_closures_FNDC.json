@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T18:18:08.609Z",
-    "pulledAtLocal": "2026-03-27T07:18:08",
+    "pulledAtUtc": "2026-03-26T18:19:10.714Z",
+    "pulledAtLocal": "2026-03-27T07:19:10",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 28,
+    "rowCount": 27,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "cb1292e4cba2c064bb43fed692328e3ca5d687781aff8b0a44ee7dff435eb97e",
+    "contentHash": "3b897c0971c352fbe95ad06859b165c5238845fcedcbea5528c0a16875890eb9",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -70,9 +70,9 @@
     "filterCounts": {
       "total": 362,
       "afterCalculationColumns": 362,
-      "afterQuickActionFilter": 118,
-      "afterClosures": 28,
-      "afterPublicColumnProjection": 28
+      "afterQuickActionFilter": 117,
+      "afterClosures": 27,
+      "afterPublicColumnProjection": 27
     }
   },
   "data": [
@@ -113,25 +113,6 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "LINESTRING (1642876.9974 6124687.4637, 1642876.719906874 6124686.5170449615)"
-    },
-    {
-      "road_id": "FAIRBURN ROAD",
-      "s_datetime": "2026-03-26T08:24:17",
-      "e_datetime": null,
-      "type": "Unplanned",
-      "cause": "Flooding",
-      "detour": false,
-      "c_description": "Flood Prone area. Flooding on all roads accessing Fairburn",
-      "road_status": "Road Closed",
-      "notes": null,
-      "added_on": "2026-03-26T00:00:00",
-      "easting": 1637402.2843,
-      "northing": 6115114.9841,
-      "info_source": "Contractor",
-      "info_updated": "2026-03-26T08:24:17",
-      "event_name": "Rain Event March 2026",
-      "detour_details": null,
-      "geometry": "POINT (1637402.28432783 6115114.98409026)"
     },
     {
       "road_id": "PARAPARA-TOATOA ROAD",
