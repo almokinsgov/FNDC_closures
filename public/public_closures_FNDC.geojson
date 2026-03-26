@@ -633,6 +633,41 @@
         ]
       },
       "id": 371
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "PAPARORE ROAD",
+        "s_datetime": "2026-03-26T13:25:14",
+        "e_datetime": null,
+        "type": "Unplanned",
+        "cause": "Fallen Tree",
+        "detour": false,
+        "c_description": "Tree blocking both lanes - location TBC.",
+        "road_status": "Road Closed",
+        "notes": null,
+        "added_on": "2026-03-26T00:00:00",
+        "easting": null,
+        "northing": null,
+        "info_source": "Public",
+        "info_updated": "2026-03-26T13:25:14",
+        "event_name": "Rain Event March 2026",
+        "detour_details": ""
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            173.2166155755358,
+            -35.01143666960583
+          ],
+          [
+            173.21660942132564,
+            -35.01143165969896
+          ]
+        ]
+      },
+      "id": 373
     }
   ]
 }
