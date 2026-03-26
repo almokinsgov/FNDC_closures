@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T01:58:10.358Z",
-    "pulledAtLocal": "2026-03-26T14:58:10",
+    "pulledAtUtc": "2026-03-26T01:59:08.582Z",
+    "pulledAtLocal": "2026-03-26T14:59:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 24,
+    "rowCount": 25,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "5f9e391843cc092bd1979a3a5846e6f369d017edfc35d2ff813785fd77126c29",
+    "contentHash": "f70e3dc7b7f6f5d66ee5a86153476328308de84152533d13b9d06e3efe0a044f",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -69,10 +69,10 @@
     },
     "filterCounts": {
       "total": 349,
-      "afterCalculationColumns": 348,
-      "afterQuickActionFilter": 110,
-      "afterClosures": 24,
-      "afterPublicColumnProjection": 24
+      "afterCalculationColumns": 349,
+      "afterQuickActionFilter": 111,
+      "afterClosures": 25,
+      "afterPublicColumnProjection": 25
     }
   },
   "data": [
@@ -531,6 +531,25 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "LINESTRING (1634236.3872 6081960.3195, 1634235.3897 6081960.3896)"
+    },
+    {
+      "road_id": "POWELL ROAD (DIGGERS VALLEY)",
+      "s_datetime": "2026-03-26T14:57:21",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Flooding",
+      "detour": false,
+      "c_description": "Road flooded",
+      "road_status": "Road Closed",
+      "notes": "Location TBC",
+      "added_on": "2026-03-26T00:00:00",
+      "easting": null,
+      "northing": null,
+      "info_source": "Public",
+      "info_updated": "2026-03-26T14:57:21",
+      "event_name": "Rain Event March 2026",
+      "detour_details": null,
+      "geometry": "LINESTRING (1622379.5332 6099009.4257, 1622379.6238 6099010.4025)"
     }
   ]
 }
