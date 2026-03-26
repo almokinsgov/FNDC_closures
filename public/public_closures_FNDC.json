@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T18:32:08.385Z",
-    "pulledAtLocal": "2026-03-27T07:32:08",
+    "pulledAtUtc": "2026-03-26T18:34:10.516Z",
+    "pulledAtLocal": "2026-03-27T07:34:10",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 25,
+    "rowCount": 23,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "dba409f6688e1a1432dc0fd42b8e771e516e4a3f1f1397ad585d4dbadb253832",
+    "contentHash": "4bc06b5c4080fb15f5e59a62c4da1b035654df38798efc2c6db4bee59fdf5197",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -68,11 +68,11 @@
       }
     },
     "filterCounts": {
-      "total": 363,
+      "total": 364,
       "afterCalculationColumns": 363,
-      "afterQuickActionFilter": 116,
-      "afterClosures": 25,
-      "afterPublicColumnProjection": 25
+      "afterQuickActionFilter": 115,
+      "afterClosures": 23,
+      "afterPublicColumnProjection": 23
     }
   },
   "data": [
@@ -419,25 +419,6 @@
       "geometry": "LINESTRING (1630408.3858960855 6091263.3182147462, 1630407.9864492069 6091262.401064015)"
     },
     {
-      "road_id": "TAKAHUE ROAD",
-      "s_datetime": "2026-03-26T15:09:55",
-      "e_datetime": null,
-      "type": "Unplanned",
-      "cause": "Overslip",
-      "detour": false,
-      "c_description": "Overslip in Gorge beween Crene Rd and Bridge",
-      "road_status": "Road Closed",
-      "notes": "Location and status TBC.  Tree and slip blocking road.",
-      "added_on": "2026-03-26T00:00:00",
-      "easting": null,
-      "northing": null,
-      "info_source": "Public",
-      "info_updated": "2026-03-26T15:09:55",
-      "event_name": "Rain Event March 2026",
-      "detour_details": null,
-      "geometry": "LINESTRING (1631531.8244463878 6106261.0457574455, 1631531.6224657665 6106260.0588564156)"
-    },
-    {
       "road_id": "WEST COAST ROAD (KOHUKOHU)",
       "s_datetime": "2026-03-26T15:40:31",
       "e_datetime": null,
@@ -474,25 +455,6 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "LINESTRING (1626374.6273617717 6110434.9634575248, 1626375.6049244609 6110435.1794601064)"
-    },
-    {
-      "road_id": "LARMER ROAD",
-      "s_datetime": "2026-03-26T20:09:04",
-      "e_datetime": null,
-      "type": "Unplanned",
-      "cause": "Flooding",
-      "detour": true,
-      "c_description": "Flood Prone area",
-      "road_status": "Road Closed",
-      "notes": null,
-      "added_on": "2026-03-26T00:00:00",
-      "easting": 1626186.9754,
-      "northing": 6113092.0266,
-      "info_source": "Contractor",
-      "info_updated": "2026-03-26T20:09:04",
-      "event_name": "Storm Event Next XXXX",
-      "detour_details": null,
-      "geometry": "POINT (1626186.9753736 6113092.02664353)"
     },
     {
       "road_id": "RUNARUNA ROAD",
