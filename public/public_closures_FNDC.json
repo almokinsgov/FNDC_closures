@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T21:01:08.948Z",
-    "pulledAtLocal": "2026-03-27T10:01:08",
+    "pulledAtUtc": "2026-03-26T21:02:08.717Z",
+    "pulledAtLocal": "2026-03-27T10:02:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 18,
+    "rowCount": 17,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "86acb3133c67eb01465fc5b403c435a6dab117fef96373a7ab119f2b8e8c2cbc",
+    "contentHash": "383fbb97a0746159ec736eed49337c323c9f0ed8f1bd0d3deba6033bbf514dc1",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -71,8 +71,8 @@
       "total": 374,
       "afterCalculationColumns": 374,
       "afterQuickActionFilter": 122,
-      "afterClosures": 18,
-      "afterPublicColumnProjection": 18
+      "afterClosures": 17,
+      "afterPublicColumnProjection": 17
     }
   },
   "data": [
@@ -94,25 +94,6 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "LINESTRING (1642876.9974 6124687.4637, 1642876.719906874 6124686.5170449615)"
-    },
-    {
-      "road_id": "PARAPARA-TOATOA ROAD",
-      "s_datetime": "2026-03-26T08:31:51",
-      "e_datetime": null,
-      "type": "Unplanned",
-      "cause": "Flooding",
-      "detour": false,
-      "c_description": "Road flooded  - location not confirmed.",
-      "road_status": "Road Closed",
-      "notes": null,
-      "added_on": "2026-03-26T00:00:00",
-      "easting": null,
-      "northing": null,
-      "info_source": "Public",
-      "info_updated": "2026-03-26T08:31:51",
-      "event_name": "Rain Event March 2026",
-      "detour_details": null,
-      "geometry": "LINESTRING (1638130.5883 6125121.189, 1638131.3995683219 6125120.6341705285)"
     },
     {
       "road_id": "WAIKARE ROAD",
