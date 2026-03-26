@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T01:13:08.267Z",
-    "pulledAtLocal": "2026-03-26T14:13:08",
+    "pulledAtUtc": "2026-03-26T01:14:08.247Z",
+    "pulledAtLocal": "2026-03-26T14:14:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "896a660c69256e186e41d037a74251e5f33ecb48ae0f65c0f11300bed3129465",
+    "contentHash": "b765ea0c66a08a9f8b1ebb375d18349fe671618382dbe4ea85153c9b0c5b6687",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -492,7 +492,7 @@
       "info_updated": "2026-03-26T14:08:30",
       "event_name": "Rain Event March 2026",
       "detour_details": null,
-      "geometry": "LINESTRING (1619549.8529 6090798.4627, 1619550.5581 6090797.7573)"
+      "geometry": "LINESTRING (1619549.8529989496 6090798.4626549128, 1619550.5582252496 6090797.7571592666)"
     }
   ]
 }
