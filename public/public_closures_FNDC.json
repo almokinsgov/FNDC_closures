@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T02:06:09.354Z",
-    "pulledAtLocal": "2026-03-26T15:06:09",
+    "pulledAtUtc": "2026-03-26T02:07:08.695Z",
+    "pulledAtLocal": "2026-03-26T15:07:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 26,
+    "rowCount": 27,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "ffa8a92423701812530573c3f647bcd7b6d731f4c825b5fd93ede0a578abf5ee",
+    "contentHash": "440ce5d4a9c3b17333faf4db3c4dcf452344a5eb1d2a12d31c9a5d065fefa23a",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -68,11 +68,11 @@
       }
     },
     "filterCounts": {
-      "total": 350,
-      "afterCalculationColumns": 350,
-      "afterQuickActionFilter": 112,
-      "afterClosures": 26,
-      "afterPublicColumnProjection": 26
+      "total": 351,
+      "afterCalculationColumns": 351,
+      "afterQuickActionFilter": 113,
+      "afterClosures": 27,
+      "afterPublicColumnProjection": 27
     }
   },
   "data": [
@@ -569,6 +569,25 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "LINESTRING (1626311.6157 6117017.2511, 1626311.7379 6117016.2539)"
+    },
+    {
+      "road_id": "PAWARENGA ROAD",
+      "s_datetime": "2026-03-26T15:05:22",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Flooding",
+      "detour": false,
+      "c_description": "Flood prone area",
+      "road_status": "Road Closed",
+      "notes": "Road flooded",
+      "added_on": "2026-03-26T00:00:00",
+      "easting": null,
+      "northing": null,
+      "info_source": "Public",
+      "info_updated": "2026-03-26T15:05:22",
+      "event_name": "Rain Event March 2026",
+      "detour_details": null,
+      "geometry": "LINESTRING (1630408.3858 6091263.318, 1630407.9864 6091262.4009)"
     }
   ]
 }
