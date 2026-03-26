@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T20:23:10.333Z",
-    "pulledAtLocal": "2026-03-27T09:23:10",
+    "pulledAtUtc": "2026-03-26T20:24:10.477Z",
+    "pulledAtLocal": "2026-03-27T09:24:10",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 21,
+    "rowCount": 20,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "d5f834722eea31e61db18df2efb65d12d4c3f23475a0b5c20bed86b2bbc95633",
+    "contentHash": "c24c22716fe2fd167fcdeed28ca209d2a1cdab53540d75fa5ce4714473d907b4",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -71,30 +71,11 @@
       "total": 374,
       "afterCalculationColumns": 374,
       "afterQuickActionFilter": 122,
-      "afterClosures": 21,
-      "afterPublicColumnProjection": 21
+      "afterClosures": 20,
+      "afterPublicColumnProjection": 20
     }
   },
   "data": [
-    {
-      "road_id": "ORURU ROAD",
-      "s_datetime": "2026-03-26T08:08:28",
-      "e_datetime": null,
-      "type": "Unplanned",
-      "cause": "Flooding",
-      "detour": false,
-      "c_description": "Flood prone area",
-      "road_status": "Road Closed",
-      "notes": null,
-      "added_on": "2026-03-26T00:00:00",
-      "easting": 1645424.8765,
-      "northing": 6121484.8753,
-      "info_source": "Contractor",
-      "info_updated": "2026-03-26T08:08:28",
-      "event_name": "Rain Event March 2026",
-      "detour_details": null,
-      "geometry": "LINESTRING (1645424.97337204 6121484.50464839, 1645484.48387908 6121253.35201053)"
-    },
     {
       "road_id": "PARANUI ROAD",
       "s_datetime": "2026-03-26T08:27:37",
