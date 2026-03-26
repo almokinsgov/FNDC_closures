@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T19:18:11.251Z",
-    "pulledAtLocal": "2026-03-27T08:18:11",
+    "pulledAtUtc": "2026-03-26T19:19:10.626Z",
+    "pulledAtLocal": "2026-03-27T08:19:10",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 23,
+    "rowCount": 22,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "203f64fe58f83d650556c3d4639e9c4a5022d855f53b5268178ce07f143cc25d",
+    "contentHash": "e7bf18e33f18ab8cd904c2543530e8d5241ce4a5bedd66f9574ce45f3ced8010",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -70,9 +70,9 @@
     "filterCounts": {
       "total": 369,
       "afterCalculationColumns": 369,
-      "afterQuickActionFilter": 118,
-      "afterClosures": 23,
-      "afterPublicColumnProjection": 23
+      "afterQuickActionFilter": 117,
+      "afterClosures": 22,
+      "afterPublicColumnProjection": 22
     }
   },
   "data": [
@@ -208,25 +208,6 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "POINT (1645298.97621548 6122342.1101895)"
-    },
-    {
-      "road_id": "OMAUNU ROAD",
-      "s_datetime": "2026-03-26T10:49:13",
-      "e_datetime": null,
-      "type": "Unplanned",
-      "cause": "Flooding",
-      "detour": false,
-      "c_description": "Flood Prone Area",
-      "road_status": "Road Closed",
-      "notes": null,
-      "added_on": "2026-03-26T00:00:00",
-      "easting": 1670429.2645,
-      "northing": 6115748.5542,
-      "info_source": "Public",
-      "info_updated": "2026-03-26T10:49:13",
-      "event_name": "Rain Event March 2026",
-      "detour_details": null,
-      "geometry": "POINT (1670429.26447571 6115748.55422605)"
     },
     {
       "road_id": "PUKEPOTO ROAD (OKAIHAU)",
