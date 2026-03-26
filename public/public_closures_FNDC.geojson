@@ -139,41 +139,6 @@
     {
       "type": "Feature",
       "properties": {
-        "road_id": "WEST COAST ROAD (KOHUKOHU)",
-        "s_datetime": "2026-03-26T14:12:18",
-        "e_datetime": null,
-        "type": "Unplanned",
-        "cause": "Flooding",
-        "detour": false,
-        "c_description": "Flooding",
-        "road_status": "Road Closed",
-        "notes": "Road inpassable outside Mareae.",
-        "added_on": "2026-03-26T00:00:00",
-        "easting": null,
-        "northing": null,
-        "info_source": "Public",
-        "info_updated": "2026-03-26T14:12:18",
-        "event_name": "Rain Event March 2026",
-        "detour_details": null
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            173.37705352951667,
-            -35.40515225903277
-          ],
-          [
-            173.37704254026266,
-            -35.40515166082776
-          ]
-        ]
-      },
-      "id": 378
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "road_id": "POWELL ROAD (DIGGERS VALLEY)",
         "s_datetime": "2026-03-26T14:57:21",
         "e_datetime": null,
