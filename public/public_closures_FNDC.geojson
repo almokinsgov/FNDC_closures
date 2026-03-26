@@ -598,6 +598,41 @@
         ]
       },
       "id": 369
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "WAIAUA ROAD",
+        "s_datetime": "2026-03-26T13:08:18",
+        "e_datetime": null,
+        "type": "Unplanned",
+        "cause": "Fallen Tree",
+        "detour": false,
+        "c_description": "Tree has fallen blocking both lanes - crew dispatched.",
+        "road_status": "Road Closed",
+        "notes": null,
+        "added_on": "2026-03-26T00:00:00",
+        "easting": null,
+        "northing": null,
+        "info_source": "Public",
+        "info_updated": "2026-03-26T13:08:18",
+        "event_name": "Rain Event March 2026",
+        "detour_details": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            173.5388890499189,
+            -34.96841661974073
+          ],
+          [
+            173.53888015555225,
+            -34.96841201978166
+          ]
+        ]
+      },
+      "id": 371
     }
   ]
 }
