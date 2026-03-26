@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T07:09:10.828Z",
-    "pulledAtLocal": "2026-03-26T20:09:10",
+    "pulledAtUtc": "2026-03-26T07:10:11.860Z",
+    "pulledAtLocal": "2026-03-26T20:10:11",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 27,
+    "rowCount": 28,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "05b5bd4f7ef73b8884283ed286c1096c5fb07f8dead4e5cb7f176ad5fb352a12",
+    "contentHash": "439898c062cbc212ee9757505966fa000289e4022327e77b18cb69538eb2fdab",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -68,11 +68,11 @@
       }
     },
     "filterCounts": {
-      "total": 358,
-      "afterCalculationColumns": 358,
-      "afterQuickActionFilter": 118,
-      "afterClosures": 27,
-      "afterPublicColumnProjection": 27
+      "total": 359,
+      "afterCalculationColumns": 359,
+      "afterQuickActionFilter": 119,
+      "afterClosures": 28,
+      "afterPublicColumnProjection": 28
     }
   },
   "data": [
@@ -588,6 +588,25 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "LINESTRING (1626374.6273617717 6110434.9634575248, 1626375.6049244609 6110435.1794601064)"
+    },
+    {
+      "road_id": "LARMER ROAD",
+      "s_datetime": "2026-03-26T20:09:04",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Flooding",
+      "detour": true,
+      "c_description": "Flood Prone area",
+      "road_status": "Road Closed",
+      "notes": null,
+      "added_on": "2026-03-26T00:00:00",
+      "easting": 1626186.9754,
+      "northing": 6113092.0266,
+      "info_source": "Contractor",
+      "info_updated": "2026-03-26T20:09:04",
+      "event_name": "Storm Event Next XXXX",
+      "detour_details": null,
+      "geometry": "POINT (1626186.9753736 6113092.02664353)"
     }
   ]
 }
