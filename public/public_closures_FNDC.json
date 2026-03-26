@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T02:42:08.779Z",
-    "pulledAtLocal": "2026-03-26T15:42:08",
+    "pulledAtUtc": "2026-03-26T02:43:10.331Z",
+    "pulledAtLocal": "2026-03-26T15:43:10",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 28,
+    "rowCount": 29,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "a117d09c6eb2ecfb39c90202e3fdffe837b8fe91165af746c00f9fc9ee1c241b",
+    "contentHash": "4c7b0f2fe56b84d62afaf83d757124ac6628051cded38fbe5f77366b543c5ce3",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -68,11 +68,11 @@
       }
     },
     "filterCounts": {
-      "total": 356,
-      "afterCalculationColumns": 356,
-      "afterQuickActionFilter": 118,
-      "afterClosures": 28,
-      "afterPublicColumnProjection": 28
+      "total": 357,
+      "afterCalculationColumns": 357,
+      "afterQuickActionFilter": 119,
+      "afterClosures": 29,
+      "afterPublicColumnProjection": 29
     }
   },
   "data": [
@@ -607,6 +607,25 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "LINESTRING (1616487.604797798 6105718.0894693192, 1616487.886984925 6105717.13123625)"
+    },
+    {
+      "road_id": "WEST COAST ROAD (KOHUKOHU)",
+      "s_datetime": "2026-03-26T15:40:31",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Overslip",
+      "detour": false,
+      "c_description": "Overslip blocking both lanes near Mihirau Rd",
+      "road_status": "Road Closed",
+      "notes": null,
+      "added_on": "2026-03-26T00:00:00",
+      "easting": null,
+      "northing": null,
+      "info_source": "Public",
+      "info_updated": "2026-03-26T15:40:31",
+      "event_name": "Rain Event March 2026",
+      "detour_details": null,
+      "geometry": "LINESTRING (1635172.9282 6086303.9047, 1635171.9386 6086303.7571)"
     }
   ]
 }
