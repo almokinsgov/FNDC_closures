@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T00:33:08.250Z",
-    "pulledAtLocal": "2026-03-26T13:33:08",
+    "pulledAtUtc": "2026-03-26T00:34:08.511Z",
+    "pulledAtLocal": "2026-03-26T13:34:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "098f9239bdae46cf049bd84bd9f61ffdb62a8e5b7be79abef46838353a271fd2",
+    "contentHash": "b8a9aa612a6fd35d501a955570d22929bae6899a6cd7a311cb6d7c49d99e6bc2",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -465,7 +465,7 @@
       "detour": false,
       "c_description": "Tree blocking both lanes on blind corner.",
       "road_status": "Road Closed",
-      "notes": null,
+      "notes": "Crew has been dispatched.",
       "added_on": "2026-03-26T00:00:00",
       "easting": null,
       "northing": null,
@@ -473,7 +473,7 @@
       "info_updated": "2026-03-26T13:25:14",
       "event_name": "Rain Event March 2026",
       "detour_details": "",
-      "geometry": "LINESTRING (1619763.7952 6125667.2161, 1619763.2349 6125667.7729)"
+      "geometry": "LINESTRING (1619763.7952 6125667.2161, 1619763.2349531811 6125667.7729007779)"
     }
   ]
 }
