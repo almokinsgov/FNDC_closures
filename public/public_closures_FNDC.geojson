@@ -5,41 +5,6 @@
     {
       "type": "Feature",
       "properties": {
-        "road_id": "ORURU ROAD",
-        "s_datetime": "2026-03-26T08:08:28",
-        "e_datetime": null,
-        "type": "Unplanned",
-        "cause": "Flooding",
-        "detour": false,
-        "c_description": "Flood prone area",
-        "road_status": "Road Closed",
-        "notes": null,
-        "added_on": "2026-03-26T00:00:00",
-        "easting": 1645424.8765,
-        "northing": 6121484.8753,
-        "info_source": "Contractor",
-        "info_updated": "2026-03-26T08:08:28",
-        "event_name": "Rain Event March 2026",
-        "detour_details": null
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            173.49808975983922,
-            -35.04832465644917
-          ],
-          [
-            173.49875494767485,
-            -35.05040628496181
-          ]
-        ]
-      },
-      "id": 332
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "road_id": "PARANUI ROAD",
         "s_datetime": "2026-03-26T08:27:37",
         "e_datetime": null,
