@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T02:31:08.393Z",
-    "pulledAtLocal": "2026-03-26T15:31:08",
+    "pulledAtUtc": "2026-03-26T02:33:08.332Z",
+    "pulledAtLocal": "2026-03-26T15:33:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "7dfe44f3e2f54a4a3ba0e559e557052d1980773c22556ba394b0c78e5d84166d",
+    "contentHash": "a117d09c6eb2ecfb39c90202e3fdffe837b8fe91165af746c00f9fc9ee1c241b",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -511,7 +511,7 @@
       "info_updated": "2026-03-26T14:12:18",
       "event_name": "Rain Event March 2026",
       "detour_details": null,
-      "geometry": "LINESTRING (1634236.3872 6081960.3195, 1634235.3897 6081960.3896)"
+      "geometry": "LINESTRING (1634236.3871928994 6081960.3194642011, 1634235.3896189351 6081960.3896121308)"
     },
     {
       "road_id": "POWELL ROAD (DIGGERS VALLEY)",
@@ -530,7 +530,7 @@
       "info_updated": "2026-03-26T14:57:21",
       "event_name": "Rain Event March 2026",
       "detour_details": null,
-      "geometry": "LINESTRING (1622379.5332 6099009.4257, 1622379.6238 6099010.4025)"
+      "geometry": "LINESTRING (1622379.5332 6099009.4257, 1622379.6238324321 6099010.4024883965)"
     },
     {
       "road_id": "QUARRY ROAD (AWANUI)",
@@ -549,7 +549,7 @@
       "info_updated": "2026-03-26T15:03:08",
       "event_name": "Rain Event March 2026",
       "detour_details": null,
-      "geometry": "LINESTRING (1626311.6157 6117017.2511, 1626311.7379 6117016.2539)"
+      "geometry": "LINESTRING (1626311.6156759295 6117017.2511731749, 1626311.7378490514 6117016.25395673)"
     },
     {
       "road_id": "PAWARENGA ROAD",
@@ -568,7 +568,7 @@
       "info_updated": "2026-03-26T15:05:22",
       "event_name": "Rain Event March 2026",
       "detour_details": null,
-      "geometry": "LINESTRING (1630408.3858 6091263.318, 1630407.9864 6091262.4009)"
+      "geometry": "LINESTRING (1630408.3858960855 6091263.3182147462, 1630407.9864492069 6091262.401064015)"
     },
     {
       "road_id": "TAKAHUE ROAD",
@@ -587,7 +587,7 @@
       "info_updated": "2026-03-26T15:09:55",
       "event_name": "Rain Event March 2026",
       "detour_details": null,
-      "geometry": "LINESTRING (1631531.8244 6106261.0457, 1631531.6224 6106260.0587)"
+      "geometry": "LINESTRING (1631531.8244463878 6106261.0457574455, 1631531.6224657665 6106260.0588564156)"
     },
     {
       "road_id": "KAITAIA-AWAROA ROAD",
@@ -606,7 +606,7 @@
       "info_updated": "2026-03-26T15:22:47",
       "event_name": "Rain Event March 2026",
       "detour_details": null,
-      "geometry": "LINESTRING (1616487.6048 6105718.0895, 1616487.887 6105717.1313)"
+      "geometry": "LINESTRING (1616487.604797798 6105718.0894693192, 1616487.886984925 6105717.13123625)"
     }
   ]
 }
