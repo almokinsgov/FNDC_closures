@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T22:19:10.402Z",
-    "pulledAtLocal": "2026-03-27T11:19:10",
+    "pulledAtUtc": "2026-03-26T22:20:09.788Z",
+    "pulledAtLocal": "2026-03-27T11:20:09",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 16,
+    "rowCount": 15,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "cc9688eeec589f75ef6d3c55958fd2a77c46a3c702c540f2661919407823392a",
+    "contentHash": "3cb74dce3260f5fad7249082f7dd2e5d7e638999d3892dd99656edb91295c9e3",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -71,8 +71,8 @@
       "total": 375,
       "afterCalculationColumns": 375,
       "afterQuickActionFilter": 122,
-      "afterClosures": 16,
-      "afterPublicColumnProjection": 16
+      "afterClosures": 15,
+      "afterPublicColumnProjection": 15
     }
   },
   "data": [
@@ -189,25 +189,6 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "LINESTRING (1622379.5332 6099009.4257, 1622379.6238324321 6099010.4024883965)"
-    },
-    {
-      "road_id": "WEST COAST ROAD (KOHUKOHU)",
-      "s_datetime": "2026-03-26T15:40:31",
-      "e_datetime": null,
-      "type": "Unplanned",
-      "cause": "Overslip",
-      "detour": false,
-      "c_description": "Overslip blocking both lanes near Mihirau Rd",
-      "road_status": "Road Closed",
-      "notes": null,
-      "added_on": "2026-03-26T00:00:00",
-      "easting": null,
-      "northing": null,
-      "info_source": "Public",
-      "info_updated": "2026-03-26T15:40:31",
-      "event_name": "Rain Event March 2026",
-      "detour_details": null,
-      "geometry": "LINESTRING (1635583.5526020292 6086386.9827169105, 1635583.1184306652 6086386.0796222091)"
     },
     {
       "road_id": "KAIAWE ROAD",
