@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T02:59:08.329Z",
-    "pulledAtLocal": "2026-03-26T15:59:08",
+    "pulledAtUtc": "2026-03-26T03:00:08.209Z",
+    "pulledAtLocal": "2026-03-26T16:00:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 27,
+    "rowCount": 26,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "3e1c141132b25a7f9c2d5e702eabdd84a8778affe3dd6b623c8553547a1a43ff",
+    "contentHash": "32d33b889c42ce18b0092bf33f5b40936a70da95754a0cfe9048b4670493f65a",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -68,11 +68,11 @@
       }
     },
     "filterCounts": {
-      "total": 358,
-      "afterCalculationColumns": 358,
-      "afterQuickActionFilter": 118,
-      "afterClosures": 27,
-      "afterPublicColumnProjection": 27
+      "total": 357,
+      "afterCalculationColumns": 357,
+      "afterQuickActionFilter": 117,
+      "afterClosures": 26,
+      "afterPublicColumnProjection": 26
     }
   },
   "data": [
@@ -550,25 +550,6 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "LINESTRING (1631531.8244463878 6106261.0457574455, 1631531.6224657665 6106260.0588564156)"
-    },
-    {
-      "road_id": "KAITAIA-AWAROA ROAD",
-      "s_datetime": "2026-03-26T15:22:47",
-      "e_datetime": null,
-      "type": "Unplanned",
-      "cause": "Underslip",
-      "detour": false,
-      "c_description": "Location TBC",
-      "road_status": "Road Closed",
-      "notes": "Before the 2nd bridge heading south. Any heavy vehicle the road will crack and fall.",
-      "added_on": "2026-03-26T00:00:00",
-      "easting": null,
-      "northing": null,
-      "info_source": "Public",
-      "info_updated": "2026-03-26T15:22:47",
-      "event_name": "Rain Event March 2026",
-      "detour_details": null,
-      "geometry": "LINESTRING (1616487.604797798 6105718.0894693192, 1616487.886984925 6105717.13123625)"
     },
     {
       "road_id": "WEST COAST ROAD (KOHUKOHU)",
