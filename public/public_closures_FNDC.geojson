@@ -907,6 +907,35 @@
         ]
       },
       "id": 396
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "RUNARUNA ROAD",
+        "s_datetime": "2026-03-26T20:16:58",
+        "e_datetime": null,
+        "type": "Unplanned",
+        "cause": "Landslide",
+        "detour": false,
+        "c_description": "Overslip blocking the road",
+        "road_status": "Road Closed",
+        "notes": null,
+        "added_on": "2026-03-26T00:00:00",
+        "easting": 1633388.3167,
+        "northing": 6088789.138,
+        "info_source": "Public",
+        "info_updated": "2026-03-26T20:16:58",
+        "event_name": "Storm Event Next XXXX",
+        "detour_details": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.36743448928794,
+          -35.3436076648448
+        ]
+      },
+      "id": 397
     }
   ]
 }
