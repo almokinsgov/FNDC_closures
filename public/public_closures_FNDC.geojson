@@ -643,7 +643,7 @@
         "type": "Unplanned",
         "cause": "Fallen Tree",
         "detour": false,
-        "c_description": "Tree blocking both lanes - location TBC.",
+        "c_description": "Tree blocking both lanes on blind corner.",
         "road_status": "Road Closed",
         "notes": null,
         "added_on": "2026-03-26T00:00:00",
