@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T19:01:10.617Z",
-    "pulledAtLocal": "2026-03-27T08:01:10",
+    "pulledAtUtc": "2026-03-26T19:02:09.414Z",
+    "pulledAtLocal": "2026-03-27T08:02:09",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 20,
+    "rowCount": 22,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "fec137cb9a807c48db6cc44484777b7bd573b773d59441aef74e58b1c860f611",
+    "contentHash": "d3d3c745729283ffaa23d8ad98c9271d243f995d2fc84ee9e78833b6d05603d5",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -68,11 +68,11 @@
       }
     },
     "filterCounts": {
-      "total": 364,
-      "afterCalculationColumns": 364,
-      "afterQuickActionFilter": 113,
-      "afterClosures": 20,
-      "afterPublicColumnProjection": 20
+      "total": 366,
+      "afterCalculationColumns": 366,
+      "afterQuickActionFilter": 115,
+      "afterClosures": 22,
+      "afterPublicColumnProjection": 22
     }
   },
   "data": [
@@ -455,6 +455,44 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "LINESTRING (1634692.141595393 6128640.9863931946, 1634692.1067370267 6128641.9835325079)"
+    },
+    {
+      "road_id": "HOOKS AND HALLS ROAD",
+      "s_datetime": "2026-03-27T07:58:11",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Flooding",
+      "detour": false,
+      "c_description": "flooding, trees and debris caught on and under bridge deck.",
+      "road_status": "Road Closed",
+      "notes": null,
+      "added_on": "2026-03-27T00:00:00",
+      "easting": 1641764.3307,
+      "northing": 6065146.5337,
+      "info_source": "Public",
+      "info_updated": "2026-03-27T07:58:11",
+      "event_name": "Rain Event March 2026",
+      "detour_details": null,
+      "geometry": "POINT (1641764.33067709 6065146.53366241)"
+    },
+    {
+      "road_id": "WEST COAST ROAD (KOHUKOHU)",
+      "s_datetime": "2026-03-27T08:01:12",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Fallen Tree",
+      "detour": false,
+      "c_description": "Tree blocking both lanes",
+      "road_status": "Road Closed",
+      "notes": null,
+      "added_on": "2026-03-27T00:00:00",
+      "easting": null,
+      "northing": null,
+      "info_source": "Public",
+      "info_updated": "2026-03-27T08:01:12",
+      "event_name": "Rain Event March 2026",
+      "detour_details": null,
+      "geometry": "LINESTRING (1626185.2227 6078243.6327, 1626184.4205 6078243.9744, 1626184.2324 6078244.0545)"
     }
   ]
 }
