@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T22:54:10.770Z",
-    "pulledAtLocal": "2026-03-27T11:54:10",
+    "pulledAtUtc": "2026-03-26T22:55:08.831Z",
+    "pulledAtLocal": "2026-03-27T11:55:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 13,
+    "rowCount": 12,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "e7c5bfbdca1c4788de9247d293b7d2f0acb64b7bf3dc4fbeb2d1c09a5ceecdae",
+    "contentHash": "31be1b4f33806b068f453fbf5724d1edc5a81b145218ec2af8c23082950f47cd",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -71,8 +71,8 @@
       "total": 376,
       "afterCalculationColumns": 376,
       "afterQuickActionFilter": 120,
-      "afterClosures": 13,
-      "afterPublicColumnProjection": 13
+      "afterClosures": 12,
+      "afterPublicColumnProjection": 12
     }
   },
   "data": [
@@ -170,25 +170,6 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "LINESTRING (1622379.5332 6099009.4257, 1622379.6238324321 6099010.4024883965)"
-    },
-    {
-      "road_id": "KAIAWE ROAD",
-      "s_datetime": "2026-03-26T17:39:10",
-      "e_datetime": null,
-      "type": "Unplanned",
-      "cause": "Flooding",
-      "detour": false,
-      "c_description": "Flooding and road above culvert has washed out",
-      "road_status": "Road Closed",
-      "notes": null,
-      "added_on": "2026-03-26T00:00:00",
-      "easting": null,
-      "northing": null,
-      "info_source": "Public",
-      "info_updated": "2026-03-26T17:39:10",
-      "event_name": "Rain Event March 2026",
-      "detour_details": null,
-      "geometry": "LINESTRING (1626374.6273617717 6110434.9634575248, 1626375.6049244609 6110435.1794601064)"
     },
     {
       "road_id": "RUNARUNA ROAD",
