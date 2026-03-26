@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T19:43:08.473Z",
-    "pulledAtLocal": "2026-03-27T08:43:08",
+    "pulledAtUtc": "2026-03-26T19:44:10.579Z",
+    "pulledAtLocal": "2026-03-27T08:44:10",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 22,
+    "rowCount": 21,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "770d3062eb50e310286fce5f03bf72a8a4f315641ce49e85b4e4150d890dd4d0",
+    "contentHash": "a75f8ed6effa4c5bf578e993c7b79fb762efac8f4b49f369d5b0a0937c090d94",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -71,8 +71,8 @@
       "total": 370,
       "afterCalculationColumns": 370,
       "afterQuickActionFilter": 118,
-      "afterClosures": 22,
-      "afterPublicColumnProjection": 22
+      "afterClosures": 21,
+      "afterPublicColumnProjection": 21
     }
   },
   "data": [
@@ -227,25 +227,6 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "POINT (1624069.22095517 6101387.06421519)"
-    },
-    {
-      "road_id": "WELLS ROAD",
-      "s_datetime": "2026-03-26T12:08:37",
-      "e_datetime": null,
-      "type": "Unplanned",
-      "cause": "Flooding",
-      "detour": false,
-      "c_description": "Flood Prone Area",
-      "road_status": "Road Closed",
-      "notes": null,
-      "added_on": "2026-03-26T00:00:00",
-      "easting": 1638812.9213,
-      "northing": 6114748.7674,
-      "info_source": "Public",
-      "info_updated": "2026-03-26T12:08:37",
-      "event_name": "Rain Event March 2026",
-      "detour_details": null,
-      "geometry": "POINT (1638812.92131683 6114748.76739172)"
     },
     {
       "road_id": "WHANGAPE ROAD",
