@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T23:12:10.383Z",
-    "pulledAtLocal": "2026-03-27T12:12:10",
+    "pulledAtUtc": "2026-03-26T23:13:10.351Z",
+    "pulledAtLocal": "2026-03-27T12:13:10",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 11,
+    "rowCount": 10,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "46d8f579c572df6048148b55e75482a8e3965ae777bcdc776c185643ec13dea6",
+    "contentHash": "ce2e711d5daae667c597d33dca18bcd1b74755ac866d82b6e4f9671690ea9ef9",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -71,8 +71,8 @@
       "total": 376,
       "afterCalculationColumns": 376,
       "afterQuickActionFilter": 118,
-      "afterClosures": 11,
-      "afterPublicColumnProjection": 11
+      "afterClosures": 10,
+      "afterPublicColumnProjection": 10
     }
   },
   "data": [
@@ -132,25 +132,6 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "POINT (1624069.22095517 6101387.06421519)"
-    },
-    {
-      "road_id": "WHANGAPE ROAD",
-      "s_datetime": "2026-03-26T14:08:30",
-      "e_datetime": null,
-      "type": "Unplanned",
-      "cause": "Overslip",
-      "detour": false,
-      "c_description": "Slip blocking both lanes",
-      "road_status": "Road Closed",
-      "notes": null,
-      "added_on": "2026-03-26T00:00:00",
-      "easting": null,
-      "northing": null,
-      "info_source": "Public",
-      "info_updated": "2026-03-26T14:08:30",
-      "event_name": "Rain Event March 2026",
-      "detour_details": null,
-      "geometry": "LINESTRING (1619549.8529989496 6090798.4626549128, 1619550.5582252496 6090797.7571592666)"
     },
     {
       "road_id": "POWELL ROAD (DIGGERS VALLEY)",
