@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T19:02:09.414Z",
-    "pulledAtLocal": "2026-03-27T08:02:09",
+    "pulledAtUtc": "2026-03-26T19:03:10.582Z",
+    "pulledAtLocal": "2026-03-27T08:03:10",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "d3d3c745729283ffaa23d8ad98c9271d243f995d2fc84ee9e78833b6d05603d5",
+    "contentHash": "de96cc4cf33f3a5bd161413040c25bc160fbf60ce4b29efda0a107cf8551b4b8",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -480,9 +480,9 @@
       "s_datetime": "2026-03-27T08:01:12",
       "e_datetime": null,
       "type": "Unplanned",
-      "cause": "Fallen Tree",
+      "cause": "Overslip",
       "detour": false,
-      "c_description": "Tree blocking both lanes",
+      "c_description": "Overslip with fallen tree blocking both lanes",
       "road_status": "Road Closed",
       "notes": null,
       "added_on": "2026-03-27T00:00:00",
