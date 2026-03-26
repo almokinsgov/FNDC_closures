@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T19:31:10.747Z",
-    "pulledAtLocal": "2026-03-27T08:31:10",
+    "pulledAtUtc": "2026-03-26T19:32:10.619Z",
+    "pulledAtLocal": "2026-03-27T08:32:10",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 22,
+    "rowCount": 23,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "e7bf18e33f18ab8cd904c2543530e8d5241ce4a5bedd66f9574ce45f3ced8010",
+    "contentHash": "16bf73f8a737232a0deda4cf9bfc8d160928f1b847191fa95ef2eb82fc140cc7",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -68,11 +68,11 @@
       }
     },
     "filterCounts": {
-      "total": 369,
-      "afterCalculationColumns": 369,
-      "afterQuickActionFilter": 117,
-      "afterClosures": 22,
-      "afterPublicColumnProjection": 22
+      "total": 370,
+      "afterCalculationColumns": 370,
+      "afterQuickActionFilter": 118,
+      "afterClosures": 23,
+      "afterPublicColumnProjection": 23
     }
   },
   "data": [
@@ -493,6 +493,25 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "POINT (1645806.10467849 6064446.80443456)"
+    },
+    {
+      "road_id": "SIMPSON ROAD (TAKAHUE)",
+      "s_datetime": "2026-03-27T08:30:18",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Overslip",
+      "detour": false,
+      "c_description": "Slip blocking road.",
+      "road_status": "Road Closed",
+      "notes": "Location TBC.  Road blocked by slip.",
+      "added_on": "2026-03-27T00:00:00",
+      "easting": null,
+      "northing": null,
+      "info_source": "Public",
+      "info_updated": "2026-03-27T08:30:18",
+      "event_name": "Rain Event March 2026",
+      "detour_details": null,
+      "geometry": "LINESTRING (1629945.052 6107661.2288, 1629945.0839 6107660.2601)"
     }
   ]
 }
