@@ -653,6 +653,74 @@
         ]
       },
       "id": 399
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "HOOKS AND HALLS ROAD",
+        "s_datetime": "2026-03-27T07:58:11",
+        "e_datetime": null,
+        "type": "Unplanned",
+        "cause": "Flooding",
+        "detour": false,
+        "c_description": "flooding, trees and debris caught on and under bridge deck.",
+        "road_status": "Road Closed",
+        "notes": null,
+        "added_on": "2026-03-27T00:00:00",
+        "easting": 1641764.3307,
+        "northing": 6065146.5337,
+        "info_source": "Public",
+        "info_updated": "2026-03-27T07:58:11",
+        "event_name": "Rain Event March 2026",
+        "detour_details": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.46082284501247,
+          -35.55646537571204
+        ]
+      },
+      "id": 402
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "WEST COAST ROAD (KOHUKOHU)",
+        "s_datetime": "2026-03-27T08:01:12",
+        "e_datetime": null,
+        "type": "Unplanned",
+        "cause": "Fallen Tree",
+        "detour": false,
+        "c_description": "Tree blocking both lanes",
+        "road_status": "Road Closed",
+        "notes": null,
+        "added_on": "2026-03-27T00:00:00",
+        "easting": null,
+        "northing": null,
+        "info_source": "Public",
+        "info_updated": "2026-03-27T08:01:12",
+        "event_name": "Rain Event March 2026",
+        "detour_details": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            173.28850474502994,
+            -35.43890873498098
+          ],
+          [
+            173.28849589562248,
+            -35.438905675102525
+          ],
+          [
+            173.2884938206126,
+            -35.438904957818856
+          ]
+        ]
+      },
+      "id": 403
     }
   ]
 }
