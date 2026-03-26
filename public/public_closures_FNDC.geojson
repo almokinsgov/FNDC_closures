@@ -878,6 +878,35 @@
         ]
       },
       "id": 395
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "LARMER ROAD",
+        "s_datetime": "2026-03-26T20:09:04",
+        "e_datetime": null,
+        "type": "Unplanned",
+        "cause": "Flooding",
+        "detour": true,
+        "c_description": "Flood Prone area",
+        "road_status": "Road Closed",
+        "notes": null,
+        "added_on": "2026-03-26T00:00:00",
+        "easting": 1626186.9754,
+        "northing": 6113092.0266,
+        "info_source": "Contractor",
+        "info_updated": "2026-03-26T20:09:04",
+        "event_name": "Storm Event Next XXXX",
+        "detour_details": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.28741159325097,
+          -35.124683953943986
+        ]
+      },
+      "id": 396
     }
   ]
 }
