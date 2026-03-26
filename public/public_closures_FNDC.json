@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T01:06:10.311Z",
-    "pulledAtLocal": "2026-03-26T14:06:10",
+    "pulledAtUtc": "2026-03-26T01:07:10.144Z",
+    "pulledAtLocal": "2026-03-26T14:07:10",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -68,9 +68,9 @@
       }
     },
     "filterCounts": {
-      "total": 339,
-      "afterCalculationColumns": 339,
-      "afterQuickActionFilter": 101,
+      "total": 340,
+      "afterCalculationColumns": 340,
+      "afterQuickActionFilter": 102,
       "afterClosures": 21,
       "afterPublicColumnProjection": 21
     }
