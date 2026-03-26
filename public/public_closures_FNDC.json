@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T21:02:08.717Z",
-    "pulledAtLocal": "2026-03-27T10:02:08",
+    "pulledAtUtc": "2026-03-26T21:03:10.393Z",
+    "pulledAtLocal": "2026-03-27T10:03:10",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 17,
+    "rowCount": 16,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "383fbb97a0746159ec736eed49337c323c9f0ed8f1bd0d3deba6033bbf514dc1",
+    "contentHash": "63ef977b1d33634970ee09ee1c17c115f7a4058aa71f61605ef80763e2ed46a7",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -70,9 +70,9 @@
     "filterCounts": {
       "total": 374,
       "afterCalculationColumns": 374,
-      "afterQuickActionFilter": 122,
-      "afterClosures": 17,
-      "afterPublicColumnProjection": 17
+      "afterQuickActionFilter": 121,
+      "afterClosures": 16,
+      "afterPublicColumnProjection": 16
     }
   },
   "data": [
@@ -208,25 +208,6 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "LINESTRING (1622379.5332 6099009.4257, 1622379.6238324321 6099010.4024883965)"
-    },
-    {
-      "road_id": "QUARRY ROAD (AWANUI)",
-      "s_datetime": "2026-03-26T15:03:08",
-      "e_datetime": null,
-      "type": "Unplanned",
-      "cause": "Flooding",
-      "detour": true,
-      "c_description": "Road Flooded",
-      "road_status": "Road Closed",
-      "notes": "Flood prone area",
-      "added_on": "2026-03-26T00:00:00",
-      "easting": null,
-      "northing": null,
-      "info_source": "Public",
-      "info_updated": "2026-03-26T15:03:08",
-      "event_name": "Rain Event March 2026",
-      "detour_details": null,
-      "geometry": "LINESTRING (1626311.6156759295 6117017.2511731749, 1626311.7378490514 6117016.25395673)"
     },
     {
       "road_id": "WEST COAST ROAD (KOHUKOHU)",
