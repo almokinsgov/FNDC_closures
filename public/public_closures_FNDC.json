@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T20:24:10.477Z",
-    "pulledAtLocal": "2026-03-27T09:24:10",
+    "pulledAtUtc": "2026-03-26T20:25:08.312Z",
+    "pulledAtLocal": "2026-03-27T09:25:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 20,
+    "rowCount": 19,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "c24c22716fe2fd167fcdeed28ca209d2a1cdab53540d75fa5ce4714473d907b4",
+    "contentHash": "e14abe48be208364c64706267b7c8984252724c4a26c238b264516f42c5f60f1",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -71,8 +71,8 @@
       "total": 374,
       "afterCalculationColumns": 374,
       "afterQuickActionFilter": 122,
-      "afterClosures": 20,
-      "afterPublicColumnProjection": 20
+      "afterClosures": 19,
+      "afterPublicColumnProjection": 19
     }
   },
   "data": [
@@ -170,25 +170,6 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "LINESTRING (1649522.6888 6125612.0528, 1649521.7637736974 6125611.4036988607)"
-    },
-    {
-      "road_id": "BACKRIVER ROAD",
-      "s_datetime": "2026-03-26T10:35:44",
-      "e_datetime": null,
-      "type": "Unplanned",
-      "cause": "Flooding",
-      "detour": false,
-      "c_description": "Flood Prone area",
-      "road_status": "Road Closed",
-      "notes": null,
-      "added_on": "2026-03-26T00:00:00",
-      "easting": 1645298.9762,
-      "northing": 6122342.1102,
-      "info_source": "Public",
-      "info_updated": "2026-03-26T10:35:44",
-      "event_name": "Rain Event March 2026",
-      "detour_details": null,
-      "geometry": "POINT (1645298.97621548 6122342.1101895)"
     },
     {
       "road_id": "DIGGERS VALLEY ROAD",
