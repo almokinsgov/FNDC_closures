@@ -40,35 +40,6 @@
     {
       "type": "Feature",
       "properties": {
-        "road_id": "KOHUMARU ROAD",
-        "s_datetime": "2026-03-26T08:14:43",
-        "e_datetime": null,
-        "type": "Unplanned",
-        "cause": "Flooding",
-        "detour": false,
-        "c_description": "Flood prone area",
-        "road_status": "Road Closed",
-        "notes": null,
-        "added_on": "2026-03-26T00:00:00",
-        "easting": 1646999.157,
-        "northing": 6116625.6551,
-        "info_source": "Public",
-        "info_updated": "2026-03-26T08:14:43",
-        "event_name": "Rain Event March 2026",
-        "detour_details": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          173.51562573266438,
-          -35.09206467068873
-        ]
-      },
-      "id": 333
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "road_id": "PARANUI ROAD",
         "s_datetime": "2026-03-26T08:27:37",
         "e_datetime": null,
@@ -759,12 +730,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            173.39169688852127,
-            -35.36519133311024
+            173.39169688526238,
+            -35.36519133747674
           ],
           [
-            173.39169214836127,
-            -35.36519949066856
+            173.3916921454217,
+            -35.36519949588792
           ]
         ]
       },
@@ -916,12 +887,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            173.38010703518074,
-            -34.98421918649129
+            173.3801070351139,
+            -34.9842191829459
           ],
           [
-            173.38010661234523,
-            -34.98421019656884
+            173.38010661163725,
+            -34.98421019267096
           ]
         ]
       },
