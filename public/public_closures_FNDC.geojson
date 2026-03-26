@@ -847,6 +847,41 @@
     {
       "type": "Feature",
       "properties": {
+        "road_id": "TAKAHUE ROAD",
+        "s_datetime": "2026-03-26T15:09:55",
+        "e_datetime": null,
+        "type": "Unplanned",
+        "cause": "Overslip",
+        "detour": false,
+        "c_description": "Overslip in Gorge beween Crene Rd and Bridge",
+        "road_status": "Road Closed",
+        "notes": "Location and status TBC.  Tree and slip blocking road.",
+        "added_on": "2026-03-26T00:00:00",
+        "easting": null,
+        "northing": null,
+        "info_source": "Public",
+        "info_updated": "2026-03-26T15:09:55",
+        "event_name": "Rain Event March 2026",
+        "detour_details": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            173.3463333259857,
+            -35.1861259226572
+          ],
+          [
+            173.34633114509188,
+            -35.186134828779664
+          ]
+        ]
+      },
+      "id": 389
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "road_id": "KAITAIA-AWAROA ROAD",
         "s_datetime": "2026-03-26T15:22:47",
         "e_datetime": null,
