@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T18:42:08.397Z",
-    "pulledAtLocal": "2026-03-27T07:42:08",
+    "pulledAtUtc": "2026-03-26T18:43:10.484Z",
+    "pulledAtLocal": "2026-03-27T07:43:10",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 23,
+    "rowCount": 22,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "4bc06b5c4080fb15f5e59a62c4da1b035654df38798efc2c6db4bee59fdf5197",
+    "contentHash": "2560849eb9a8e1202f5aeab2baffdc29715808ed185cceb83472eb0f7fc5b2c5",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -70,9 +70,9 @@
     "filterCounts": {
       "total": 364,
       "afterCalculationColumns": 364,
-      "afterQuickActionFilter": 116,
-      "afterClosures": 23,
-      "afterPublicColumnProjection": 23
+      "afterQuickActionFilter": 115,
+      "afterClosures": 22,
+      "afterPublicColumnProjection": 22
     }
   },
   "data": [
@@ -170,25 +170,6 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "LINESTRING (1649341.17000377 6104155.98530184, 1649332.09100453 6103744.78131202)"
-    },
-    {
-      "road_id": "DUNCAN ROAD (KAINGAROA)",
-      "s_datetime": "2026-03-26T09:28:32",
-      "e_datetime": null,
-      "type": "Unplanned",
-      "cause": "Flooding",
-      "detour": false,
-      "c_description": "Flood Prone area",
-      "road_status": "Road Closed",
-      "notes": null,
-      "added_on": "2026-03-26T00:00:00",
-      "easting": 1630929.575,
-      "northing": 6123150.7307,
-      "info_source": "Public",
-      "info_updated": "2026-03-26T09:28:32",
-      "event_name": "Rain Event March 2026",
-      "detour_details": null,
-      "geometry": "POINT (1630929.57504285 6123150.73067887)"
     },
     {
       "road_id": "BACKRIVER ROAD",
