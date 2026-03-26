@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T23:11:09.566Z",
-    "pulledAtLocal": "2026-03-27T12:11:09",
+    "pulledAtUtc": "2026-03-26T23:12:10.383Z",
+    "pulledAtLocal": "2026-03-27T12:12:10",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 12,
+    "rowCount": 11,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "31be1b4f33806b068f453fbf5724d1edc5a81b145218ec2af8c23082950f47cd",
+    "contentHash": "46d8f579c572df6048148b55e75482a8e3965ae777bcdc776c185643ec13dea6",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -70,9 +70,9 @@
     "filterCounts": {
       "total": 376,
       "afterCalculationColumns": 376,
-      "afterQuickActionFilter": 120,
-      "afterClosures": 12,
-      "afterPublicColumnProjection": 12
+      "afterQuickActionFilter": 118,
+      "afterClosures": 11,
+      "afterPublicColumnProjection": 11
     }
   },
   "data": [
@@ -227,25 +227,6 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "LINESTRING (1634692.141595393 6128640.9863931946, 1634692.1067370267 6128641.9835325079)"
-    },
-    {
-      "road_id": "WEST COAST ROAD (KOHUKOHU)",
-      "s_datetime": "2026-03-27T08:01:12",
-      "e_datetime": null,
-      "type": "Unplanned",
-      "cause": "Overslip",
-      "detour": false,
-      "c_description": "Overslip with fallen tree blocking both lanes",
-      "road_status": "Road Closed",
-      "notes": null,
-      "added_on": "2026-03-27T00:00:00",
-      "easting": null,
-      "northing": null,
-      "info_source": "Public",
-      "info_updated": "2026-03-27T08:01:12",
-      "event_name": "Rain Event March 2026",
-      "detour_details": null,
-      "geometry": "LINESTRING (1626185.2204435137 6078243.6336562866, 1626184.4205 6078243.9744)"
     },
     {
       "road_id": "SIMPSON ROAD (TAKAHUE)",
