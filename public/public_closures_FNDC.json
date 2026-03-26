@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T18:22:08.427Z",
-    "pulledAtLocal": "2026-03-27T07:22:08",
+    "pulledAtUtc": "2026-03-26T18:23:09.173Z",
+    "pulledAtLocal": "2026-03-27T07:23:09",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 26,
+    "rowCount": 25,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "33189681f11d56848a692c43318b1164503f6bafb93cc86c6d9b1cd3af491c78",
+    "contentHash": "dba409f6688e1a1432dc0fd42b8e771e516e4a3f1f1397ad585d4dbadb253832",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -70,9 +70,9 @@
     "filterCounts": {
       "total": 363,
       "afterCalculationColumns": 363,
-      "afterQuickActionFilter": 117,
-      "afterClosures": 26,
-      "afterPublicColumnProjection": 26
+      "afterQuickActionFilter": 116,
+      "afterClosures": 25,
+      "afterPublicColumnProjection": 25
     }
   },
   "data": [
@@ -170,25 +170,6 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "LINESTRING (1649341.17000377 6104155.98530184, 1649332.09100453 6103744.78131202)"
-    },
-    {
-      "road_id": "FISHER-RILEY ROAD",
-      "s_datetime": "2026-03-26T09:24:37",
-      "e_datetime": null,
-      "type": "Unplanned",
-      "cause": "Flooding",
-      "detour": false,
-      "c_description": "Flood Prone Area",
-      "road_status": "Road Closed",
-      "notes": null,
-      "added_on": "2026-03-26T00:00:00",
-      "easting": 1634032.493,
-      "northing": 6114662.9922,
-      "info_source": "Public",
-      "info_updated": "2026-03-26T09:24:37",
-      "event_name": "Rain Event March 2026",
-      "detour_details": null,
-      "geometry": "POINT (1634032.49297263 6114662.99224316)"
     },
     {
       "road_id": "DUNCAN ROAD (KAINGAROA)",
