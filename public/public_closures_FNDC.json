@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T19:55:09.216Z",
-    "pulledAtLocal": "2026-03-27T08:55:09",
+    "pulledAtUtc": "2026-03-26T19:56:08.795Z",
+    "pulledAtLocal": "2026-03-27T08:56:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 22,
+    "rowCount": 21,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "e1d83b57352df42c1c353bfa0e16eeaf4dd85a5966288fa5e22ba72041e76781",
+    "contentHash": "d5f834722eea31e61db18df2efb65d12d4c3f23475a0b5c20bed86b2bbc95633",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -71,8 +71,8 @@
       "total": 371,
       "afterCalculationColumns": 371,
       "afterQuickActionFilter": 119,
-      "afterClosures": 22,
-      "afterPublicColumnProjection": 22
+      "afterClosures": 21,
+      "afterPublicColumnProjection": 21
     }
   },
   "data": [
@@ -436,25 +436,6 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "LINESTRING (1626185.2204435137 6078243.6336562866, 1626184.4205 6078243.9744)"
-    },
-    {
-      "road_id": "WEKAWEKA ROAD",
-      "s_datetime": "2026-03-27T08:05:36",
-      "e_datetime": null,
-      "type": "Unplanned",
-      "cause": "Overslip",
-      "detour": false,
-      "c_description": "over slip - multiple at 2km beyond, closure",
-      "road_status": "Road Closed",
-      "notes": null,
-      "added_on": "2026-03-27T00:00:00",
-      "easting": 1645806.1047,
-      "northing": 6064446.8044,
-      "info_source": "Public",
-      "info_updated": "2026-03-27T08:05:36",
-      "event_name": "Rain Event March 2026",
-      "detour_details": null,
-      "geometry": "POINT (1645806.10467849 6064446.80443456)"
     },
     {
       "road_id": "SIMPSON ROAD (TAKAHUE)",
