@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T01:29:09.128Z",
-    "pulledAtLocal": "2026-03-26T14:29:09",
+    "pulledAtUtc": "2026-03-26T01:30:08.665Z",
+    "pulledAtLocal": "2026-03-26T14:30:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 23,
+    "rowCount": 24,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "17f9f5612f1ae18e5947b961c30e18f4c36f36b0810fd815172f044e0e04feca",
+    "contentHash": "5f9e391843cc092bd1979a3a5846e6f369d017edfc35d2ff813785fd77126c29",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -71,8 +71,8 @@
       "total": 342,
       "afterCalculationColumns": 342,
       "afterQuickActionFilter": 104,
-      "afterClosures": 23,
-      "afterPublicColumnProjection": 23
+      "afterClosures": 24,
+      "afterPublicColumnProjection": 24
     }
   },
   "data": [
@@ -474,6 +474,25 @@
       "event_name": "Rain Event March 2026",
       "detour_details": "",
       "geometry": "LINESTRING (1619763.7952 6125667.2161, 1619763.2349531811 6125667.7729007779)"
+    },
+    {
+      "road_id": "KERIKERI INLET ROAD",
+      "s_datetime": "2026-03-26T13:55:00",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Overslip",
+      "detour": false,
+      "c_description": "slip from embankment near forest access 1",
+      "road_status": "Road Closed",
+      "notes": "RFS 4293874, 4293873, 4293893, 4293894",
+      "added_on": "2026-03-26T00:00:00",
+      "easting": 1690265.5363,
+      "northing": 6102359.325,
+      "info_source": "Public",
+      "info_updated": "2026-03-26T13:55:00",
+      "event_name": "Rain Event March 2026",
+      "detour_details": null,
+      "geometry": "POINT (1690265.53629294 6102359.32502248)"
     },
     {
       "road_id": "WHANGAPE ROAD",
