@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T02:29:08.185Z",
-    "pulledAtLocal": "2026-03-26T15:29:08",
+    "pulledAtUtc": "2026-03-26T02:30:08.872Z",
+    "pulledAtLocal": "2026-03-26T15:30:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "38f4b6f2c19aba63916241f24e267b02bd673a98ae1d233263e547e580f2ebd5",
+    "contentHash": "20ddcecd5a3c63bfedd1eac77dae1dca163e586a9d0c105e91de404ea1739986",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -579,7 +579,7 @@
       "detour": false,
       "c_description": "Location TBC",
       "road_status": "Road Closed",
-      "notes": "Before the 2nd bridge heading south. Any heavy vehicle, the road will crack and fall.",
+      "notes": "Before the 2nd bridge heading south. Any heavy vehicle the road will crack and fall.",
       "added_on": "2026-03-26T00:00:00",
       "easting": null,
       "northing": null,
