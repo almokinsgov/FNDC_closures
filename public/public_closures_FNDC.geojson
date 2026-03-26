@@ -855,7 +855,7 @@
         "detour": false,
         "c_description": "Location TBC",
         "road_status": "Road Closed",
-        "notes": "Before the 2nd bridge heading south. Any heavy vehicle, the road will crack and fall.\nCustomer - 2260 Kaitaia Awaroa Road, Kaitaia",
+        "notes": "Before the 2nd bridge heading south. Any heavy vehicle, the road will crack and fall.",
         "added_on": "2026-03-26T00:00:00",
         "easting": null,
         "northing": null,
@@ -868,12 +868,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            173.2457846199915,
-            -35.140487550285656
+            173.18110538729132,
+            -35.19138161183498
           ],
           [
-            173.24578137136112,
-            -35.14049618273201
+            173.1811085062306,
+            -35.19139024739557
           ]
         ]
       },
