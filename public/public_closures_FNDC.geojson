@@ -296,35 +296,6 @@
     {
       "type": "Feature",
       "properties": {
-        "road_id": "WHANGAPE ROAD",
-        "s_datetime": "2026-03-26T11:55:51",
-        "e_datetime": null,
-        "type": "Unplanned",
-        "cause": "Flooding",
-        "detour": false,
-        "c_description": "Flood Prone Area",
-        "road_status": "Road Closed",
-        "notes": null,
-        "added_on": "2026-03-26T00:00:00",
-        "easting": 1618280.447,
-        "northing": 6094116.1593,
-        "info_source": "Public",
-        "info_updated": "2026-03-26T11:55:51",
-        "event_name": "Rain Event March 2026",
-        "detour_details": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          173.20105652291778,
-          -35.29596543119179
-        ]
-      },
-      "id": 367
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "road_id": "DIGGERS VALLEY ROAD",
         "s_datetime": "2026-03-26T11:58:27",
         "e_datetime": null,
