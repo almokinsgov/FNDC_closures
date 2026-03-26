@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T07:16:09.977Z",
-    "pulledAtLocal": "2026-03-26T20:16:09",
+    "pulledAtUtc": "2026-03-26T07:18:08.586Z",
+    "pulledAtLocal": "2026-03-26T20:18:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 28,
+    "rowCount": 29,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "439898c062cbc212ee9757505966fa000289e4022327e77b18cb69538eb2fdab",
+    "contentHash": "85426cb398e299eb1ec3800f9664694a284725087bf7a1e10472c94ac4f2bf48",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -68,11 +68,11 @@
       }
     },
     "filterCounts": {
-      "total": 359,
-      "afterCalculationColumns": 359,
-      "afterQuickActionFilter": 119,
-      "afterClosures": 28,
-      "afterPublicColumnProjection": 28
+      "total": 360,
+      "afterCalculationColumns": 360,
+      "afterQuickActionFilter": 120,
+      "afterClosures": 29,
+      "afterPublicColumnProjection": 29
     }
   },
   "data": [
@@ -607,6 +607,25 @@
       "event_name": "Storm Event Next XXXX",
       "detour_details": null,
       "geometry": "POINT (1626186.9753736 6113092.02664353)"
+    },
+    {
+      "road_id": "RUNARUNA ROAD",
+      "s_datetime": "2026-03-26T20:16:58",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Landslide",
+      "detour": false,
+      "c_description": "Overslip blocking the road",
+      "road_status": "Road Closed",
+      "notes": null,
+      "added_on": "2026-03-26T00:00:00",
+      "easting": 1633388.3167,
+      "northing": 6088789.138,
+      "info_source": "Public",
+      "info_updated": "2026-03-26T20:16:58",
+      "event_name": "Storm Event Next XXXX",
+      "detour_details": null,
+      "geometry": "POINT (1633388.31671925 6088789.1379932)"
     }
   ]
 }
