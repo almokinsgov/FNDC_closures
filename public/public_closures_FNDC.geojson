@@ -290,41 +290,6 @@
     {
       "type": "Feature",
       "properties": {
-        "road_id": "DUNCAN ROAD (KAINGAROA)",
-        "s_datetime": "2026-03-26T10:02:00",
-        "e_datetime": null,
-        "type": "Unplanned",
-        "cause": "Flooding",
-        "detour": false,
-        "c_description": "Flood prone area",
-        "road_status": "Road Closed",
-        "notes": "Flooding",
-        "added_on": "2026-03-26T00:00:00",
-        "easting": 1629775.9545,
-        "northing": 6123791.5265,
-        "info_source": "Public",
-        "info_updated": "2026-03-26T10:02:00",
-        "event_name": "Rain Event March 2026",
-        "detour_details": null
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            173.3264251883301,
-            -35.02811041248968
-          ],
-          [
-            173.3264303376347,
-            -35.028113908001686
-          ]
-        ]
-      },
-      "id": 351
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "road_id": "BACKRIVER ROAD",
         "s_datetime": "2026-03-26T10:04:43",
         "e_datetime": null,
