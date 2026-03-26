@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T02:28:08.384Z",
-    "pulledAtLocal": "2026-03-26T15:28:08",
+    "pulledAtUtc": "2026-03-26T02:29:08.185Z",
+    "pulledAtLocal": "2026-03-26T15:29:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "7d1ef0c59d7cbf77b02e057b20757178bf8ea944bb2dad25ee2b3f72489f3665",
+    "contentHash": "38f4b6f2c19aba63916241f24e267b02bd673a98ae1d233263e547e580f2ebd5",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -579,7 +579,7 @@
       "detour": false,
       "c_description": "Location TBC",
       "road_status": "Road Closed",
-      "notes": "Before the 2nd bridge heading south. Any heavy vehicle, the road will crack and fall.\nCustomer - 2260 Kaitaia Awaroa Road, Kaitaia",
+      "notes": "Before the 2nd bridge heading south. Any heavy vehicle, the road will crack and fall.",
       "added_on": "2026-03-26T00:00:00",
       "easting": null,
       "northing": null,
@@ -587,7 +587,7 @@
       "info_updated": "2026-03-26T15:22:47",
       "event_name": "Rain Event March 2026",
       "detour_details": null,
-      "geometry": "LINESTRING (1622389.8756 6111349.5779, 1622389.5773 6111348.6213)"
+      "geometry": "LINESTRING (1616487.6048 6105718.0895, 1616487.887 6105717.1313)"
     }
   ]
 }
