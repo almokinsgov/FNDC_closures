@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T00:09:08.293Z",
-    "pulledAtLocal": "2026-03-26T13:09:08",
+    "pulledAtUtc": "2026-03-26T00:10:08.918Z",
+    "pulledAtLocal": "2026-03-26T13:10:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 19,
+    "rowCount": 20,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "af9a1e3c7d06c745ae08a719b55d1a8e7cfa5e57ab50168813da2d06328eeea7",
+    "contentHash": "ca61bfe1b6d1963694eee460474b4f48be35f9934e7028b46433dd0739dfd7f3",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -68,11 +68,11 @@
       }
     },
     "filterCounts": {
-      "total": 334,
-      "afterCalculationColumns": 334,
-      "afterQuickActionFilter": 96,
-      "afterClosures": 19,
-      "afterPublicColumnProjection": 19
+      "total": 335,
+      "afterCalculationColumns": 335,
+      "afterQuickActionFilter": 97,
+      "afterClosures": 20,
+      "afterPublicColumnProjection": 20
     }
   },
   "data": [
@@ -436,6 +436,25 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "POINT (1638812.92131683 6114748.76739172)"
+    },
+    {
+      "road_id": "WAIAUA ROAD",
+      "s_datetime": "2026-03-26T13:08:18",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Fallen Tree",
+      "detour": false,
+      "c_description": "Tree has fallen blocking both lanes - crew dispatched.",
+      "road_status": "Road Closed",
+      "notes": null,
+      "added_on": "2026-03-26T00:00:00",
+      "easting": null,
+      "northing": null,
+      "info_source": "Public",
+      "info_updated": "2026-03-26T13:08:18",
+      "event_name": "Rain Event March 2026",
+      "detour_details": null,
+      "geometry": "LINESTRING (1649193.6557 6130326.8126, 1649192.8465 6130327.3271)"
     }
   ]
 }
