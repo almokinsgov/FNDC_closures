@@ -587,41 +587,6 @@
     {
       "type": "Feature",
       "properties": {
-        "road_id": "TAKAHUE ROAD",
-        "s_datetime": "2026-03-26T15:09:55",
-        "e_datetime": null,
-        "type": "Unplanned",
-        "cause": "Overslip",
-        "detour": false,
-        "c_description": "Overslip in Gorge beween Crene Rd and Bridge",
-        "road_status": "Road Closed",
-        "notes": "Location and status TBC.  Tree and slip blocking road.",
-        "added_on": "2026-03-26T00:00:00",
-        "easting": null,
-        "northing": null,
-        "info_source": "Public",
-        "info_updated": "2026-03-26T15:09:55",
-        "event_name": "Rain Event March 2026",
-        "detour_details": null
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            173.34633332649304,
-            -35.18612592213775
-          ],
-          [
-            173.34633114580825,
-            -35.186134827367205
-          ]
-        ]
-      },
-      "id": 389
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "road_id": "WEST COAST ROAD (KOHUKOHU)",
         "s_datetime": "2026-03-26T15:40:31",
         "e_datetime": null,
@@ -688,35 +653,6 @@
         ]
       },
       "id": 395
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "road_id": "LARMER ROAD",
-        "s_datetime": "2026-03-26T20:09:04",
-        "e_datetime": null,
-        "type": "Unplanned",
-        "cause": "Flooding",
-        "detour": true,
-        "c_description": "Flood Prone area",
-        "road_status": "Road Closed",
-        "notes": null,
-        "added_on": "2026-03-26T00:00:00",
-        "easting": 1626186.9754,
-        "northing": 6113092.0266,
-        "info_source": "Contractor",
-        "info_updated": "2026-03-26T20:09:04",
-        "event_name": "Storm Event Next XXXX",
-        "detour_details": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          173.28741159325097,
-          -35.124683953943986
-        ]
-      },
-      "id": 396
     },
     {
       "type": "Feature",
