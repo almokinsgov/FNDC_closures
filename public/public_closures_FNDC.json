@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T20:25:08.312Z",
-    "pulledAtLocal": "2026-03-27T09:25:08",
+    "pulledAtUtc": "2026-03-26T20:26:10.746Z",
+    "pulledAtLocal": "2026-03-27T09:26:10",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 19,
+    "rowCount": 18,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "e14abe48be208364c64706267b7c8984252724c4a26c238b264516f42c5f60f1",
+    "contentHash": "86acb3133c67eb01465fc5b403c435a6dab117fef96373a7ab119f2b8e8c2cbc",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -71,8 +71,8 @@
       "total": 374,
       "afterCalculationColumns": 374,
       "afterQuickActionFilter": 122,
-      "afterClosures": 19,
-      "afterPublicColumnProjection": 19
+      "afterClosures": 18,
+      "afterPublicColumnProjection": 18
     }
   },
   "data": [
@@ -151,25 +151,6 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "LINESTRING (1649341.17000377 6104155.98530184, 1649332.09100453 6103744.78131202)"
-    },
-    {
-      "road_id": "BACKRIVER ROAD",
-      "s_datetime": "2026-03-26T10:04:43",
-      "e_datetime": null,
-      "type": "Unplanned",
-      "cause": "Flooding",
-      "detour": false,
-      "c_description": "Flood Prone Area",
-      "road_status": "Road Closed",
-      "notes": "Flooding - at both ends of road",
-      "added_on": "2026-03-26T00:00:00",
-      "easting": null,
-      "northing": null,
-      "info_source": "Public",
-      "info_updated": "2026-03-26T10:04:43",
-      "event_name": "Rain Event March 2026",
-      "detour_details": null,
-      "geometry": "LINESTRING (1649522.6888 6125612.0528, 1649521.7637736974 6125611.4036988607)"
     },
     {
       "road_id": "DIGGERS VALLEY ROAD",
