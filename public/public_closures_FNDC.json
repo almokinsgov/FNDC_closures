@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T19:42:08.315Z",
-    "pulledAtLocal": "2026-03-27T08:42:08",
+    "pulledAtUtc": "2026-03-26T19:43:08.473Z",
+    "pulledAtLocal": "2026-03-27T08:43:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 23,
+    "rowCount": 22,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "4fd6dddcfa52c4b3b1b2c8fcdb5104aa132e9aba387134dea99e88eea8720a0f",
+    "contentHash": "770d3062eb50e310286fce5f03bf72a8a4f315641ce49e85b4e4150d890dd4d0",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -71,8 +71,8 @@
       "total": 370,
       "afterCalculationColumns": 370,
       "afterQuickActionFilter": 118,
-      "afterClosures": 23,
-      "afterPublicColumnProjection": 23
+      "afterClosures": 22,
+      "afterPublicColumnProjection": 22
     }
   },
   "data": [
@@ -208,25 +208,6 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "POINT (1645298.97621548 6122342.1101895)"
-    },
-    {
-      "road_id": "PUKEPOTO ROAD (OKAIHAU)",
-      "s_datetime": "2026-03-26T11:35:00",
-      "e_datetime": null,
-      "type": "Unplanned",
-      "cause": "Flooding",
-      "detour": false,
-      "c_description": "flooding bridge inundated.",
-      "road_status": "Road Closed",
-      "notes": "4m flood water",
-      "added_on": "2026-03-26T00:00:00",
-      "easting": 1667198.8014,
-      "northing": 6093807.6914,
-      "info_source": "Public",
-      "info_updated": "2026-03-27T07:50:00",
-      "event_name": "Rain Event March 2026",
-      "detour_details": "no alternate access via public road",
-      "geometry": "POINT (1667198.80140397 6093807.69138559)"
     },
     {
       "road_id": "DIGGERS VALLEY ROAD",
