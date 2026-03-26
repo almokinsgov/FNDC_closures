@@ -75,35 +75,6 @@
     {
       "type": "Feature",
       "properties": {
-        "road_id": "FAIRBURN ROAD",
-        "s_datetime": "2026-03-26T08:24:17",
-        "e_datetime": null,
-        "type": "Unplanned",
-        "cause": "Flooding",
-        "detour": false,
-        "c_description": "Flood Prone area. Flooding on all roads accessing Fairburn",
-        "road_status": "Road Closed",
-        "notes": null,
-        "added_on": "2026-03-26T00:00:00",
-        "easting": 1637402.2843,
-        "northing": 6115114.9841,
-        "info_source": "Contractor",
-        "info_updated": "2026-03-26T08:24:17",
-        "event_name": "Rain Event March 2026",
-        "detour_details": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          173.4104098245261,
-          -35.10608849098219
-        ]
-      },
-      "id": 336
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "road_id": "PARAPARA-TOATOA ROAD",
         "s_datetime": "2026-03-26T08:31:51",
         "e_datetime": null,
