@@ -104,41 +104,6 @@
     {
       "type": "Feature",
       "properties": {
-        "road_id": "WHANGAPE ROAD",
-        "s_datetime": "2026-03-26T14:08:30",
-        "e_datetime": null,
-        "type": "Unplanned",
-        "cause": "Overslip",
-        "detour": false,
-        "c_description": "Slip blocking both lanes",
-        "road_status": "Road Closed",
-        "notes": null,
-        "added_on": "2026-03-26T00:00:00",
-        "easting": null,
-        "northing": null,
-        "info_source": "Public",
-        "info_updated": "2026-03-26T14:08:30",
-        "event_name": "Rain Event March 2026",
-        "detour_details": null
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            173.21509711242786,
-            -35.32585680395781
-          ],
-          [
-            173.21510488847665,
-            -35.32586315153184
-          ]
-        ]
-      },
-      "id": 377
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "road_id": "POWELL ROAD (DIGGERS VALLEY)",
         "s_datetime": "2026-03-26T14:57:21",
         "e_datetime": null,
