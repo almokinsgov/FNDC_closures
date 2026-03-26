@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T18:14:10.456Z",
-    "pulledAtLocal": "2026-03-27T07:14:10",
+    "pulledAtUtc": "2026-03-26T18:15:10.576Z",
+    "pulledAtLocal": "2026-03-27T07:15:10",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "3707bbfcccfb6c9092c51550cff817264f5b09154461af36819b1af9bbc59d89",
+    "contentHash": "528d40c064a05008366065d3aaf42b043694bed3125a334e2d3632896ef2e92c",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -530,7 +530,7 @@
       "info_updated": "2026-03-26T15:40:31",
       "event_name": "Rain Event March 2026",
       "detour_details": null,
-      "geometry": "LINESTRING (1635172.9283597702 6086303.9047655165, 1635171.9387374385 6086303.7571300492)"
+      "geometry": "LINESTRING (1635583.5529 6086386.9832, 1635583.1187 6086386.0802)"
     },
     {
       "road_id": "KAIAWE ROAD",
