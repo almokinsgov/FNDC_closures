@@ -802,6 +802,41 @@
         ]
       },
       "id": 385
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "QUARRY ROAD (AWANUI)",
+        "s_datetime": "2026-03-26T15:03:08",
+        "e_datetime": null,
+        "type": "Unplanned",
+        "cause": "Flooding",
+        "detour": true,
+        "c_description": "Road Flooded",
+        "road_status": "Road Closed",
+        "notes": "Flood prone area",
+        "added_on": "2026-03-26T00:00:00",
+        "easting": null,
+        "northing": null,
+        "info_source": "Public",
+        "info_updated": "2026-03-26T15:03:08",
+        "event_name": "Rain Event March 2026",
+        "detour_details": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            173.28865473047082,
+            -35.08928629601692
+          ],
+          [
+            173.28865610274846,
+            -35.08929528477146
+          ]
+        ]
+      },
+      "id": 386
     }
   ]
 }
