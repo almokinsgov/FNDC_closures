@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T02:04:08.574Z",
-    "pulledAtLocal": "2026-03-26T15:04:08",
+    "pulledAtUtc": "2026-03-26T02:05:08.309Z",
+    "pulledAtLocal": "2026-03-26T15:05:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 25,
+    "rowCount": 26,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "f70e3dc7b7f6f5d66ee5a86153476328308de84152533d13b9d06e3efe0a044f",
+    "contentHash": "ffa8a92423701812530573c3f647bcd7b6d731f4c825b5fd93ede0a578abf5ee",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -68,11 +68,11 @@
       }
     },
     "filterCounts": {
-      "total": 349,
-      "afterCalculationColumns": 349,
-      "afterQuickActionFilter": 111,
-      "afterClosures": 25,
-      "afterPublicColumnProjection": 25
+      "total": 350,
+      "afterCalculationColumns": 350,
+      "afterQuickActionFilter": 112,
+      "afterClosures": 26,
+      "afterPublicColumnProjection": 26
     }
   },
   "data": [
@@ -550,6 +550,25 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "LINESTRING (1622379.5332 6099009.4257, 1622379.6238 6099010.4025)"
+    },
+    {
+      "road_id": "QUARRY ROAD (AWANUI)",
+      "s_datetime": "2026-03-26T15:03:08",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Flooding",
+      "detour": true,
+      "c_description": "Road Flooded",
+      "road_status": "Road Closed",
+      "notes": "Flood prone area",
+      "added_on": "2026-03-26T00:00:00",
+      "easting": null,
+      "northing": null,
+      "info_source": "Public",
+      "info_updated": "2026-03-26T15:03:08",
+      "event_name": "Rain Event March 2026",
+      "detour_details": null,
+      "geometry": "LINESTRING (1626311.6157 6117017.2511, 1626311.7379 6117016.2539)"
     }
   ]
 }
