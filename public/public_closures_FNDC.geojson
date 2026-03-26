@@ -238,35 +238,6 @@
     {
       "type": "Feature",
       "properties": {
-        "road_id": "OMAUNU ROAD",
-        "s_datetime": "2026-03-26T10:49:13",
-        "e_datetime": null,
-        "type": "Unplanned",
-        "cause": "Flooding",
-        "detour": false,
-        "c_description": "Flood Prone Area",
-        "road_status": "Road Closed",
-        "notes": null,
-        "added_on": "2026-03-26T00:00:00",
-        "easting": 1670429.2645,
-        "northing": 6115748.5542,
-        "info_source": "Public",
-        "info_updated": "2026-03-26T10:49:13",
-        "event_name": "Rain Event March 2026",
-        "detour_details": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          173.77273372266322,
-          -35.098607565826434
-        ]
-      },
-      "id": 361
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "road_id": "PUKEPOTO ROAD (OKAIHAU)",
         "s_datetime": "2026-03-26T11:35:00",
         "e_datetime": null,
