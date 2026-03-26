@@ -174,41 +174,6 @@
     {
       "type": "Feature",
       "properties": {
-        "road_id": "KAIAWE ROAD",
-        "s_datetime": "2026-03-26T17:39:10",
-        "e_datetime": null,
-        "type": "Unplanned",
-        "cause": "Flooding",
-        "detour": false,
-        "c_description": "Flooding and road above culvert has washed out",
-        "road_status": "Road Closed",
-        "notes": null,
-        "added_on": "2026-03-26T00:00:00",
-        "easting": null,
-        "northing": null,
-        "info_source": "Public",
-        "info_updated": "2026-03-26T17:39:10",
-        "event_name": "Rain Event March 2026",
-        "detour_details": null
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            173.28955593850168,
-            -35.14863811740156
-          ],
-          [
-            173.28956666372963,
-            -35.148636144037084
-          ]
-        ]
-      },
-      "id": 395
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "road_id": "RUNARUNA ROAD",
         "s_datetime": "2026-03-26T20:16:58",
         "e_datetime": null,
