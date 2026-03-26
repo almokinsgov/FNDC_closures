@@ -812,41 +812,6 @@
     {
       "type": "Feature",
       "properties": {
-        "road_id": "KAITAIA-AWAROA ROAD",
-        "s_datetime": "2026-03-26T15:22:47",
-        "e_datetime": null,
-        "type": "Unplanned",
-        "cause": "Underslip",
-        "detour": false,
-        "c_description": "Location TBC",
-        "road_status": "Road Closed",
-        "notes": "Before the 2nd bridge heading south. Any heavy vehicle the road will crack and fall.",
-        "added_on": "2026-03-26T00:00:00",
-        "easting": null,
-        "northing": null,
-        "info_source": "Public",
-        "info_updated": "2026-03-26T15:22:47",
-        "event_name": "Rain Event March 2026",
-        "detour_details": null
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            173.1811053872677,
-            -35.19138161211168
-          ],
-          [
-            173.18110850606627,
-            -35.191390247970645
-          ]
-        ]
-      },
-      "id": 391
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "road_id": "WEST COAST ROAD (KOHUKOHU)",
         "s_datetime": "2026-03-26T15:40:31",
         "e_datetime": null,
