@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T22:20:09.788Z",
-    "pulledAtLocal": "2026-03-27T11:20:09",
+    "pulledAtUtc": "2026-03-26T22:21:10.249Z",
+    "pulledAtLocal": "2026-03-27T11:21:10",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 15,
+    "rowCount": 14,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "3cb74dce3260f5fad7249082f7dd2e5d7e638999d3892dd99656edb91295c9e3",
+    "contentHash": "af8d76cb35d1318e060edfd22205f41ce4603509705f8f11e840c26dd8c0c607",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -71,8 +71,8 @@
       "total": 375,
       "afterCalculationColumns": 375,
       "afterQuickActionFilter": 122,
-      "afterClosures": 15,
-      "afterPublicColumnProjection": 15
+      "afterClosures": 14,
+      "afterPublicColumnProjection": 14
     }
   },
   "data": [
@@ -151,25 +151,6 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "LINESTRING (1619549.8529989496 6090798.4626549128, 1619550.5582252496 6090797.7571592666)"
-    },
-    {
-      "road_id": "WEST COAST ROAD (KOHUKOHU)",
-      "s_datetime": "2026-03-26T14:12:18",
-      "e_datetime": null,
-      "type": "Unplanned",
-      "cause": "Flooding",
-      "detour": false,
-      "c_description": "Flooding",
-      "road_status": "Road Closed",
-      "notes": "Road inpassable outside Mareae.",
-      "added_on": "2026-03-26T00:00:00",
-      "easting": null,
-      "northing": null,
-      "info_source": "Public",
-      "info_updated": "2026-03-26T14:12:18",
-      "event_name": "Rain Event March 2026",
-      "detour_details": null,
-      "geometry": "LINESTRING (1634236.3871928994 6081960.3194642011, 1634235.3896189351 6081960.3896121308)"
     },
     {
       "road_id": "POWELL ROAD (DIGGERS VALLEY)",
