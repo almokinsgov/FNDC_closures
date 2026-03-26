@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-26T18:09:10.593Z",
-    "pulledAtLocal": "2026-03-27T07:09:10",
+    "pulledAtUtc": "2026-03-26T18:10:08.371Z",
+    "pulledAtLocal": "2026-03-27T07:10:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 29,
+    "rowCount": 30,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "82704deed7b80cba89347dbc384816a111a2cfb4bba3a91dd557573ba2134028",
+    "contentHash": "4ecb28f81e28e37ae81cc71ffdad160caebdf98dd4701510ff897fe9dcaa2273",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -68,11 +68,11 @@
       }
     },
     "filterCounts": {
-      "total": 361,
-      "afterCalculationColumns": 361,
-      "afterQuickActionFilter": 119,
-      "afterClosures": 29,
-      "afterPublicColumnProjection": 29
+      "total": 362,
+      "afterCalculationColumns": 362,
+      "afterQuickActionFilter": 120,
+      "afterClosures": 30,
+      "afterPublicColumnProjection": 30
     }
   },
   "data": [
@@ -626,6 +626,25 @@
       "event_name": "Storm Event Next XXXX",
       "detour_details": null,
       "geometry": "POINT (1629223.78586633 6114340.8298833)"
+    },
+    {
+      "road_id": "INLAND ROAD",
+      "s_datetime": "2026-03-27T07:08:41",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Flooding",
+      "detour": false,
+      "c_description": "Bypass open & accessible for light vehicles",
+      "road_status": "Road Closed",
+      "notes": null,
+      "added_on": "2026-03-27T00:00:00",
+      "easting": null,
+      "northing": null,
+      "info_source": "Public",
+      "info_updated": "2026-03-27T07:08:41",
+      "event_name": "Rain Event March 2026",
+      "detour_details": null,
+      "geometry": "LINESTRING (1634692.1416 6128640.986, 1634692.1068 6128641.9831)"
     }
   ]
 }
