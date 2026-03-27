@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-27T00:29:10.649Z",
-    "pulledAtLocal": "2026-03-27T13:29:10",
+    "pulledAtUtc": "2026-03-27T00:30:10.550Z",
+    "pulledAtLocal": "2026-03-27T13:30:10",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 10,
+    "rowCount": 9,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "52b23c422c35afc340835a16584e8a6f4af73227d3c135084b7791905ae20810",
+    "contentHash": "ccb454bb2abfbe1546aa52c649ea1252af3086b9b89a3789be09f71c4f3125d2",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -70,31 +70,12 @@
     "filterCounts": {
       "total": 381,
       "afterCalculationColumns": 381,
-      "afterQuickActionFilter": 120,
-      "afterClosures": 10,
-      "afterPublicColumnProjection": 10
+      "afterQuickActionFilter": 119,
+      "afterClosures": 9,
+      "afterPublicColumnProjection": 9
     }
   },
   "data": [
-    {
-      "road_id": "IWITAUA ROAD",
-      "s_datetime": "2026-03-26T08:58:58",
-      "e_datetime": null,
-      "type": "Unplanned",
-      "cause": "Flooding",
-      "detour": false,
-      "c_description": "Flood Prone Area",
-      "road_status": "Road Closed",
-      "notes": null,
-      "added_on": "2026-03-26T00:00:00",
-      "easting": 1649331.8881,
-      "northing": 6103744.2415,
-      "info_source": "Public",
-      "info_updated": "2026-03-26T08:58:59",
-      "event_name": "Rain Event March 2026",
-      "detour_details": null,
-      "geometry": "LINESTRING (1649341.17000377 6104155.98530184, 1649332.09100453 6103744.78131202)"
-    },
     {
       "road_id": "POWELL ROAD (DIGGERS VALLEY)",
       "s_datetime": "2026-03-26T14:57:21",
