@@ -98,41 +98,6 @@
     {
       "type": "Feature",
       "properties": {
-        "road_id": "INLAND ROAD",
-        "s_datetime": "2026-03-27T07:08:41",
-        "e_datetime": null,
-        "type": "Unplanned",
-        "cause": "Flooding",
-        "detour": false,
-        "c_description": "Bypass open & accessible for light vehicles",
-        "road_status": "Road Closed",
-        "notes": null,
-        "added_on": "2026-03-27T00:00:00",
-        "easting": null,
-        "northing": null,
-        "info_source": "Public",
-        "info_updated": "2026-03-27T07:08:41",
-        "event_name": "Rain Event March 2026",
-        "detour_details": null
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            173.3801070351139,
-            -34.9842191829459
-          ],
-          [
-            173.38010661163725,
-            -34.98421019267096
-          ]
-        ]
-      },
-      "id": 399
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "road_id": "SIMPSON ROAD (TAKAHUE)",
         "s_datetime": "2026-03-27T08:30:18",
         "e_datetime": null,
