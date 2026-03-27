@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-27T00:45:08.444Z",
-    "pulledAtLocal": "2026-03-27T13:45:08",
+    "pulledAtUtc": "2026-03-27T00:46:08.867Z",
+    "pulledAtLocal": "2026-03-27T13:46:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "1bac438f948252fea6b14db18a017370ac0e6eeb3a3657874067efd4e4606f26",
+    "contentHash": "84fa53996553db8193cc38e0b51cfca9c7fd9df623876df70d085466b7be9050",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -138,7 +138,7 @@
       "s_datetime": "2026-03-27T10:08:06",
       "e_datetime": null,
       "type": "Unplanned",
-      "cause": "Overslip",
+      "cause": "Road obstruction",
       "detour": false,
       "c_description": "Flooding and logs accros roadway.  Road inaccessible.",
       "road_status": "Road Closed",
