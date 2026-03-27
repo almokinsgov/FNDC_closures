@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-27T00:43:08.925Z",
-    "pulledAtLocal": "2026-03-27T13:43:08",
+    "pulledAtUtc": "2026-03-27T00:44:08.579Z",
+    "pulledAtLocal": "2026-03-27T13:44:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 8,
+    "rowCount": 7,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "2fe941efeb4a3825f6f0a6a33ec595e7b28cd3b1903dfa64d06906301387ebb0",
+    "contentHash": "0631efdf5d12ea7289676c104ec28be66097cbdf80decca3a69ca625548039c5",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -71,8 +71,8 @@
       "total": 381,
       "afterCalculationColumns": 381,
       "afterQuickActionFilter": 118,
-      "afterClosures": 8,
-      "afterPublicColumnProjection": 8
+      "afterClosures": 7,
+      "afterPublicColumnProjection": 7
     }
   },
   "data": [
@@ -113,25 +113,6 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "POINT (1633388.31671925 6088789.1379932)"
-    },
-    {
-      "road_id": "CLOUGH ROAD",
-      "s_datetime": "2026-03-26T21:45:26",
-      "e_datetime": null,
-      "type": "Unplanned",
-      "cause": "Flooding",
-      "detour": true,
-      "c_description": "From Church Rd End",
-      "road_status": "Road Closed",
-      "notes": null,
-      "added_on": "2026-03-26T00:00:00",
-      "easting": 1629223.7859,
-      "northing": 6114340.8299,
-      "info_source": "Public",
-      "info_updated": "2026-03-26T21:45:26",
-      "event_name": "Rain Event March 2026",
-      "detour_details": null,
-      "geometry": "POINT (1629223.78586633 6114340.8298833)"
     },
     {
       "road_id": "SIMPSON ROAD (TAKAHUE)",
