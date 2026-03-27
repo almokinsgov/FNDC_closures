@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-27T00:37:10.403Z",
-    "pulledAtLocal": "2026-03-27T13:37:10",
+    "pulledAtUtc": "2026-03-27T00:38:10.350Z",
+    "pulledAtLocal": "2026-03-27T13:38:10",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 9,
+    "rowCount": 8,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "ccb454bb2abfbe1546aa52c649ea1252af3086b9b89a3789be09f71c4f3125d2",
+    "contentHash": "2fe941efeb4a3825f6f0a6a33ec595e7b28cd3b1903dfa64d06906301387ebb0",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -71,8 +71,8 @@
       "total": 381,
       "afterCalculationColumns": 381,
       "afterQuickActionFilter": 118,
-      "afterClosures": 9,
-      "afterPublicColumnProjection": 9
+      "afterClosures": 8,
+      "afterPublicColumnProjection": 8
     }
   },
   "data": [
@@ -132,25 +132,6 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "POINT (1629223.78586633 6114340.8298833)"
-    },
-    {
-      "road_id": "INLAND ROAD",
-      "s_datetime": "2026-03-27T07:08:41",
-      "e_datetime": null,
-      "type": "Unplanned",
-      "cause": "Flooding",
-      "detour": false,
-      "c_description": "Bypass open & accessible for light vehicles",
-      "road_status": "Road Closed",
-      "notes": null,
-      "added_on": "2026-03-27T00:00:00",
-      "easting": null,
-      "northing": null,
-      "info_source": "Public",
-      "info_updated": "2026-03-27T07:08:41",
-      "event_name": "Rain Event March 2026",
-      "detour_details": null,
-      "geometry": "LINESTRING (1634692.141595393 6128640.9863931946, 1634692.1067370267 6128641.9835325079)"
     },
     {
       "road_id": "SIMPSON ROAD (TAKAHUE)",
