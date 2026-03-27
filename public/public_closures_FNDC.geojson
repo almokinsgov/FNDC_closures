@@ -123,6 +123,35 @@
         ]
       },
       "id": 427
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "WEKAWEKA ROAD",
+        "s_datetime": "2026-03-27T08:53:41",
+        "e_datetime": null,
+        "type": "Unplanned",
+        "cause": "Overslip",
+        "detour": false,
+        "c_description": "large slip, trees.",
+        "road_status": "Road Closed",
+        "notes": "large overslip",
+        "added_on": "2026-03-27T00:00:00",
+        "easting": 1651250.772,
+        "northing": 6063257.6401,
+        "info_source": "Contractor",
+        "info_updated": "2026-03-27T15:45:39",
+        "event_name": "Rain Event March 2026",
+        "detour_details": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.56561067989105,
+          -35.57305046728996
+        ]
+      },
+      "id": 428
     }
   ]
 }
