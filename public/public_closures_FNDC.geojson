@@ -69,41 +69,6 @@
     {
       "type": "Feature",
       "properties": {
-        "road_id": "WAIAUA ROAD",
-        "s_datetime": "2026-03-27T15:37:25",
-        "e_datetime": null,
-        "type": "Unplanned",
-        "cause": "Fallen Tree",
-        "detour": false,
-        "c_description": "TBC Location and Status -27/03 PM",
-        "road_status": "Road Closed",
-        "notes": "Customer has reported that he can't get in or out of the above road",
-        "added_on": "2026-03-27T00:00:00",
-        "easting": null,
-        "northing": null,
-        "info_source": "Public",
-        "info_updated": "2026-03-27T15:37:25",
-        "event_name": "Rain Event March 2026",
-        "detour_details": null
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            173.54620754352243,
-            -34.94520017713722
-          ],
-          [
-            173.54620907466756,
-            -34.94519162338643
-          ]
-        ]
-      },
-      "id": 427
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "road_id": "WEKAWEKA ROAD",
         "s_datetime": "2026-03-27T08:53:41",
         "e_datetime": null,
