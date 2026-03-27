@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-27T00:16:08.298Z",
-    "pulledAtLocal": "2026-03-27T13:16:08",
+    "pulledAtUtc": "2026-03-27T00:17:10.413Z",
+    "pulledAtLocal": "2026-03-27T13:17:10",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "5156c29e3dfb43b88e7e8db1a80de9b073e0d8d51d9dad707c11f80098cc0272",
+    "contentHash": "cf30537b6b0dbc100ad96facc007c41898da95ce4bcfe66ddf87a111f22c262a",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -264,7 +264,7 @@
       "info_updated": "2026-03-27T12:27:18",
       "event_name": "Rain Event March 2026",
       "detour_details": null,
-      "geometry": "LINESTRING (1638015.5 6097150.351, 1638015.1612 6097149.5077)"
+      "geometry": "LINESTRING (1638015.5 6097150.351, 1638015.16121832 6097149.5077117793)"
     },
     {
       "road_id": "NORTH PARK DRIVE",
@@ -283,7 +283,7 @@
       "info_updated": "2026-03-27T13:13:54",
       "event_name": "Rain Event March 2026",
       "detour_details": null,
-      "geometry": "LINESTRING (1623821.3094 6116110.2806, 1623821.8646 6116109.4616)"
+      "geometry": "LINESTRING (1623821.3094111166 6116110.280546952, 1623821.8646284549 6116109.4614421558)"
     }
   ]
 }
