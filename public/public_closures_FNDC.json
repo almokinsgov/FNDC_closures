@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-27T02:27:08.439Z",
-    "pulledAtLocal": "2026-03-27T15:27:08",
+    "pulledAtUtc": "2026-03-27T02:28:08.520Z",
+    "pulledAtLocal": "2026-03-27T15:28:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 5,
+    "rowCount": 4,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "3f272442de49ba2e2e4080b22999229d4a49811eb108fea92a66485ab0483ce5",
+    "contentHash": "ed25a5bc4192c0eab59a60f0f3ff52346a3e947f508ef0b38fbaeed9abb842b5",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -71,8 +71,8 @@
       "total": 387,
       "afterCalculationColumns": 387,
       "afterQuickActionFilter": 124,
-      "afterClosures": 5,
-      "afterPublicColumnProjection": 5
+      "afterClosures": 4,
+      "afterPublicColumnProjection": 4
     }
   },
   "data": [
@@ -151,25 +151,6 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "LINESTRING (1634674.4458 6082417.0128, 1634673.4454365289 6082416.933623868)"
-    },
-    {
-      "road_id": "PAPONGA ROAD",
-      "s_datetime": "2026-03-27T12:27:18",
-      "e_datetime": null,
-      "type": "Unplanned",
-      "cause": "Fallen Tree",
-      "detour": false,
-      "c_description": "Tree blocking road - location TBC.  Team en route to clear.",
-      "road_status": "Road Closed",
-      "notes": null,
-      "added_on": "2026-03-27T00:00:00",
-      "easting": null,
-      "northing": null,
-      "info_source": "Public",
-      "info_updated": "2026-03-27T12:27:18",
-      "event_name": "Rain Event March 2026",
-      "detour_details": null,
-      "geometry": "LINESTRING (1638015.5 6097150.351, 1638015.16121832 6097149.5077117793)"
     }
   ]
 }
