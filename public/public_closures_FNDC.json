@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-27T02:45:10.304Z",
-    "pulledAtLocal": "2026-03-27T15:45:10",
+    "pulledAtUtc": "2026-03-27T02:46:08.221Z",
+    "pulledAtLocal": "2026-03-27T15:46:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 4,
+    "rowCount": 5,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "18fc302ff3f5e561c8b51dd447c869301ccecaac7232c007e98805f28a5d5bbc",
+    "contentHash": "43fe78dbbbd2ca44b01aa802e7c9d5fda2411033e401af443acef6b5ba29332a",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -68,11 +68,11 @@
       }
     },
     "filterCounts": {
-      "total": 390,
-      "afterCalculationColumns": 390,
-      "afterQuickActionFilter": 127,
-      "afterClosures": 4,
-      "afterPublicColumnProjection": 4
+      "total": 391,
+      "afterCalculationColumns": 391,
+      "afterQuickActionFilter": 128,
+      "afterClosures": 5,
+      "afterPublicColumnProjection": 5
     }
   },
   "data": [
@@ -151,6 +151,25 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "POINT (1649875.9511572707 6132898.74335301)"
+    },
+    {
+      "road_id": "WEKAWEKA ROAD",
+      "s_datetime": "2026-03-27T08:53:41",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Overslip",
+      "detour": false,
+      "c_description": "large slip, trees.",
+      "road_status": "Road Closed",
+      "notes": "large overslip",
+      "added_on": "2026-03-27T00:00:00",
+      "easting": 1651250.772,
+      "northing": 6063257.6401,
+      "info_source": "Contractor",
+      "info_updated": "2026-03-27T15:45:39",
+      "event_name": "Rain Event March 2026",
+      "detour_details": null,
+      "geometry": "POINT (1651250.77196231 6063257.64009252)"
     }
   ]
 }
