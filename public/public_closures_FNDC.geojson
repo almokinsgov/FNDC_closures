@@ -164,6 +164,41 @@
         ]
       },
       "id": 414
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "TE RORE ROAD",
+        "s_datetime": "2026-03-27T14:08:34",
+        "e_datetime": null,
+        "type": "Unplanned",
+        "cause": "Overslip",
+        "detour": false,
+        "c_description": "No info other than closed",
+        "road_status": "Road Closed",
+        "notes": null,
+        "added_on": "2026-03-27T00:00:00",
+        "easting": null,
+        "northing": null,
+        "info_source": "Public",
+        "info_updated": "2026-03-27T14:08:34",
+        "event_name": "Rain Event March 2026",
+        "detour_details": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            173.376243071895,
+            -35.17621566647703
+          ],
+          [
+            173.37623733610891,
+            -35.176223343429
+          ]
+        ]
+      },
+      "id": 422
     }
   ]
 }
