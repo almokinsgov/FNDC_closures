@@ -34,35 +34,6 @@
     {
       "type": "Feature",
       "properties": {
-        "road_id": "WEKAWEKA ROAD",
-        "s_datetime": "2026-03-27T08:53:41",
-        "e_datetime": null,
-        "type": "Unplanned",
-        "cause": "Overslip",
-        "detour": false,
-        "c_description": "overslip, large rocks / rockslide.",
-        "road_status": "Road Closed",
-        "notes": "large overslip",
-        "added_on": "2026-03-27T00:00:00",
-        "easting": 1650660.4733,
-        "northing": 6063234.1799,
-        "info_source": "Public",
-        "info_updated": "2026-03-27T15:40:00",
-        "event_name": "Rain Event March 2026",
-        "detour_details": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          173.55909780980193,
-          -35.573292377089054
-        ]
-      },
-      "id": 408
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "road_id": "WAIOTEHUE ROAD",
         "s_datetime": "2026-03-27T15:33:56",
         "e_datetime": null,
