@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-27T01:47:08.643Z",
-    "pulledAtLocal": "2026-03-27T14:47:08",
+    "pulledAtUtc": "2026-03-27T01:48:09.139Z",
+    "pulledAtLocal": "2026-03-27T14:48:09",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "796bb0ece8dd4781bc5c11382666e5c4eb4b334782023277d2bb772162ea983c",
+    "contentHash": "24233fb6782bcba497e170727ab17339e26636d709efd2cd4a70df05060a68d1",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -176,10 +176,10 @@
       "s_datetime": "2026-03-27T14:08:34",
       "e_datetime": null,
       "type": "Unplanned",
-      "cause": "Overslip",
+      "cause": "Underslip",
       "detour": false,
       "c_description": "No info other than closed",
-      "road_status": "Road Closed",
+      "road_status": "Closed to Heavy traffic",
       "notes": null,
       "added_on": "2026-03-27T00:00:00",
       "easting": null,
