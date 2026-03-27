@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-27T01:53:10.286Z",
-    "pulledAtLocal": "2026-03-27T14:53:10",
+    "pulledAtUtc": "2026-03-27T01:54:08.297Z",
+    "pulledAtLocal": "2026-03-27T14:54:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 6,
+    "rowCount": 5,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "24233fb6782bcba497e170727ab17339e26636d709efd2cd4a70df05060a68d1",
+    "contentHash": "3f272442de49ba2e2e4080b22999229d4a49811eb108fea92a66485ab0483ce5",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -71,8 +71,8 @@
       "total": 386,
       "afterCalculationColumns": 386,
       "afterQuickActionFilter": 123,
-      "afterClosures": 6,
-      "afterPublicColumnProjection": 6
+      "afterClosures": 5,
+      "afterPublicColumnProjection": 5
     }
   },
   "data": [
@@ -170,25 +170,6 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "LINESTRING (1638015.5 6097150.351, 1638015.16121832 6097149.5077117793)"
-    },
-    {
-      "road_id": "TE RORE ROAD",
-      "s_datetime": "2026-03-27T14:08:34",
-      "e_datetime": null,
-      "type": "Unplanned",
-      "cause": "Underslip",
-      "detour": false,
-      "c_description": "No info other than closed",
-      "road_status": "Closed to Heavy traffic",
-      "notes": null,
-      "added_on": "2026-03-27T00:00:00",
-      "easting": null,
-      "northing": null,
-      "info_source": "Public",
-      "info_updated": "2026-03-27T14:08:34",
-      "event_name": "Rain Event March 2026",
-      "detour_details": null,
-      "geometry": "LINESTRING (1634259.1202419249 6107350.2016397119, 1634258.5947740097 6107349.3522680765)"
     }
   ]
 }
