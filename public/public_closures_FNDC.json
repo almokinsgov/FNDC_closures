@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-27T02:47:08.393Z",
-    "pulledAtLocal": "2026-03-27T15:47:08",
+    "pulledAtUtc": "2026-03-27T02:48:12.221Z",
+    "pulledAtLocal": "2026-03-27T15:48:12",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 5,
+    "rowCount": 4,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "43fe78dbbbd2ca44b01aa802e7c9d5fda2411033e401af443acef6b5ba29332a",
+    "contentHash": "a582b899f4532edd7db629d830bb3c86e0ea284994db23d1cc7c8ab99c657fae",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -71,8 +71,8 @@
       "total": 391,
       "afterCalculationColumns": 391,
       "afterQuickActionFilter": 128,
-      "afterClosures": 5,
-      "afterPublicColumnProjection": 5
+      "afterClosures": 4,
+      "afterPublicColumnProjection": 4
     }
   },
   "data": [
@@ -94,25 +94,6 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "POINT (1633388.31671925 6088789.1379932)"
-    },
-    {
-      "road_id": "WEKAWEKA ROAD",
-      "s_datetime": "2026-03-27T08:53:41",
-      "e_datetime": null,
-      "type": "Unplanned",
-      "cause": "Overslip",
-      "detour": false,
-      "c_description": "overslip, large rocks / rockslide.",
-      "road_status": "Road Closed",
-      "notes": "large overslip",
-      "added_on": "2026-03-27T00:00:00",
-      "easting": 1650660.4733,
-      "northing": 6063234.1799,
-      "info_source": "Public",
-      "info_updated": "2026-03-27T15:40:00",
-      "event_name": "Rain Event March 2026",
-      "detour_details": null,
-      "geometry": "POINT (1650660.47327363 6063234.17994549)"
     },
     {
       "road_id": "WAIOTEHUE ROAD",
