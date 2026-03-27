@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-27T01:09:08.438Z",
-    "pulledAtLocal": "2026-03-27T14:09:08",
+    "pulledAtUtc": "2026-03-27T01:10:10.804Z",
+    "pulledAtLocal": "2026-03-27T14:10:10",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 5,
+    "rowCount": 6,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "3f272442de49ba2e2e4080b22999229d4a49811eb108fea92a66485ab0483ce5",
+    "contentHash": "123592e1a7c6dcd0c14f6e21ae92d38b6ce1e44af258c19709de7c87e625ffc4",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -68,11 +68,11 @@
       }
     },
     "filterCounts": {
-      "total": 384,
-      "afterCalculationColumns": 384,
-      "afterQuickActionFilter": 121,
-      "afterClosures": 5,
-      "afterPublicColumnProjection": 5
+      "total": 385,
+      "afterCalculationColumns": 385,
+      "afterQuickActionFilter": 122,
+      "afterClosures": 6,
+      "afterPublicColumnProjection": 6
     }
   },
   "data": [
@@ -170,6 +170,25 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "LINESTRING (1638015.5 6097150.351, 1638015.16121832 6097149.5077117793)"
+    },
+    {
+      "road_id": "TE RORE ROAD",
+      "s_datetime": "2026-03-27T14:08:34",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Overslip",
+      "detour": false,
+      "c_description": "No info other than closed",
+      "road_status": "Road Closed",
+      "notes": null,
+      "added_on": "2026-03-27T00:00:00",
+      "easting": null,
+      "northing": null,
+      "info_source": "Public",
+      "info_updated": "2026-03-27T14:08:34",
+      "event_name": "Rain Event March 2026",
+      "detour_details": null,
+      "geometry": "LINESTRING (1634259.1202 6107350.2016, 1634258.5947 6107349.3522)"
     }
   ]
 }
