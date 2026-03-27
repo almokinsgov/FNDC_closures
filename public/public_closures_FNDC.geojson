@@ -129,41 +129,6 @@
         ]
       },
       "id": 412
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "road_id": "PAPONGA ROAD",
-        "s_datetime": "2026-03-27T12:27:18",
-        "e_datetime": null,
-        "type": "Unplanned",
-        "cause": "Fallen Tree",
-        "detour": false,
-        "c_description": "Tree blocking road - location TBC.  Team en route to clear.",
-        "road_status": "Road Closed",
-        "notes": null,
-        "added_on": "2026-03-27T00:00:00",
-        "easting": null,
-        "northing": null,
-        "info_source": "Public",
-        "info_updated": "2026-03-27T12:27:18",
-        "event_name": "Rain Event March 2026",
-        "detour_details": null
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            173.41796702957012,
-            -35.268051234939534
-          ],
-          [
-            173.41796334392575,
-            -35.268058851568924
-          ]
-        ]
-      },
-      "id": 414
     }
   ]
 }
