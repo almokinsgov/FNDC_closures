@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-27T02:35:08.622Z",
-    "pulledAtLocal": "2026-03-27T15:35:08",
+    "pulledAtUtc": "2026-03-27T02:36:08.477Z",
+    "pulledAtLocal": "2026-03-27T15:36:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 2,
+    "rowCount": 3,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "67cea98912b5cfd449a94b2abccb75d0b745b083b13e59eac037de52d138893d",
+    "contentHash": "2d29cd976874a1464163f5cf0b051f658704e21253027379283fe668d6ee8732",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -68,11 +68,11 @@
       }
     },
     "filterCounts": {
-      "total": 388,
-      "afterCalculationColumns": 388,
-      "afterQuickActionFilter": 125,
-      "afterClosures": 2,
-      "afterPublicColumnProjection": 2
+      "total": 389,
+      "afterCalculationColumns": 389,
+      "afterQuickActionFilter": 126,
+      "afterClosures": 3,
+      "afterPublicColumnProjection": 3
     }
   },
   "data": [
@@ -113,6 +113,25 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "POINT (1650660.47327363 6063234.17994549)"
+    },
+    {
+      "road_id": "WAIOTEHUE ROAD",
+      "s_datetime": "2026-03-27T15:33:56",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Overslip",
+      "detour": false,
+      "c_description": "Overslip blocking road.  Digger starting 27/03 PM - won't be a lane open until 28/03",
+      "road_status": "Road Closed",
+      "notes": "Overslip blocking road.  Digger starting 27/03 PM - won't be a lane open until 28/03",
+      "added_on": "2026-03-27T00:00:00",
+      "easting": null,
+      "northing": null,
+      "info_source": "Public",
+      "info_updated": "2026-03-27T15:33:56",
+      "event_name": "Rain Event March 2026",
+      "detour_details": null,
+      "geometry": "LINESTRING (1628354.4073 6103638.2185, 1628353.4165 6103638.1007)"
     }
   ]
 }
