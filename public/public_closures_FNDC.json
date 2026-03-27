@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-27T00:14:10.269Z",
-    "pulledAtLocal": "2026-03-27T13:14:10",
+    "pulledAtUtc": "2026-03-27T00:15:10.409Z",
+    "pulledAtLocal": "2026-03-27T13:15:10",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 10,
+    "rowCount": 11,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "ec9dfe5baa66dfd4e961dfe8203e04fb3c62ecb9b4dbceea4092c6871be2dd77",
+    "contentHash": "5156c29e3dfb43b88e7e8db1a80de9b073e0d8d51d9dad707c11f80098cc0272",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -68,11 +68,11 @@
       }
     },
     "filterCounts": {
-      "total": 380,
-      "afterCalculationColumns": 380,
-      "afterQuickActionFilter": 121,
-      "afterClosures": 10,
-      "afterPublicColumnProjection": 10
+      "total": 381,
+      "afterCalculationColumns": 381,
+      "afterQuickActionFilter": 122,
+      "afterClosures": 11,
+      "afterPublicColumnProjection": 11
     }
   },
   "data": [
@@ -265,6 +265,25 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "LINESTRING (1638015.5 6097150.351, 1638015.1612 6097149.5077)"
+    },
+    {
+      "road_id": "NORTH PARK DRIVE",
+      "s_datetime": "2026-03-27T13:13:54",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Flooding",
+      "detour": false,
+      "c_description": "Flooding",
+      "road_status": "Road Closed",
+      "notes": null,
+      "added_on": "2026-03-27T00:00:00",
+      "easting": null,
+      "northing": null,
+      "info_source": "Public",
+      "info_updated": "2026-03-27T13:13:54",
+      "event_name": "Rain Event March 2026",
+      "detour_details": null,
+      "geometry": "LINESTRING (1623821.3094 6116110.2806, 1623821.8646 6116109.4616)"
     }
   ]
 }
