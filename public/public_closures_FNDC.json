@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-27T02:28:08.520Z",
-    "pulledAtLocal": "2026-03-27T15:28:08",
+    "pulledAtUtc": "2026-03-27T02:29:09.611Z",
+    "pulledAtLocal": "2026-03-27T15:29:09",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 4,
+    "rowCount": 3,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "ed25a5bc4192c0eab59a60f0f3ff52346a3e947f508ef0b38fbaeed9abb842b5",
+    "contentHash": "67e21257a51d9530f586b90d59420d7e0ef0a6758a332fd07fcf5a986b813004",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -71,8 +71,8 @@
       "total": 387,
       "afterCalculationColumns": 387,
       "afterQuickActionFilter": 124,
-      "afterClosures": 4,
-      "afterPublicColumnProjection": 4
+      "afterClosures": 3,
+      "afterPublicColumnProjection": 3
     }
   },
   "data": [
@@ -94,25 +94,6 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "POINT (1633388.31671925 6088789.1379932)"
-    },
-    {
-      "road_id": "SIMPSON ROAD (TAKAHUE)",
-      "s_datetime": "2026-03-27T08:30:18",
-      "e_datetime": null,
-      "type": "Unplanned",
-      "cause": "Overslip",
-      "detour": false,
-      "c_description": "Slip blocking road.",
-      "road_status": "Road Closed",
-      "notes": "Location TBC.  Road blocked by slip.",
-      "added_on": "2026-03-27T00:00:00",
-      "easting": null,
-      "northing": null,
-      "info_source": "Public",
-      "info_updated": "2026-03-27T08:30:18",
-      "event_name": "Rain Event March 2026",
-      "detour_details": null,
-      "geometry": "LINESTRING (1629945.052 6107661.2288, 1629945.0838851375 6107660.2600846784)"
     },
     {
       "road_id": "WEKAWEKA ROAD",
