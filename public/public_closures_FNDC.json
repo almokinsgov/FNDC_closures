@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-27T02:52:08.413Z",
-    "pulledAtLocal": "2026-03-27T15:52:08",
+    "pulledAtUtc": "2026-03-27T02:53:08.408Z",
+    "pulledAtLocal": "2026-03-27T15:53:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "a582b899f4532edd7db629d830bb3c86e0ea284994db23d1cc7c8ab99c657fae",
+    "contentHash": "b4950b7c06601d4fc6a63a96520a543d97ef16162a3ba77734bb93495b7f6e53",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -131,7 +131,7 @@
       "info_updated": "2026-03-27T15:37:25",
       "event_name": "Rain Event March 2026",
       "detour_details": null,
-      "geometry": "POINT (1649875.9511572707 6132898.74335301)"
+      "geometry": "LINESTRING (1649875.8105360831 6132897.8241212806, 1649875.9555308186 6132898.7719426136)"
     },
     {
       "road_id": "WEKAWEKA ROAD",
