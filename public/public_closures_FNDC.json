@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-27T02:33:08.548Z",
-    "pulledAtLocal": "2026-03-27T15:33:08",
+    "pulledAtUtc": "2026-03-27T02:34:08.525Z",
+    "pulledAtLocal": "2026-03-27T15:34:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 3,
+    "rowCount": 2,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "67e21257a51d9530f586b90d59420d7e0ef0a6758a332fd07fcf5a986b813004",
+    "contentHash": "67cea98912b5cfd449a94b2abccb75d0b745b083b13e59eac037de52d138893d",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -71,8 +71,8 @@
       "total": 388,
       "afterCalculationColumns": 388,
       "afterQuickActionFilter": 125,
-      "afterClosures": 3,
-      "afterPublicColumnProjection": 3
+      "afterClosures": 2,
+      "afterPublicColumnProjection": 2
     }
   },
   "data": [
@@ -113,25 +113,6 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "POINT (1650660.47327363 6063234.17994549)"
-    },
-    {
-      "road_id": "KOWHITIKARU ROAD",
-      "s_datetime": "2026-03-27T10:08:06",
-      "e_datetime": null,
-      "type": "Unplanned",
-      "cause": "Road obstruction",
-      "detour": false,
-      "c_description": "Flooding and logs accros roadway.  Road inaccessible.",
-      "road_status": "Road Closed",
-      "notes": "Flooding and logs accros roadway.  Road inaccessible.",
-      "added_on": "2026-03-27T00:00:00",
-      "easting": null,
-      "northing": null,
-      "info_source": "Public",
-      "info_updated": "2026-03-27T10:08:06",
-      "event_name": "Rain Event March 2026",
-      "detour_details": null,
-      "geometry": "LINESTRING (1634674.4458 6082417.0128, 1634673.4454365289 6082416.933623868)"
     }
   ]
 }
