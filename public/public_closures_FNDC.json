@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-27T00:10:08.439Z",
-    "pulledAtLocal": "2026-03-27T13:10:08",
+    "pulledAtUtc": "2026-03-27T00:11:08.485Z",
+    "pulledAtLocal": "2026-03-27T13:11:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 11,
+    "rowCount": 10,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "a4131be8b087afd01829a33c0f0315655563d8f45de837ff7c13931a161f5d54",
+    "contentHash": "baad010fc02e05c3abaa2f75d741ea6970686e654e64c481ba1323c01d120396",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -70,31 +70,12 @@
     "filterCounts": {
       "total": 380,
       "afterCalculationColumns": 380,
-      "afterQuickActionFilter": 122,
-      "afterClosures": 11,
-      "afterPublicColumnProjection": 11
+      "afterQuickActionFilter": 121,
+      "afterClosures": 10,
+      "afterPublicColumnProjection": 10
     }
   },
   "data": [
-    {
-      "road_id": "PARANUI ROAD",
-      "s_datetime": "2026-03-26T08:27:37",
-      "e_datetime": null,
-      "type": "Unplanned",
-      "cause": "Flooding",
-      "detour": false,
-      "c_description": "Road flooded and unpassable - location not confirmed.",
-      "road_status": "Road Closed",
-      "notes": "Road flooded and unpassable - location not confirmed.",
-      "added_on": "2026-03-26T00:00:00",
-      "easting": null,
-      "northing": null,
-      "info_source": "Public",
-      "info_updated": "2026-03-26T08:27:37",
-      "event_name": "Rain Event March 2026",
-      "detour_details": null,
-      "geometry": "LINESTRING (1642876.9974 6124687.4637, 1642876.719906874 6124686.5170449615)"
-    },
     {
       "road_id": "IWITAUA ROAD",
       "s_datetime": "2026-03-26T08:58:58",
