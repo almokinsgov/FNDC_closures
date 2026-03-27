@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-27T03:54:10.430Z",
-    "pulledAtLocal": "2026-03-27T16:54:10",
+    "pulledAtUtc": "2026-03-27T03:55:08.924Z",
+    "pulledAtLocal": "2026-03-27T16:55:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 4,
+    "rowCount": 3,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "43e5647711c7f9d0766080f3c4a60379e6fe211dec9461d8c31fb5538c1de412",
+    "contentHash": "1b9d4b9c8de865257149205ef3789cc28a2d27819280faeeb2ffa73601c77c86",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -71,8 +71,8 @@
       "total": 393,
       "afterCalculationColumns": 393,
       "afterQuickActionFilter": 130,
-      "afterClosures": 4,
-      "afterPublicColumnProjection": 4
+      "afterClosures": 3,
+      "afterPublicColumnProjection": 3
     }
   },
   "data": [
@@ -113,25 +113,6 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "LINESTRING (1628354.4070699902 6103638.2185038524, 1628353.4162140773 6103638.1006883252)"
-    },
-    {
-      "road_id": "WAIAUA ROAD",
-      "s_datetime": "2026-03-27T15:37:25",
-      "e_datetime": null,
-      "type": "Unplanned",
-      "cause": "Fallen Tree",
-      "detour": false,
-      "c_description": "TBC Location and Status -27/03 PM",
-      "road_status": "Road Closed",
-      "notes": "Customer has reported that he can't get in or out of the above road",
-      "added_on": "2026-03-27T00:00:00",
-      "easting": null,
-      "northing": null,
-      "info_source": "Public",
-      "info_updated": "2026-03-27T15:37:25",
-      "event_name": "Rain Event March 2026",
-      "detour_details": null,
-      "geometry": "LINESTRING (1649875.8105360831 6132897.8241212806, 1649875.9555308186 6132898.7719426136)"
     },
     {
       "road_id": "WEKAWEKA ROAD",
