@@ -102,7 +102,7 @@
         "s_datetime": "2026-03-27T10:08:06",
         "e_datetime": null,
         "type": "Unplanned",
-        "cause": "Overslip",
+        "cause": "Road obstruction",
         "detour": false,
         "c_description": "Flooding and logs accros roadway.  Road inaccessible.",
         "road_status": "Road Closed",
