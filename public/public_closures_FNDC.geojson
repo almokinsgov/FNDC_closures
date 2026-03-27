@@ -5,41 +5,6 @@
     {
       "type": "Feature",
       "properties": {
-        "road_id": "PARANUI ROAD",
-        "s_datetime": "2026-03-26T08:27:37",
-        "e_datetime": null,
-        "type": "Unplanned",
-        "cause": "Flooding",
-        "detour": false,
-        "c_description": "Road flooded and unpassable - location not confirmed.",
-        "road_status": "Road Closed",
-        "notes": "Road flooded and unpassable - location not confirmed.",
-        "added_on": "2026-03-26T00:00:00",
-        "easting": null,
-        "northing": null,
-        "info_source": "Public",
-        "info_updated": "2026-03-26T08:27:37",
-        "event_name": "Rain Event March 2026",
-        "detour_details": null
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            173.46998640728216,
-            -35.01955478189923
-          ],
-          [
-            173.4699834145397,
-            -35.0195633297688
-          ]
-        ]
-      },
-      "id": 335
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "road_id": "IWITAUA ROAD",
         "s_datetime": "2026-03-26T08:58:58",
         "e_datetime": null,
