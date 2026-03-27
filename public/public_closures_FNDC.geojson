@@ -327,6 +327,41 @@
         ]
       },
       "id": 414
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "road_id": "NORTH PARK DRIVE",
+        "s_datetime": "2026-03-27T13:13:54",
+        "e_datetime": null,
+        "type": "Unplanned",
+        "cause": "Flooding",
+        "detour": false,
+        "c_description": "Flooding",
+        "road_status": "Road Closed",
+        "notes": null,
+        "added_on": "2026-03-27T00:00:00",
+        "easting": null,
+        "northing": null,
+        "info_source": "Public",
+        "info_updated": "2026-03-27T13:13:54",
+        "event_name": "Rain Event March 2026",
+        "detour_details": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            173.26136088699846,
+            -35.097526594494745
+          ],
+          [
+            173.26136700201303,
+            -35.09753396645262
+          ]
+        ]
+      },
+      "id": 418
     }
   ]
 }
