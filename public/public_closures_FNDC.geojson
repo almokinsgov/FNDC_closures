@@ -336,7 +336,7 @@
         "e_datetime": null,
         "type": "Unplanned",
         "cause": "Flooding",
-        "detour": false,
+        "detour": true,
         "c_description": "Flooding",
         "road_status": "Road Closed",
         "notes": null,
