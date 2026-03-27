@@ -34,41 +34,6 @@
     {
       "type": "Feature",
       "properties": {
-        "road_id": "SIMPSON ROAD (TAKAHUE)",
-        "s_datetime": "2026-03-27T08:30:18",
-        "e_datetime": null,
-        "type": "Unplanned",
-        "cause": "Overslip",
-        "detour": false,
-        "c_description": "Slip blocking road.",
-        "road_status": "Road Closed",
-        "notes": "Location TBC.  Road blocked by slip.",
-        "added_on": "2026-03-27T00:00:00",
-        "easting": null,
-        "northing": null,
-        "info_source": "Public",
-        "info_updated": "2026-03-27T08:30:18",
-        "event_name": "Rain Event March 2026",
-        "detour_details": null
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            173.3288542399956,
-            -35.173549020288036
-          ],
-          [
-            173.3288546253243,
-            -35.17355775427653
-          ]
-        ]
-      },
-      "id": 407
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "road_id": "WEKAWEKA ROAD",
         "s_datetime": "2026-03-27T08:53:41",
         "e_datetime": null,
