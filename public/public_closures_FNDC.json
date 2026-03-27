@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-27T00:24:10.460Z",
-    "pulledAtLocal": "2026-03-27T13:24:10",
+    "pulledAtUtc": "2026-03-27T00:25:10.475Z",
+    "pulledAtLocal": "2026-03-27T13:25:10",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "cf30537b6b0dbc100ad96facc007c41898da95ce4bcfe66ddf87a111f22c262a",
+    "contentHash": "86cbfe40e878e4aedb285d2b418ec3b0cef2fd01838ed5e1bee37a73301d3b7f",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -272,7 +272,7 @@
       "e_datetime": null,
       "type": "Unplanned",
       "cause": "Flooding",
-      "detour": false,
+      "detour": true,
       "c_description": "Flooding",
       "road_status": "Road Closed",
       "notes": null,
