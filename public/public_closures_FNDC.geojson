@@ -5,41 +5,6 @@
     {
       "type": "Feature",
       "properties": {
-        "road_id": "IWITAUA ROAD",
-        "s_datetime": "2026-03-26T08:58:58",
-        "e_datetime": null,
-        "type": "Unplanned",
-        "cause": "Flooding",
-        "detour": false,
-        "c_description": "Flood Prone Area",
-        "road_status": "Road Closed",
-        "notes": null,
-        "added_on": "2026-03-26T00:00:00",
-        "easting": 1649331.8881,
-        "northing": 6103744.2415,
-        "info_source": "Public",
-        "info_updated": "2026-03-26T08:58:59",
-        "event_name": "Rain Event March 2026",
-        "detour_details": null
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            173.54206395915304,
-            -35.20438941633421
-          ],
-          [
-            173.54198885730062,
-            -35.20809757801846
-          ]
-        ]
-      },
-      "id": 344
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "road_id": "POWELL ROAD (DIGGERS VALLEY)",
         "s_datetime": "2026-03-26T14:57:21",
         "e_datetime": null,
