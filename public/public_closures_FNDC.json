@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-27T00:44:08.579Z",
-    "pulledAtLocal": "2026-03-27T13:44:08",
+    "pulledAtUtc": "2026-03-27T00:45:08.444Z",
+    "pulledAtLocal": "2026-03-27T13:45:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 7,
+    "rowCount": 5,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "0631efdf5d12ea7289676c104ec28be66097cbdf80decca3a69ca625548039c5",
+    "contentHash": "1bac438f948252fea6b14db18a017370ac0e6eeb3a3657874067efd4e4606f26",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -71,30 +71,11 @@
       "total": 381,
       "afterCalculationColumns": 381,
       "afterQuickActionFilter": 118,
-      "afterClosures": 7,
-      "afterPublicColumnProjection": 7
+      "afterClosures": 5,
+      "afterPublicColumnProjection": 5
     }
   },
   "data": [
-    {
-      "road_id": "POWELL ROAD (DIGGERS VALLEY)",
-      "s_datetime": "2026-03-26T14:57:21",
-      "e_datetime": null,
-      "type": "Unplanned",
-      "cause": "Flooding",
-      "detour": false,
-      "c_description": "Road flooded",
-      "road_status": "Road Closed",
-      "notes": "Location TBC",
-      "added_on": "2026-03-26T00:00:00",
-      "easting": null,
-      "northing": null,
-      "info_source": "Public",
-      "info_updated": "2026-03-26T14:57:21",
-      "event_name": "Rain Event March 2026",
-      "detour_details": null,
-      "geometry": "LINESTRING (1622379.5332 6099009.4257, 1622379.6238324321 6099010.4024883965)"
-    },
     {
       "road_id": "RUNARUNA ROAD",
       "s_datetime": "2026-03-26T20:16:58",
@@ -189,25 +170,6 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "LINESTRING (1638015.5 6097150.351, 1638015.16121832 6097149.5077117793)"
-    },
-    {
-      "road_id": "NORTH PARK DRIVE",
-      "s_datetime": "2026-03-27T13:13:54",
-      "e_datetime": null,
-      "type": "Unplanned",
-      "cause": "Flooding",
-      "detour": true,
-      "c_description": "Flooding",
-      "road_status": "Road Closed",
-      "notes": null,
-      "added_on": "2026-03-27T00:00:00",
-      "easting": null,
-      "northing": null,
-      "info_source": "Public",
-      "info_updated": "2026-03-27T13:13:54",
-      "event_name": "Rain Event March 2026",
-      "detour_details": null,
-      "geometry": "LINESTRING (1623821.3094111166 6116110.280546952, 1623821.8646284549 6116109.4614421558)"
     }
   ]
 }
