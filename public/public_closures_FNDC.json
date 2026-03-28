@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-28T03:54:08.509Z",
-    "pulledAtLocal": "2026-03-28T16:54:08",
+    "pulledAtUtc": "2026-03-28T03:55:08.334Z",
+    "pulledAtLocal": "2026-03-28T16:55:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 2,
+    "rowCount": 1,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "7d2c4abbfc4b241e762c3e83a4ee350bcf24ad2be4e7b21f16380f1559a1f077",
+    "contentHash": "af91d93d8d4f677cb54a64667c7d1547010ba718f86eb1fd66e7b4384858a365",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -71,8 +71,8 @@
       "total": 393,
       "afterCalculationColumns": 393,
       "afterQuickActionFilter": 126,
-      "afterClosures": 2,
-      "afterPublicColumnProjection": 2
+      "afterClosures": 1,
+      "afterPublicColumnProjection": 1
     }
   },
   "data": [
@@ -94,25 +94,6 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "LINESTRING (1628354.4070699902 6103638.2185038524, 1628353.4162140773 6103638.1006883252)"
-    },
-    {
-      "road_id": "WEKAWEKA ROAD",
-      "s_datetime": "2026-03-27T08:53:41",
-      "e_datetime": null,
-      "type": "Unplanned",
-      "cause": "Overslip",
-      "detour": false,
-      "c_description": "large slip, trees.",
-      "road_status": "Road Closed",
-      "notes": "large overslip",
-      "added_on": "2026-03-27T00:00:00",
-      "easting": 1651250.772,
-      "northing": 6063257.6401,
-      "info_source": "Contractor",
-      "info_updated": "2026-03-28T15:30:00",
-      "event_name": "Rain Event March 2026",
-      "detour_details": null,
-      "geometry": "POINT (1651250.77196231 6063257.64009252)"
     }
   ]
 }
