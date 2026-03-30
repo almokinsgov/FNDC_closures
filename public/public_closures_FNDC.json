@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-30T19:33:08.496Z",
-    "pulledAtLocal": "2026-03-31T08:33:08",
+    "pulledAtUtc": "2026-03-30T19:34:09.786Z",
+    "pulledAtLocal": "2026-03-31T08:34:09",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 1,
+    "rowCount": 2,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "af91d93d8d4f677cb54a64667c7d1547010ba718f86eb1fd66e7b4384858a365",
+    "contentHash": "8c2dfe363ab07ed7fec00d63aa880eed7c6f709f195609e01ef752ca93f99ff6",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -71,8 +71,8 @@
       "total": 395,
       "afterCalculationColumns": 395,
       "afterQuickActionFilter": 128,
-      "afterClosures": 1,
-      "afterPublicColumnProjection": 1
+      "afterClosures": 2,
+      "afterPublicColumnProjection": 2
     }
   },
   "data": [
@@ -94,6 +94,25 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "LINESTRING (1628354.4070699902 6103638.2185038524, 1628353.4162140773 6103638.1006883252)"
+    },
+    {
+      "road_id": "TE KAROA ROAD",
+      "s_datetime": "2026-03-27T16:36:39",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Fallen Tree",
+      "detour": false,
+      "c_description": "Tree has fallen accross road - cars are driving beneath it.",
+      "road_status": "Closed to Heavy traffic",
+      "notes": "Tree has fallen accross road - cars are driving beneath it.",
+      "added_on": "2026-03-27T00:00:00",
+      "easting": null,
+      "northing": null,
+      "info_source": "Public",
+      "info_updated": "2026-03-27T16:36:39",
+      "event_name": "Rain Event March 2026",
+      "detour_details": null,
+      "geometry": "LINESTRING (1651321.682201881 6111696.4291201727, 1651322.5643951171 6111696.3546772925)"
     }
   ]
 }
