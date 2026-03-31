@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-03-31T20:02:08.362Z",
-    "pulledAtLocal": "2026-04-01T09:02:08",
+    "pulledAtUtc": "2026-03-31T20:03:08.432Z",
+    "pulledAtLocal": "2026-04-01T09:03:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 2,
+    "rowCount": 1,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "8c2dfe363ab07ed7fec00d63aa880eed7c6f709f195609e01ef752ca93f99ff6",
+    "contentHash": "8e05cc28390373794bb942ac2c4afcf06ffab1915900fcc39f0ff970ace25a91",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -71,30 +71,11 @@
       "total": 395,
       "afterCalculationColumns": 395,
       "afterQuickActionFilter": 128,
-      "afterClosures": 2,
-      "afterPublicColumnProjection": 2
+      "afterClosures": 1,
+      "afterPublicColumnProjection": 1
     }
   },
   "data": [
-    {
-      "road_id": "WAIOTEHUE ROAD",
-      "s_datetime": "2026-03-27T15:33:56",
-      "e_datetime": null,
-      "type": "Unplanned",
-      "cause": "Overslip",
-      "detour": false,
-      "c_description": "Overslip blocking road.  Digger starting 27/03 PM - won't be a lane open until 28/03",
-      "road_status": "Road Closed",
-      "notes": "Overslip blocking road.  Digger starting 27/03 PM - won't be a lane open until 28/03",
-      "added_on": "2026-03-27T00:00:00",
-      "easting": null,
-      "northing": null,
-      "info_source": "Public",
-      "info_updated": "2026-03-27T15:33:56",
-      "event_name": "Rain Event March 2026",
-      "detour_details": null,
-      "geometry": "LINESTRING (1628354.4070699902 6103638.2185038524, 1628353.4162140773 6103638.1006883252)"
-    },
     {
       "road_id": "TE KAROA ROAD",
       "s_datetime": "2026-03-27T16:36:39",
