@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-04-05T06:11:08.180Z",
-    "pulledAtLocal": "2026-04-05T18:11:08",
+    "pulledAtUtc": "2026-04-05T06:12:08.669Z",
+    "pulledAtLocal": "2026-04-05T18:12:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
