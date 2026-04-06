@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-04-06T23:22:08.513Z",
-    "pulledAtLocal": "2026-04-07T11:22:08",
+    "pulledAtUtc": "2026-04-06T23:23:08.637Z",
+    "pulledAtLocal": "2026-04-07T11:23:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 1,
+    "rowCount": 2,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "8e05cc28390373794bb942ac2c4afcf06ffab1915900fcc39f0ff970ace25a91",
+    "contentHash": "02b3cee1d3a9dcf3999a7fb33261cfc29b868f633276dd4832d2f6f407fe8c5d",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -68,11 +68,11 @@
       }
     },
     "filterCounts": {
-      "total": 395,
-      "afterCalculationColumns": 395,
-      "afterQuickActionFilter": 128,
-      "afterClosures": 1,
-      "afterPublicColumnProjection": 1
+      "total": 396,
+      "afterCalculationColumns": 396,
+      "afterQuickActionFilter": 129,
+      "afterClosures": 2,
+      "afterPublicColumnProjection": 2
     }
   },
   "data": [
@@ -94,6 +94,25 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "LINESTRING (1651321.682201881 6111696.4291201727, 1651322.5643951171 6111696.3546772925)"
+    },
+    {
+      "road_id": "WAIKARE ROAD",
+      "s_datetime": "2026-04-07T11:21:52",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Flooding",
+      "detour": true,
+      "c_description": "Ferry",
+      "road_status": "Road Closed",
+      "notes": null,
+      "added_on": "2026-04-07T00:00:00",
+      "easting": 1711298.4305,
+      "northing": 6091556.7231,
+      "info_source": "Public",
+      "info_updated": "2026-04-07T11:21:52",
+      "event_name": "Storm Event Next XXXX",
+      "detour_details": null,
+      "geometry": "POINT (1711298.43045726 6091556.72313807)"
     }
   ]
 }
