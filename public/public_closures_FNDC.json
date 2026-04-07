@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-04-07T18:29:14.457Z",
-    "pulledAtLocal": "2026-04-08T06:29:14",
+    "pulledAtUtc": "2026-04-07T18:30:14.621Z",
+    "pulledAtLocal": "2026-04-08T06:30:14",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 7,
+    "rowCount": 8,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "af77966e1524ee1f79e1d2b66b5240c2d2d0a52cfb9b9d79049282b0580cb54c",
+    "contentHash": "35211f0737da437ccb3f1f31e5b0866f23042760fb1e16a4e73dcb8f3c210e14",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -68,11 +68,11 @@
       }
     },
     "filterCounts": {
-      "total": 405,
-      "afterCalculationColumns": 405,
-      "afterQuickActionFilter": 137,
-      "afterClosures": 7,
-      "afterPublicColumnProjection": 7
+      "total": 406,
+      "afterCalculationColumns": 406,
+      "afterQuickActionFilter": 138,
+      "afterClosures": 8,
+      "afterPublicColumnProjection": 8
     }
   },
   "data": [
@@ -208,6 +208,25 @@
       "event_name": "Storm Event Next XXXX",
       "detour_details": null,
       "geometry": "POINT (1675357.50009868 6111133.03430028)"
+    },
+    {
+      "road_id": "ORUAITI ROAD",
+      "s_datetime": "2026-04-07T12:15:44",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Flooding",
+      "detour": false,
+      "c_description": "Road is flooded due to a blocked drain and washout.",
+      "road_status": "Road Closed",
+      "notes": null,
+      "added_on": "2026-04-08T00:00:00",
+      "easting": null,
+      "northing": null,
+      "info_source": "Public",
+      "info_updated": "2026-04-08T00:00:00",
+      "event_name": "Rain Event 7th April 2026",
+      "detour_details": null,
+      "geometry": "LINESTRING (1655179.2737918096 6126333.8947524037, 1655179.8808707087 6126333.1038464932)"
     }
   ]
 }
