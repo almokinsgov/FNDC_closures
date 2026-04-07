@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-04-07T01:07:10.614Z",
-    "pulledAtLocal": "2026-04-07T13:07:10",
+    "pulledAtUtc": "2026-04-07T01:08:11.405Z",
+    "pulledAtLocal": "2026-04-07T13:08:11",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "9cdd8d9d965a7d8028a78ff1270e6c0f28822e456aa55d1a7f018250037d2b67",
+    "contentHash": "39edad037725509c3511d47d350fcd724a487cacce7b47e2222507682c1a77ba",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -186,7 +186,7 @@
       "northing": 6093807.1985,
       "info_source": "Public",
       "info_updated": "2026-04-07T12:58:54",
-      "event_name": "Storm Event Next XXXX",
+      "event_name": "Rain Event 7th April 2026",
       "detour_details": null,
       "geometry": "POINT (1667199.77328927 6093807.19854187)"
     }
