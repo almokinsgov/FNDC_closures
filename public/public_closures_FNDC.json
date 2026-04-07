@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-04-07T00:17:08.679Z",
-    "pulledAtLocal": "2026-04-07T12:17:08",
+    "pulledAtUtc": "2026-04-07T00:18:11.332Z",
+    "pulledAtLocal": "2026-04-07T12:18:11",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "3bc751628370b5f5868cef04f2ad36b040691202ef7c12d5ecb54696b72c7dc1",
+    "contentHash": "9873cf41594996c468f93420ebf3bb1d706f29463c60daf6bf833d6342cc90e5",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -131,7 +131,7 @@
       "info_updated": "2026-04-07T12:06:38",
       "event_name": "Rain Event 7th April 2026",
       "detour_details": null,
-      "geometry": "LINESTRING (1656521.7677 6126815.0367, 1656522.3077 6126815.8601)"
+      "geometry": "LINESTRING (1656521.7676814632 6126815.03658046, 1656522.3075942511 6126815.8600558406)"
     },
     {
       "road_id": "ORUAITI ROAD",
@@ -150,7 +150,7 @@
       "info_updated": "2026-04-07T12:15:44",
       "event_name": "Rain Event 7th April 2026",
       "detour_details": null,
-      "geometry": "LINESTRING (1655179.2737 6126333.8949, 1655179.8808 6126333.104)"
+      "geometry": "LINESTRING (1655179.2737918096 6126333.8947524037, 1655179.8808707087 6126333.1038464932)"
     }
   ]
 }
