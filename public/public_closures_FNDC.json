@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-04-07T00:18:11.332Z",
-    "pulledAtLocal": "2026-04-07T12:18:11",
+    "pulledAtUtc": "2026-04-07T00:19:08.273Z",
+    "pulledAtLocal": "2026-04-07T12:19:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 4,
+    "rowCount": 5,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "9873cf41594996c468f93420ebf3bb1d706f29463c60daf6bf833d6342cc90e5",
+    "contentHash": "8affc5fdeed5f0f3d38aad85dc134e9b415916660f9b34cd613d7174a8993bd9",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -68,11 +68,11 @@
       }
     },
     "filterCounts": {
-      "total": 400,
-      "afterCalculationColumns": 400,
-      "afterQuickActionFilter": 133,
-      "afterClosures": 4,
-      "afterPublicColumnProjection": 4
+      "total": 401,
+      "afterCalculationColumns": 401,
+      "afterQuickActionFilter": 134,
+      "afterClosures": 5,
+      "afterPublicColumnProjection": 5
     }
   },
   "data": [
@@ -151,6 +151,25 @@
       "event_name": "Rain Event 7th April 2026",
       "detour_details": null,
       "geometry": "LINESTRING (1655179.2737918096 6126333.8947524037, 1655179.8808707087 6126333.1038464932)"
+    },
+    {
+      "road_id": "TRIG ROAD",
+      "s_datetime": "2026-04-07T12:17:15",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Fallen Tree",
+      "detour": false,
+      "c_description": "Large pine tree fallen across both lanes of the road.",
+      "road_status": "Road Closed",
+      "notes": null,
+      "added_on": "2026-04-07T00:00:00",
+      "easting": null,
+      "northing": null,
+      "info_source": "Public",
+      "info_updated": "2026-04-07T12:17:15",
+      "event_name": "Rain Event 7th April 2026",
+      "detour_details": null,
+      "geometry": "LINESTRING (1608373.6409 6151215.1122, 1608372.7615 6151214.6353)"
     }
   ]
 }
