@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-04-07T03:51:09.645Z",
-    "pulledAtLocal": "2026-04-07T15:51:09",
+    "pulledAtUtc": "2026-04-07T03:52:11.686Z",
+    "pulledAtLocal": "2026-04-07T15:52:11",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 7,
+    "rowCount": 6,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "ac87e9905abb116cdfefe4f9b57bd0c8512e05d7f46a8418c8407bb090d5e322",
+    "contentHash": "39edad037725509c3511d47d350fcd724a487cacce7b47e2222507682c1a77ba",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -70,9 +70,9 @@
     "filterCounts": {
       "total": 404,
       "afterCalculationColumns": 404,
-      "afterQuickActionFilter": 137,
-      "afterClosures": 7,
-      "afterPublicColumnProjection": 7
+      "afterQuickActionFilter": 136,
+      "afterClosures": 6,
+      "afterPublicColumnProjection": 6
     }
   },
   "data": [
@@ -189,25 +189,6 @@
       "event_name": "Rain Event 7th April 2026",
       "detour_details": null,
       "geometry": "POINT (1667199.77328927 6093807.19854187)"
-    },
-    {
-      "road_id": "TRIG ROAD",
-      "s_datetime": "2026-04-07T12:17:15",
-      "e_datetime": null,
-      "type": "Unplanned",
-      "cause": "Fallen Tree",
-      "detour": false,
-      "c_description": "Large pine tree fallen across both lanes of the road.",
-      "road_status": "Road Closed",
-      "notes": null,
-      "added_on": "2026-04-07T00:00:00",
-      "easting": null,
-      "northing": null,
-      "info_source": "Public",
-      "info_updated": "2026-04-07T00:00:00",
-      "event_name": "Rain Event 7th April 2026",
-      "detour_details": null,
-      "geometry": "LINESTRING (1608373.6406653493 6151215.11200764, 1608372.7612066874 6151214.6350901015)"
     }
   ]
 }
