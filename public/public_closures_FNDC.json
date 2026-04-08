@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-04-08T02:58:10.836Z",
-    "pulledAtLocal": "2026-04-08T14:58:10",
+    "pulledAtUtc": "2026-04-08T02:59:11.527Z",
+    "pulledAtLocal": "2026-04-08T14:59:11",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 5,
+    "rowCount": 4,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "9809e375ad2f9efa24bdcd3c5e6fe6ce9528dff69f588ba496ce3df11a7364f2",
+    "contentHash": "a3794b3c8197efe7d7d7eacfec5f6514b302e31ae258403608cf1b1bdef4cc78",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -71,8 +71,8 @@
       "total": 407,
       "afterCalculationColumns": 407,
       "afterQuickActionFilter": 137,
-      "afterClosures": 5,
-      "afterPublicColumnProjection": 5
+      "afterClosures": 4,
+      "afterPublicColumnProjection": 4
     }
   },
   "data": [
@@ -94,25 +94,6 @@
       "event_name": "Rain Event March 2026",
       "detour_details": null,
       "geometry": "LINESTRING (1651321.682201881 6111696.4291201727, 1651322.5643951171 6111696.3546772925)"
-    },
-    {
-      "road_id": "WAIKARE ROAD",
-      "s_datetime": "2026-04-07T11:21:52",
-      "e_datetime": null,
-      "type": "Unplanned",
-      "cause": "Flooding",
-      "detour": true,
-      "c_description": "Ferry",
-      "road_status": "Road Closed",
-      "notes": null,
-      "added_on": "2026-04-07T00:00:00",
-      "easting": 1711298.4305,
-      "northing": 6091556.7231,
-      "info_source": "Public",
-      "info_updated": "2026-04-08T07:15:00",
-      "event_name": "Rain Event 7th April 2026",
-      "detour_details": null,
-      "geometry": "POINT (1711298.43045726 6091556.72313807)"
     },
     {
       "road_id": "TAUPO BAY ROAD",
