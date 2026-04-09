@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-04-09T21:58:08.709Z",
-    "pulledAtLocal": "2026-04-10T09:58:08",
+    "pulledAtUtc": "2026-04-09T21:59:08.121Z",
+    "pulledAtLocal": "2026-04-10T09:59:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "7c815d9e494e235bf5a0f613ac09d7479d62215346bd4798994541a49151183a",
+    "contentHash": "6871b0970942534c165e017f8db2fe4e88bd1dd6b6066c98f73d26b9f9dca037",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -166,7 +166,7 @@
       "easting": 1696293.5983,
       "northing": 6095614.5493,
       "info_source": "Public",
-      "info_updated": "2026-04-10T09:50:00",
+      "info_updated": "2026-04-10T09:55:00",
       "event_name": "Cyclone Vaianu - April 2026",
       "detour_details": "Opua Ferry to russell",
       "geometry": "POINT (1696293.59827871 6095614.54927568)"
