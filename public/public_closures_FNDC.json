@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-04-09T21:57:08.502Z",
-    "pulledAtLocal": "2026-04-10T09:57:08",
+    "pulledAtUtc": "2026-04-09T21:58:08.709Z",
+    "pulledAtLocal": "2026-04-10T09:58:08",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 4,
+    "rowCount": 5,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "a3794b3c8197efe7d7d7eacfec5f6514b302e31ae258403608cf1b1bdef4cc78",
+    "contentHash": "7c815d9e494e235bf5a0f613ac09d7479d62215346bd4798994541a49151183a",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -68,11 +68,11 @@
       }
     },
     "filterCounts": {
-      "total": 408,
-      "afterCalculationColumns": 408,
-      "afterQuickActionFilter": 138,
-      "afterClosures": 4,
-      "afterPublicColumnProjection": 4
+      "total": 409,
+      "afterCalculationColumns": 409,
+      "afterQuickActionFilter": 139,
+      "afterClosures": 5,
+      "afterPublicColumnProjection": 5
     }
   },
   "data": [
@@ -151,6 +151,25 @@
       "event_name": "Rain Event 7th April 2026",
       "detour_details": null,
       "geometry": "LINESTRING (1608373.6406653493 6151215.11200764, 1608372.7612066874 6151214.6350901015)"
+    },
+    {
+      "road_id": "YORKE ROAD",
+      "s_datetime": "2026-04-10T09:51:14",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Overslip",
+      "detour": true,
+      "c_description": "Road closed due to flooding. Alternate access available.",
+      "road_status": "Road Closed",
+      "notes": "TTM set-up,",
+      "added_on": "2026-04-10T00:00:00",
+      "easting": 1696293.5983,
+      "northing": 6095614.5493,
+      "info_source": "Public",
+      "info_updated": "2026-04-10T09:50:00",
+      "event_name": "Cyclone Vaianu - April 2026",
+      "detour_details": "Opua Ferry to russell",
+      "geometry": "POINT (1696293.59827871 6095614.54927568)"
     }
   ]
 }
