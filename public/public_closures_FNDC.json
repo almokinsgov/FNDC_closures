@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema": "ramm-road-closures-snapshot",
-    "pulledAtUtc": "2026-04-11T22:22:09.232Z",
-    "pulledAtLocal": "2026-04-12T10:22:09",
+    "pulledAtUtc": "2026-04-11T22:27:09.310Z",
+    "pulledAtLocal": "2026-04-12T10:27:09",
     "source": {
       "baseUrl": "https://api-auea.ramm.com/v1",
       "path": "/data/ud_road_close_restrict",
@@ -13,7 +13,7 @@
       "authMode": "header-bearer",
       "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
     },
-    "rowCount": 5,
+    "rowCount": 6,
     "contentHashAlgo": "sha256",
     "hashNormalization": {
       "deepKeySort": true,
@@ -22,7 +22,7 @@
         "hoursvalidated"
       ]
     },
-    "contentHash": "6871b0970942534c165e017f8db2fe4e88bd1dd6b6066c98f73d26b9f9dca037",
+    "contentHash": "aebb46b805e61a17ee59889422588b5434c66e1538084f63f8e6a738efa9288b",
     "variant": "public_closures",
     "filtersApplied": {
       "calculationColumns": {
@@ -68,11 +68,11 @@
       }
     },
     "filterCounts": {
-      "total": 407,
-      "afterCalculationColumns": 407,
-      "afterQuickActionFilter": 133,
-      "afterClosures": 5,
-      "afterPublicColumnProjection": 5
+      "total": 408,
+      "afterCalculationColumns": 408,
+      "afterQuickActionFilter": 134,
+      "afterClosures": 6,
+      "afterPublicColumnProjection": 6
     }
   },
   "data": [
@@ -170,6 +170,25 @@
       "event_name": "Cyclone Vaianu - April 2026",
       "detour_details": "Opua Ferry to russell",
       "geometry": "POINT (1696293.59827871 6095614.54927568)"
+    },
+    {
+      "road_id": "PARADISE ROAD",
+      "s_datetime": "2026-04-12T10:22:41",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Fallen Tree",
+      "detour": false,
+      "c_description": "Tree Blocking Both Lanes",
+      "road_status": "Road Closed",
+      "notes": null,
+      "added_on": "2026-04-12T00:00:00",
+      "easting": 1646951.4785,
+      "northing": 6127727.2714,
+      "info_source": "Public",
+      "info_updated": "2026-04-12T10:22:41",
+      "event_name": "Cyclone Vaianu - April 2026",
+      "detour_details": null,
+      "geometry": "POINT (1646951.47847464 6127727.27138189)"
     }
   ]
 }
